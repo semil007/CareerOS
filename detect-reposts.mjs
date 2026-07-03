@@ -18,7 +18,7 @@
  *      node detect-reposts.mjs --window 60 (override 90-day window)
  *      node detect-reposts.mjs --self-test
  *
- * Issue #1205 — github.com/santifer/career-ops
+ * Issue #1205 — github.com/YOUR_ORG/YOUR_REPO
  */
 
 import { readFileSync, existsSync } from 'fs';
