@@ -1,6 +1,8 @@
-# AI Job Search Pipeline
+# CareerOS
 
 An AI-powered, CLI-agnostic job search automation system: pipeline tracking, offer evaluation, CV generation, portal scanning, and batch processing. Runs on any AI coding CLI that follows the open agent skill standard (Claude Code, Codex, OpenCode, Qwen, Antigravity CLI, Grok Build CLI).
+
+> Inspired by [career-ops](https://github.com/santifer/career-ops.git) — loved the core idea, built my own direction on top of it.
 
 ---
 
@@ -23,8 +25,8 @@ An AI-powered, CLI-agnostic job search automation system: pipeline tracking, off
 ## Quick Start
 
 ```bash
-git clone https://github.com/YOUR_ORG/YOUR_REPO.git
-cd YOUR_REPO && npm install
+git clone https://github.com/semil007/CareerOS.git
+cd CareerOS && npm install
 npx playwright install chromium   # only needed for PDF generation
 
 # Check setup
@@ -52,7 +54,7 @@ This system supports Codex through the same shared router, but the invocation mo
 ### Interactive Codex
 
 ```bash
-cd career-ops
+cd CareerOS
 codex
 ```
 
@@ -150,4 +152,4 @@ The code is licensed under [MIT](LICENSE).
 
 ## Inspiration
 
-This project was originally inspired by ideas explored in existing open-source AI career tooling. The implementation and future direction are independently developed.
+This project was inspired by [career-ops](https://github.com/santifer/career-ops.git) — I discovered it, loved the core idea, and used it as a foundation to build **CareerOS** with my own features and direction.
