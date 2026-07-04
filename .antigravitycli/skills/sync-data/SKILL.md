@@ -1,3 +1,5 @@
+eaaatassdsfstrstok okw
+
 ---
 name: sync-data
 description: Sync personal career-ops data (cv, tracker, reports, portals, profile) to/from the personal branch on GitHub so nothing is lost when switching computers.
@@ -7,7 +9,6 @@ user-invocable: true
 argument-hint: "[push | pull | status]"
 license: MIT
 ---
-
 # sync-data — Personal Data Sync
 
 Keeps your personal career-ops data (CV, tracker, reports, portals, profile) in sync
@@ -19,34 +20,35 @@ across computers via the `personal` branch of your private GitHub repo.
 
 ## Invocation
 
-| You say | What happens |
-|---------|--------------|
-| `sync` or `sync push` or "sync my data" or "end of day sync" | Push all personal files to GitHub |
-| `sync pull` or "restore my data" or "I'm on a new computer" | Pull latest personal files from GitHub |
-| `sync status` or "what's changed" | Show what has changed since last sync |
+| You say                                                          | What happens                           |
+| ---------------------------------------------------------------- | -------------------------------------- |
+| `sync` or `sync push` or "sync my data" or "end of day sync" | Push all personal files to GitHub      |
+| `sync pull` or "restore my data" or "I'm on a new computer"    | Pull latest personal files from GitHub |
+| `sync status` or "what's changed"                              | Show what has changed since last sync  |
 
 ---
 
 ## Files that sync (personal branch)
 
-| File | Purpose |
-|------|---------|
-| `cv.md` | Your CV — source of truth |
-| `config/profile.yml` | Your profile, salary targets, location |
-| `modes/_profile.md` | Your archetypes, negotiation scripts |
-| `modes/_custom.md` | Your custom mode overrides |
-| `portals.yml` | Your 91 tracked companies config |
-| `data/applications.md` | Your full job tracker |
-| `data/pipeline.md` | Pending jobs to evaluate |
-| `data/scan-history.tsv` | Scanner dedup history |
-| `data/pdf-index.tsv` | PDF manifest |
-| `reports/*.md` | All evaluation reports |
-| `batch/tracker-additions/` | Tracker merge queue |
-| `interview-prep/` | STAR stories + interview notes |
-| `jds/` | Saved job descriptions |
-| `.gitignore` | Has personal data entries commented out |
+| File                         | Purpose                                 |
+| ---------------------------- | --------------------------------------- |
+| `cv.md`                    | Your CV — source of truth              |
+| `config/profile.yml`       | Your profile, salary targets, location  |
+| `modes/_profile.md`        | Your archetypes, negotiation scripts    |
+| `modes/_custom.md`         | Your custom mode overrides              |
+| `portals.yml`              | Your 91 tracked companies config        |
+| `data/applications.md`     | Your full job tracker                   |
+| `data/pipeline.md`         | Pending jobs to evaluate                |
+| `data/scan-history.tsv`    | Scanner dedup history                   |
+| `data/pdf-index.tsv`       | PDF manifest                            |
+| `reports/*.md`             | All evaluation reports                  |
+| `batch/tracker-additions/` | Tracker merge queue                     |
+| `interview-prep/`          | STAR stories + interview notes          |
+| `jds/`                     | Saved job descriptions                  |
+| `.gitignore`               | Has personal data entries commented out |
 
 **Never synced (always local only):**
+
 - `.env` — your API key, set manually per computer
 
 ---
@@ -81,9 +83,11 @@ git push origin personal
 ```
 
 After running, confirm to the user:
+
 > "Synced. Your CV, tracker, reports, and profile are backed up to the `personal` branch on GitHub."
 
 If there's nothing to commit (working tree clean), tell the user:
+
 > "Already up to date — nothing changed since last sync."
 
 ---
@@ -103,9 +107,11 @@ git pull origin personal
 ```
 
 After running, confirm:
+
 > "Restored. Your CV, tracker, reports, profile, and portals are back. One thing to do manually: open .env and add your API key (copy from your other computer or password manager)."
 
 If the user is setting up a brand new computer (repo not cloned yet), give them:
+
 ```bash
 git clone https://github.com/semil007/CareerOS.git
 cd CareerOS
@@ -129,6 +135,7 @@ git log origin/personal..HEAD --oneline
 ```
 
 Interpret the output for the user:
+
 - `M filename` = modified since last sync
 - `A filename` = new file not yet synced
 - `?? filename` = untracked file (new, not staged yet)
@@ -153,21 +160,23 @@ To re-enable them before making the repo public:
 
 ## Branch structure
 
-| Branch | Contains | Visibility |
-|--------|----------|------------|
-| `main` | System code only, zero personal data | Safe to make public |
-| `personal` | Your CV, tracker, reports, profile, portals | Private repo only |
+| Branch       | Contains                                    | Visibility          |
+| ------------ | ------------------------------------------- | ------------------- |
+| `main`     | System code only, zero personal data        | Safe to make public |
+| `personal` | Your CV, tracker, reports, profile, portals | Private repo only   |
 
 ---
 
 ## Troubleshooting
 
 **"Not on personal branch"**
+
 ```bash
 git checkout personal
 ```
 
 **"Merge conflict"**
+
 ```bash
 git pull origin personal --rebase
 # resolve conflicts, then:
@@ -175,6 +184,7 @@ git push origin personal
 ```
 
 **"Permission denied / auth error"**
+
 ```bash
 gh auth login
 # or re-enter credentials
@@ -183,8 +193,10 @@ git remote set-url origin https://github.com/semil007/CareerOS.git
 
 **"Nothing is syncing / files still gitignored"**
 The `.gitignore` comments may have been reverted. Check:
+
 ```bash
 grep "^cv.md" .gitignore
 ```
+
 If it returns a result (not commented), the entry is active and blocking sync.
 Open `.gitignore` and comment out the line: `#cv.md`
