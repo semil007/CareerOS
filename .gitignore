@@ -1,27 +1,35 @@
 # Personal data (user fills these)
-cv.md
-data/applications.md
-data/applications.db
-data/follow-ups.md
-data/pipeline.md
-data/scan-history.tsv
-data/pdf-index.tsv
+# ┌─────────────────────────────────────────────────────────────────────┐
+# │ PERSONAL BRANCH SYNC                                                │
+# │ These are commented out so cv.md, tracker, reports etc. can be     │
+# │ committed on the `personal` branch and synced across computers.    │
+# │                                                                     │
+# │ TO GO PUBLIC LATER: uncomment every line below in this block.      │
+# │ The personal branch stays private; main has zero personal data.    │
+# └─────────────────────────────────────────────────────────────────────┘
+#cv.md
+#data/applications.md
+#data/applications.db
+#data/follow-ups.md
+#data/pipeline.md
+#data/scan-history.tsv
+#data/pdf-index.tsv
 data/parser-output/**/*.json
 !data/parser-output/.gitkeep
 !data/parser-output/**/.gitkeep
 data/cache/ats-companies/
-reports/*.md
-!reports/.gitkeep
+#reports/*.md
+#!reports/.gitkeep
 output/*
 !output/.gitkeep
 batch/logs/*
 !batch/logs/.gitkeep
-batch/batch-state.tsv
-batch/batch-input.tsv
-batch/tracker-additions/**/*.tsv
-!batch/tracker-additions/.gitkeep
-jds/*
-!jds/.gitkeep
+#batch/batch-state.tsv
+#batch/batch-input.tsv
+#batch/tracker-additions/**/*.tsv
+#!batch/tracker-additions/.gitkeep
+#jds/*
+#!jds/.gitkeep
 
 # Personal documents — never commit scans or copies of these (PII).
 # Catches common identity/credential filenames so they can't be staged by accident.
@@ -32,24 +40,24 @@ jds/*
 *成绩单*
 
 # Interview prep (accumulated STAR+R stories — user data)
-interview-prep/*
-!interview-prep/.gitkeep
+#interview-prep/*
+#!interview-prep/.gitkeep
 # Session transcripts hold real interviewer names/companies — ignore content,
 # ship only the system-owned scaffold (README + .gitkeep). #1242
-!interview-prep/sessions/
-interview-prep/sessions/*
-!interview-prep/sessions/.gitkeep
-!interview-prep/sessions/README.md
+#!interview-prep/sessions/
+#interview-prep/sessions/*
+#!interview-prep/sessions/.gitkeep
+#!interview-prep/sessions/README.md
 
 # Writing samples (user's personal files — never committed)
-writing-samples/*
-!writing-samples/README.md
+#writing-samples/*
+#!writing-samples/README.md
 
 # User config and customization (never auto-updated)
-config/profile.yml
-portals.yml
-modes/_profile.md
-modes/_custom.md
+#config/profile.yml
+#portals.yml
+#modes/_profile.md
+#modes/_custom.md
 .update-dismissed
 .update-lock
 
