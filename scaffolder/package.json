@@ -1,6 +1,6 @@
 {
   "name": "@your-org/career-ops",
-  "version": "1.16.0",
+  "version": "1.17.0",
   "description": "One-command installer for the AI-powered job search pipeline.",
   "bin": {
     "career-ops": "bin/cli.mjs"
