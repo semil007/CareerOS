@@ -213,6 +213,7 @@ const USER_PATHS = [
   'voice-dna.md',
   'portals.yml',
   'article-digest.md',
+  'resume/',
   'interview-prep/',
   'data/',
   'reports/',

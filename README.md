@@ -40,7 +40,7 @@ cp templates/portals.example.yml portals.yml       # Customize companies
 # Create cv.md in the project root with your CV in markdown
 
 # Open your AI CLI in this directory
-claude   # or codex / opencode / gemini / qwen / agy / grok
+claude   # or gemini / codex / qwen / opencode / agy / grok
 ```
 
 On first launch, the system walks you through setup — your CV, profile and target roles — just by chatting. Nothing to edit by hand.
