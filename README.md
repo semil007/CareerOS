@@ -38,12 +38,38 @@ cp templates/portals.example.yml portals.yml       # Customize companies
 # Create cv.md in the project root with your CV in markdown
 
 # Open your AI CLI in this directory
-claude   # or codex / opencode / gemini / qwen / agy / grok
+claude   # or gemini / codex / qwen / opencode / agy / grok
 ```
 
 On first launch, the system walks you through setup — your CV, profile and target roles — just by chatting. Nothing to edit by hand.
 
 See [docs/SETUP.md](docs/SETUP.md) for the full setup guide, [docs/RUNNING_ON_A_BUDGET.md](docs/RUNNING_ON_A_BUDGET.md) for running on cheaper or local models, and [docs/FAQ.md](docs/FAQ.md) for common setup questions.
+
+## Codex Integration (CODEX.md)
+
+This system supports Codex through the same shared router, but the invocation model is different from CLIs that auto-register slash commands. For the full guide, see [docs/CODEX.md](docs/CODEX.md).
+
+### Interactive Codex
+
+```bash
+cd career-ops
+codex
+```
+
+Slash commands are not guaranteed in Codex. If `/career-ops` is unavailable, ask Codex to run the mode directly in plain language:
+
+```text
+Evaluate this JD with career-ops auto-pipeline: https://company.com/jobs/123
+Run the career-ops scan mode and summarize new matches.
+Run the career-ops pipeline mode for data/pipeline.md.
+Run the career-ops pdf mode for the latest evaluated role.
+Run the career-ops tracker mode and summarize the current statuses.
+```
+
+For one-shot execution or headless mode, use `codex exec` followed by the prompt:
+```bash
+codex exec "Evaluate this JD with career-ops auto-pipeline: https://company.com/jobs/123"
+```
 
 ## Usage
 

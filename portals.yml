@@ -1,0 +1,705 @@
+# Portal Scanner — Semil Periyasamy
+# Target: ML Engineer, AI Engineer, GPU/Inference, ML Infrastructure
+# Location: India — Bangalore, Chennai, Hyderabad, Mumbai, Pune, Delhi + Remote
+# Coverage: 120+ companies across Greenhouse, Ashby, Lever, Workable, BambooHR,
+#           SmartRecruiters, Workday, Teamtailor, Recruitee, Himalayas, RemoteOK, Remotive
+#
+# NOTE on Instahyre: Closed marketplace (invite/profile-based, no public API).
+# To get on it: upload your profile at instahyre.com — recruiters come to you.
+# It integrates with Lever/Greenhouse/Freshteam but doesn't expose a job feed.
+
+title_filter:
+  positive:
+    # Core ML/AI engineering titles
+    - "Machine Learning"
+    - "ML Engineer"
+    - "AI Engineer"
+    - "AI/ML"                   # catches "Senior AI/ML Engineer"
+    - "Applied AI"
+    - "Applied ML"
+    # LLM / GenAI
+    - "LLM"
+    - "LLMOps"
+    - "LLMops"                  # case variant
+    # MLOps / Infra
+    - "MLOps"
+    - "ML Platform"
+    - "AI Platform"
+    - "ML Infrastructure"
+    - "ML Infra"
+    - "Inference Engineer"
+    - "Inference"               # catches "GPU Inference Engineer"
+    # Deep learning / Vision / NLP
+    - "Deep Learning"
+    - "NLP Engineer"
+    - "NLP"
+    - "Computer Vision"
+    - "Vision Engineer"
+    # GenAI
+    - "Generative AI"
+    - "GenAI"
+    # Research
+    - "Research Engineer"
+    - "AI Research"
+    - "ML Research"
+    - "Research Scientist"
+    # Data Science (some India companies post ML work under this title)
+    - "Data Scientist"
+    - "ML Scientist"
+    # Agentic / RAG
+    - "Agentic"
+    - "RAG Engineer"
+  negative:
+    - "Intern"
+    - "Junior"
+    - "Data Analyst"
+    - "Business Analyst"
+    - "Salesforce"
+    - "SAP "
+    - "Java "
+    - "iOS"
+    - "Android"
+    - "PHP"
+    - "Blockchain"
+    - "Web3"
+    - "Trainee"
+    - "Fresher"
+    - "Vice President"
+    - "Director of"
+    - "Marketing"
+    - "Sales Engineer"
+    - "Account Manager"
+  seniority_boost:
+    - "Senior"
+    - "Staff"
+    - "Lead"
+    - "Principal"
+    - "SDE-2"
+    - "SDE2"
+    - "L4"
+    - "L5"
+    - "MTS"                    # Member of Technical Staff (common in India MNCs)
+
+location_filter:
+  always_allow:
+    - "remote"
+    - "work from home"
+    - "wfh"
+    - "anywhere"
+    - "worldwide"
+    - "global"
+    - "hybrid"
+  allow:
+    - "india"
+    - "bangalore"
+    - "bengaluru"
+    - "chennai"
+    - "hyderabad"
+    - "mumbai"
+    - "pune"
+    - "delhi"
+    - "noida"
+    - "gurugram"
+    - "gurgaon"
+    - "coimbatore"
+    - "kolkata"
+    - "kochi"
+    - "ahmedabad"
+    - "jaipur"
+    - "indore"
+    - "remote"
+  block:
+    - "united states only"
+    - "us only"
+    - "uk only"
+    - "london only"
+    - "berlin only"
+    - "paris only"
+    - "no remote"
+    - "on-site only"
+    - "toronto only"
+    - "sydney only"
+
+content_filter:
+  positive:
+    - "pytorch"
+    - "llm"
+    - "rag"
+    - "inference"
+    - "gpu"
+    - "cuda"
+    - "vllm"
+    - "mlops"
+    - "fine-tun"
+    - "generative"
+    - "agent"
+    - "transformer"
+    - "hugging face"
+    - "langchain"
+    - "tensorflow"
+    - "deep learning"
+  negative:
+    - "wordpress"
+    - "salesforce admin"
+    - "sharepoint"
+    - "power bi only"
+
+tracked_companies:
+
+  # ════════════════════════════════════════════════════
+  # TIER 1 — INDIA AI STARTUPS (Ashby API — zero token)
+  # ════════════════════════════════════════════════════
+  - name: Sarvam AI
+    careers_url: https://jobs.ashbyhq.com/sarvam
+    enabled: true
+
+  - name: Observe.AI
+    careers_url: https://jobs.ashbyhq.com/observeai
+    enabled: true
+
+  - name: Postman
+    careers_url: https://jobs.ashbyhq.com/postman
+    enabled: true
+
+  - name: Turing
+    careers_url: https://jobs.ashbyhq.com/turing
+    enabled: true
+
+  - name: Hasura
+    careers_url: https://jobs.ashbyhq.com/hasura
+    enabled: true
+
+  - name: Cohere
+    careers_url: https://jobs.ashbyhq.com/cohere
+    enabled: true
+
+  - name: LangChain
+    careers_url: https://jobs.ashbyhq.com/langchain
+    enabled: true
+
+  - name: Pinecone
+    careers_url: https://jobs.ashbyhq.com/pinecone
+    enabled: true
+
+  - name: Ema
+    careers_url: https://jobs.ashbyhq.com/ema
+    enabled: true
+
+  - name: Glean
+    careers_url: https://jobs.ashbyhq.com/glean
+    enabled: true
+
+  - name: Dunzo
+    careers_url: https://jobs.ashbyhq.com/dunzo
+    enabled: true
+
+  # ════════════════════════════════════════════════════
+  # TIER 2 — INDIA PRODUCT COS (Lever API — zero token)
+  # ════════════════════════════════════════════════════
+  - name: Meesho
+    careers_url: https://jobs.lever.co/meesho
+    enabled: true
+
+  - name: PhonePe
+    careers_url: https://jobs.lever.co/phonepe
+    enabled: true
+
+  - name: CRED
+    careers_url: https://jobs.lever.co/cred-club
+    enabled: true
+
+  - name: Razorpay
+    careers_url: https://jobs.lever.co/razorpay
+    enabled: true
+
+  - name: Zepto
+    careers_url: https://jobs.lever.co/zeptonow
+    enabled: true
+
+  - name: Freshworks
+    careers_url: https://jobs.lever.co/freshworks
+    enabled: true
+
+  - name: Yellow.ai
+    careers_url: https://jobs.lever.co/yellowai
+    enabled: true
+
+  - name: InMobi
+    careers_url: https://jobs.lever.co/inmobi
+    enabled: true
+
+  - name: Nference
+    careers_url: https://jobs.lever.co/nference
+    enabled: true
+
+  - name: Flipkart
+    careers_url: https://jobs.lever.co/flipkart
+    enabled: true
+
+  - name: Innovaccer
+    careers_url: https://jobs.lever.co/innovaccer
+    enabled: true
+
+  - name: Darwinbox
+    careers_url: https://jobs.lever.co/darwinbox
+    enabled: true
+
+  - name: OLX India
+    careers_url: https://jobs.lever.co/olxgroup
+    enabled: true
+
+  - name: MoEngage
+    careers_url: https://jobs.lever.co/moengage
+    enabled: true
+
+  - name: Mindtickle
+    careers_url: https://jobs.lever.co/mindtickle
+    enabled: true
+
+  - name: LeadSquared
+    careers_url: https://jobs.lever.co/leadsquared
+    enabled: true
+
+  - name: Vymo
+    careers_url: https://jobs.lever.co/vymo
+    enabled: true
+
+  - name: Exotel
+    careers_url: https://jobs.lever.co/exotel
+    enabled: true
+
+  - name: Tiger Analytics
+    careers_url: https://jobs.lever.co/tigeranalytics
+    enabled: true
+
+  - name: LatentView Analytics
+    careers_url: https://jobs.lever.co/latentview
+    enabled: true
+
+  - name: Sigmoid
+    careers_url: https://jobs.lever.co/sigmoid
+    enabled: true
+
+  - name: Quantiphi
+    careers_url: https://jobs.lever.co/quantiphi
+    enabled: true
+
+  - name: Saama Technologies
+    careers_url: https://jobs.lever.co/saama
+    enabled: true
+
+  - name: Incture Technologies
+    careers_url: https://jobs.lever.co/incture
+    enabled: true
+
+  - name: Mistral AI
+    careers_url: https://jobs.lever.co/mistral
+    enabled: true
+
+  - name: Persistent Systems
+    careers_url: https://jobs.lever.co/persistent
+    enabled: true
+
+  # ═════════════════════════════════════════════════════════
+  # TIER 3 — INDIA + GLOBAL (Greenhouse API — zero token)
+  # ═════════════════════════════════════════════════════════
+  - name: Swiggy
+    careers_url: https://job-boards.greenhouse.io/swiggy
+    api: https://boards-api.greenhouse.io/v1/boards/swiggy/jobs
+    enabled: true
+
+  - name: Anthropic
+    careers_url: https://job-boards.greenhouse.io/anthropic
+    api: https://boards-api.greenhouse.io/v1/boards/anthropic/jobs
+    enabled: true
+
+  - name: Browserstack
+    careers_url: https://job-boards.greenhouse.io/browserstack
+    api: https://boards-api.greenhouse.io/v1/boards/browserstack/jobs
+    enabled: true
+
+  - name: Chargebee
+    careers_url: https://job-boards.greenhouse.io/chargebee
+    api: https://boards-api.greenhouse.io/v1/boards/chargebee/jobs
+    enabled: true
+
+  - name: CleverTap
+    careers_url: https://job-boards.greenhouse.io/clevertap
+    api: https://boards-api.greenhouse.io/v1/boards/clevertap/jobs
+    enabled: true
+
+  - name: Sprinklr
+    careers_url: https://job-boards.greenhouse.io/sprinklr
+    api: https://boards-api.greenhouse.io/v1/boards/sprinklr/jobs
+    enabled: true
+
+  - name: Fractal Analytics
+    careers_url: https://job-boards.greenhouse.io/fractalanalytics
+    api: https://boards-api.greenhouse.io/v1/boards/fractalanalytics/jobs
+    enabled: true
+
+  - name: ThoughtWorks India
+    careers_url: https://job-boards.greenhouse.io/thoughtworks
+    api: https://boards-api.greenhouse.io/v1/boards/thoughtworks/jobs
+    enabled: true
+
+  - name: Lenskart
+    careers_url: https://job-boards.greenhouse.io/lenskart
+    api: https://boards-api.greenhouse.io/v1/boards/lenskart/jobs
+    enabled: true
+
+  - name: Weights & Biases (CoreWeave)
+    careers_url: https://job-boards.greenhouse.io/coreweave
+    api: https://boards-api.greenhouse.io/v1/boards/coreweave/jobs
+    enabled: true
+
+  - name: RunPod
+    careers_url: https://job-boards.greenhouse.io/runpod
+    api: https://boards-api.greenhouse.io/v1/boards/runpod/jobs
+    enabled: true
+
+  - name: Arize AI
+    careers_url: https://job-boards.greenhouse.io/arizeai
+    api: https://boards-api.greenhouse.io/v1/boards/arizeai/jobs
+    enabled: true
+
+  - name: Scale AI
+    careers_url: https://job-boards.greenhouse.io/scaleai
+    api: https://boards-api.greenhouse.io/v1/boards/scaleai/jobs
+    enabled: true
+
+  - name: Cohesity
+    careers_url: https://job-boards.greenhouse.io/cohesity
+    api: https://boards-api.greenhouse.io/v1/boards/cohesity/jobs
+    enabled: true
+
+  - name: Druva
+    careers_url: https://job-boards.greenhouse.io/druva
+    api: https://boards-api.greenhouse.io/v1/boards/druva/jobs
+    enabled: true
+
+  - name: Icertis
+    careers_url: https://job-boards.greenhouse.io/icertis
+    api: https://boards-api.greenhouse.io/v1/boards/icertis/jobs
+    enabled: true
+
+  - name: Rubrik
+    careers_url: https://job-boards.greenhouse.io/rubrik
+    api: https://boards-api.greenhouse.io/v1/boards/rubrik/jobs
+    enabled: true
+
+  - name: Palo Alto Networks India
+    careers_url: https://job-boards.greenhouse.io/paloaltonetworks
+    api: https://boards-api.greenhouse.io/v1/boards/paloaltonetworks/jobs
+    enabled: true
+
+  - name: Whatfix
+    careers_url: https://job-boards.greenhouse.io/whatfix
+    api: https://boards-api.greenhouse.io/v1/boards/whatfix/jobs
+    enabled: true
+
+  - name: Mindtree (LTIMindtree)
+    careers_url: https://job-boards.greenhouse.io/ltimindtree
+    api: https://boards-api.greenhouse.io/v1/boards/ltimindtree/jobs
+    enabled: true
+
+  # ══════════════════════════════════════════════════
+  # TIER 4 — GLOBAL BOARDS (provider-based, zero token)
+  # ══════════════════════════════════════════════════
+  - name: RemoteOK
+    provider: remoteok
+    enabled: true
+
+  - name: Remotive
+    provider: remotive
+    enabled: true
+
+  - name: Himalayas
+    provider: himalayas
+    enabled: true
+
+  # ════════════════════════════════════════════════════
+  # TIER 5 — MNC INDIA GCC / R&D CENTRES (websearch)
+  # ════════════════════════════════════════════════════
+  - name: Google India
+    careers_url: https://careers.google.com
+    scan_method: websearch
+    scan_query: 'site:careers.google.com "Machine Learning Engineer" OR "AI" OR "Research Engineer" bangalore OR hyderabad india'
+    enabled: true
+
+  - name: Microsoft India
+    careers_url: https://jobs.careers.microsoft.com
+    scan_method: websearch
+    scan_query: 'site:jobs.careers.microsoft.com "Machine Learning" OR "AI Engineer" OR "Applied Scientist" hyderabad OR bangalore india'
+    enabled: true
+
+  - name: Amazon India (AWS / Science)
+    careers_url: https://www.amazon.jobs
+    scan_method: websearch
+    scan_query: 'site:amazon.jobs "Machine Learning Engineer" OR "Applied Scientist" OR "AI Engineer" bangalore OR hyderabad OR chennai india'
+    enabled: true
+
+  - name: Meta India
+    careers_url: https://www.metacareers.com
+    scan_method: websearch
+    scan_query: 'site:metacareers.com "Machine Learning Engineer" OR "Research Engineer" OR "AI" bangalore india'
+    enabled: true
+
+  - name: Nvidia India
+    careers_url: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
+    scan_method: websearch
+    scan_query: 'site:nvidia.wd5.myworkdayjobs.com "Deep Learning" OR "ML" OR "GPU" OR "Inference" bangalore OR hyderabad india'
+    enabled: true
+
+  - name: Salesforce India
+    careers_url: https://careers.salesforce.com
+    scan_method: websearch
+    scan_query: 'site:careers.salesforce.com "ML Engineer" OR "AI Engineer" OR "Applied Scientist" bangalore OR hyderabad india'
+    enabled: true
+
+  - name: Adobe India (Sensei / AI)
+    careers_url: https://careers.adobe.com
+    scan_method: websearch
+    scan_query: 'site:careers.adobe.com "Machine Learning" OR "AI Engineer" OR "Research Scientist" bangalore OR noida india'
+    enabled: true
+
+  - name: Oracle India (AI/ML)
+    careers_url: https://careers.oracle.com
+    scan_method: websearch
+    scan_query: 'site:careers.oracle.com "Machine Learning" OR "AI" bangalore OR hyderabad india 2025 OR 2026'
+    enabled: true
+
+  - name: Samsung R&D India
+    careers_url: https://research.samsung.com/careers
+    scan_method: websearch
+    scan_query: '"samsung r&d" OR "samsung research india" careers "Machine Learning" OR "AI" bangalore OR noida'
+    enabled: true
+
+  - name: Qualcomm India
+    careers_url: https://careers.qualcomm.com
+    scan_method: websearch
+    scan_query: 'site:careers.qualcomm.com "Machine Learning" OR "AI" OR "Deep Learning" bangalore OR hyderabad india'
+    enabled: true
+
+  - name: Walmart Global Tech India
+    careers_url: https://careers.walmart.com
+    scan_method: websearch
+    scan_query: 'site:careers.walmart.com "Machine Learning" OR "AI Engineer" OR "MLOps" bangalore india'
+    enabled: true
+
+  - name: Uber India (ML)
+    careers_url: https://www.uber.com/us/en/careers/
+    scan_method: websearch
+    scan_query: '"uber" india careers "Machine Learning" OR "AI" OR "MLOps" bangalore OR hyderabad'
+    enabled: true
+
+  - name: IBM India (AI Research)
+    careers_url: https://www.ibm.com/in-en/employment/
+    scan_method: websearch
+    scan_query: '"IBM" india careers "Machine Learning" OR "AI Engineer" OR "LLM" bangalore OR chennai'
+    enabled: true
+
+  - name: Bosch India (AI/ML)
+    careers_url: https://www.bosch.in/careers/
+    scan_method: websearch
+    scan_query: '"bosch" india careers "Machine Learning" OR "AI" OR "Deep Learning" bangalore OR coimbatore'
+    enabled: true
+
+  - name: Siemens India (AI)
+    careers_url: https://jobs.siemens.com
+    scan_method: websearch
+    scan_query: '"siemens" india careers "Machine Learning" OR "AI Engineer" bangalore OR pune OR hyderabad'
+    enabled: true
+
+  # ═══════════════════════════════════════════════════
+  # TIER 6 — INDIA AI STARTUPS (websearch — no public ATS)
+  # ═══════════════════════════════════════════════════
+  - name: Krutrim (Ola)
+    careers_url: https://krutrim.com/careers
+    scan_method: websearch
+    scan_query: '"krutrim" OR "ola krutrim" careers "ML Engineer" OR "AI Engineer" OR "LLM" india'
+    enabled: true
+
+  - name: Mad Street Den (Vue.ai)
+    careers_url: https://madstreetden.com/careers/
+    scan_method: websearch
+    scan_query: '"mad street den" OR "vue.ai" careers "Machine Learning" OR "AI Engineer" chennai OR bangalore'
+    enabled: true
+
+  - name: Uniphore
+    careers_url: https://www.uniphore.com/company/careers/
+    scan_method: websearch
+    scan_query: '"uniphore" careers "ML Engineer" OR "AI Engineer" OR "NLP" bangalore OR chennai OR hyderabad'
+    enabled: true
+
+  - name: Haptik (Jio)
+    careers_url: https://haptik.ai/careers/
+    scan_method: websearch
+    scan_query: '"haptik" careers "Machine Learning" OR "AI Engineer" OR "NLP" india'
+    enabled: true
+
+  - name: Juspay
+    careers_url: https://careers.juspay.in
+    scan_method: websearch
+    scan_query: '"juspay" careers "Machine Learning" OR "AI" bangalore'
+    enabled: true
+
+  - name: Zoho
+    careers_url: https://careers.zohocorp.com
+    scan_method: websearch
+    scan_query: '"zoho" careers "Machine Learning" OR "AI Engineer" OR "Deep Learning" chennai OR india'
+    enabled: true
+
+  - name: Zomato
+    careers_url: https://www.zomato.com/careers
+    scan_method: websearch
+    scan_query: '"zomato" careers "Machine Learning" OR "AI Engineer" OR "MLOps" india'
+    enabled: true
+
+  - name: Groww
+    careers_url: https://groww.in/careers
+    scan_method: websearch
+    scan_query: '"groww" careers "ML Engineer" OR "AI" OR "Data Scientist" bangalore'
+    enabled: true
+
+  - name: Myntra
+    careers_url: https://www.myntra.com/careers
+    scan_method: websearch
+    scan_query: '"myntra" careers "Machine Learning" OR "AI Engineer" bangalore'
+    enabled: true
+
+  - name: Tredence
+    careers_url: https://www.tredence.com/careers
+    scan_method: websearch
+    scan_query: '"tredence" careers "Machine Learning" OR "AI Engineer" OR "LLM" bangalore OR chennai'
+    enabled: true
+
+  - name: Mu Sigma
+    careers_url: https://www.mu-sigma.com/careers
+    scan_method: websearch
+    scan_query: '"mu sigma" careers "Machine Learning" OR "AI" bangalore'
+    enabled: true
+
+  - name: HashedIn (Deloitte)
+    careers_url: https://hashedin.com/careers/
+    scan_method: websearch
+    scan_query: '"hashedin" careers "ML Engineer" OR "AI" OR "LLM" bangalore OR india'
+    enabled: true
+
+  - name: Mphasis
+    careers_url: https://www.mphasis.com/home/careers.html
+    scan_method: websearch
+    scan_query: '"mphasis" careers "Machine Learning" OR "AI Engineer" india'
+    enabled: true
+
+  - name: Naukri (iimjobs board)
+    careers_url: https://www.iimjobs.com
+    scan_method: websearch
+    scan_query: 'site:iimjobs.com "Machine Learning Engineer" OR "AI Engineer" OR "LLM" OR "MLOps" bangalore OR chennai OR hyderabad OR mumbai'
+    enabled: true
+
+  - name: Wellfound India
+    careers_url: https://wellfound.com/jobs
+    scan_method: websearch
+    scan_query: 'site:wellfound.com/jobs "Machine Learning" OR "AI Engineer" OR "LLM" india bangalore OR chennai OR hyderabad OR remote'
+    enabled: true
+
+  - name: Hugging Face (remote)
+    careers_url: https://apply.workable.com/huggingface/
+    scan_method: websearch
+    scan_query: 'site:apply.workable.com/huggingface "ML" OR "Inference" OR "Research" remote'
+    enabled: true
+
+search_queries:
+  # ── Greenhouse board — India ML/AI (API-backed, very fast) ───────────
+  - name: Greenhouse India — ML Engineer
+    query: 'site:job-boards.greenhouse.io "Machine Learning" OR "AI Engineer" OR "LLM" bangalore OR chennai OR hyderabad OR mumbai OR india'
+    enabled: true
+
+  - name: Greenhouse India — MLOps / Inference
+    query: 'site:job-boards.greenhouse.io "MLOps" OR "Inference Engineer" OR "ML Platform" bangalore OR india'
+    enabled: true
+
+  # ── Ashby board — India ML/AI ────────────────────────────────────────
+  - name: Ashby India — LLM / Inference
+    query: 'site:jobs.ashbyhq.com "Machine Learning" OR "LLM" OR "Inference" OR "AI Engineer" bangalore OR chennai OR hyderabad OR india'
+    enabled: true
+
+  # ── Lever board — India ML/AI ────────────────────────────────────────
+  - name: Lever India — Applied ML
+    query: 'site:jobs.lever.co "ML Engineer" OR "AI Engineer" OR "Applied ML" OR "LLM" bangalore OR chennai OR hyderabad OR mumbai'
+    enabled: true
+
+  # ── LinkedIn India (websearch proxy) ────────────────────────────────
+  - name: LinkedIn — ML Engineer Bangalore
+    query: '"Machine Learning Engineer" OR "AI Engineer" bangalore site:linkedin.com/jobs'
+    enabled: true
+
+  - name: LinkedIn — ML Engineer Chennai + Hyderabad
+    query: '"Machine Learning Engineer" OR "AI Engineer" chennai OR hyderabad site:linkedin.com/jobs'
+    enabled: true
+
+  - name: LinkedIn — LLM Engineer India
+    query: '"LLM Engineer" OR "Generative AI Engineer" OR "Applied AI Engineer" india site:linkedin.com/jobs'
+    enabled: true
+
+  - name: LinkedIn — MLOps India
+    query: '"MLOps Engineer" OR "ML Platform Engineer" OR "LLMOps" india site:linkedin.com/jobs'
+    enabled: true
+
+  # ── Naukri (India's biggest job board) ──────────────────────────────
+  - name: Naukri — ML / AI Engineer
+    query: 'site:naukri.com "Machine Learning Engineer" OR "AI Engineer" OR "LLM" bangalore OR chennai OR hyderabad OR mumbai'
+    enabled: true
+
+  - name: Naukri — Deep Learning / NLP
+    query: 'site:naukri.com "Deep Learning Engineer" OR "NLP Engineer" OR "Computer Vision Engineer" bangalore OR hyderabad'
+    enabled: true
+
+  # ── Indeed India ─────────────────────────────────────────────────────
+  - name: Indeed India — ML / AI
+    query: 'site:indeed.co.in "Machine Learning Engineer" OR "AI Engineer" OR "MLOps" bangalore OR chennai OR hyderabad OR mumbai'
+    enabled: true
+
+  - name: Indeed India — LLM / GenAI
+    query: 'site:indeed.co.in "LLM Engineer" OR "Generative AI" OR "Applied AI" bangalore OR hyderabad'
+    enabled: true
+
+  # ── Wellfound (AngelList) India startups ────────────────────────────
+  - name: Wellfound — AI Startup India
+    query: 'site:wellfound.com "Machine Learning" OR "AI Engineer" OR "LLM" india remote'
+    enabled: true
+
+  # ── Remote-friendly India (global boards) ───────────────────────────
+  - name: Remote — ML Infrastructure India-friendly
+    query: '"Machine Learning Engineer" OR "AI Engineer" remote india OR IST OR "Asia/Kolkata" LLM inference'
+    enabled: true
+
+  - name: Remote — LLM / Inference global remote
+    query: '"LLM Engineer" OR "Inference Engineer" OR "ML Infrastructure" remote "india" OR "open to india"'
+    enabled: true
+
+  # ── Specialised India queries ────────────────────────────────────────
+  - name: India — GPU / Inference / vLLM
+    query: '"inference engineer" OR "GPU engineer" OR "vllm" OR "TensorRT" india bangalore OR hyderabad OR chennai'
+    enabled: true
+
+  - name: India — Generative AI Startups 2025-2026
+    query: '"Generative AI Engineer" OR "LLM Engineer" OR "Applied AI" india startup hiring 2025 OR 2026 bangalore OR hyderabad'
+    enabled: true
+
+  - name: India — Workday ML jobs
+    query: 'site:*.myworkdayjobs.com "Machine Learning" OR "AI Engineer" india bangalore OR hyderabad OR pune'
+    enabled: true
+
+  - name: India — SmartRecruiters ML
+    query: 'site:jobs.smartrecruiters.com "Machine Learning" OR "AI Engineer" india bangalore OR hyderabad'
+    enabled: true
+
+  - name: India — Teamtailor ML
+    query: 'site:*.teamtailor.com "Machine Learning" OR "AI Engineer" india bangalore OR hyderabad OR remote'
+    enabled: true
+
+  - name: India — BambooHR ML
+    query: 'site:*.bamboohr.com "Machine Learning" OR "AI Engineer" india bangalore OR hyderabad'
+    enabled: true

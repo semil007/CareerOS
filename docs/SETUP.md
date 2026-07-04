@@ -24,6 +24,29 @@ PDFs are rendered with a headless Chromium. Install it once per machine:
 npx playwright install chromium
 ```
 
+## Codex Invocation
+
+Codex can run the interactive session:
+
+```bash
+cd career-ops
+codex
+```
+
+Slash commands are not guaranteed in Codex. If `/career-ops` is not registered, invoke the modes in plain language:
+```text
+Evaluate this JD with career-ops auto-pipeline: https://company.com/jobs/123
+Run the career-ops scan mode and summarize new matches.
+Run the career-ops pipeline mode for data/pipeline.md.
+Run the career-ops pdf mode for the latest evaluated role.
+Run the career-ops tracker mode and summarize the current statuses.
+```
+
+For one-shot execution or headless mode, use `codex exec` followed by the prompt:
+```bash
+codex exec "Evaluate this JD with career-ops auto-pipeline: https://company.com/jobs/123"
+```
+
 ## Available Commands
 
 | Action | How |
