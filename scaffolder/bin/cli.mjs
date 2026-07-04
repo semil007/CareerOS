@@ -11,8 +11,8 @@ import { existsSync, readdirSync } from "node:fs";
 import { join, delimiter } from "node:path";
 import { ensureSkillEntrypoints } from "./skill-entrypoints.mjs";
 
-const REPO = "https://github.com/santifer/career-ops.git";
-const LATEST_RELEASE = "https://api.github.com/repos/santifer/career-ops/releases/latest";
+const REPO = "https://github.com/YOUR_ORG/YOUR_REPO.git";
+const LATEST_RELEASE = "https://api.github.com/repos/YOUR_ORG/YOUR_REPO/releases/latest";
 const NPM = process.platform === "win32" ? "npm.cmd" : "npm";
 
 // career-ops is AI-agnostic: every one of these CLIs reads AGENTS.md and works
@@ -35,7 +35,7 @@ Usage:
   npx career-ops init [folder]    Create a new workspace (default: ./career-ops)
 
 After setup, open your AI coding tool inside the folder and paste a job offer.
-Docs: https://github.com/santifer/career-ops`;
+Docs: https://github.com/YOUR_ORG/YOUR_REPO`;
 
 function die(msg) {
   console.error(`\n✗ ${msg}\n`);

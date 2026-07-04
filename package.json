@@ -1,7 +1,7 @@
 {
   "name": "career-ops",
   "version": "1.16.0",
-  "description": "AI-powered job search pipeline — works with any AI coding CLI (Claude Code, OpenCode, Gemini, Codex, Qwen)",
+  "description": "AI-powered job search pipeline — works with any AI coding CLI (Claude Code, OpenCode, Codex, Qwen, Antigravity CLI)",
   "private": true,
   "scripts": {
     "doctor": "node doctor.mjs",
@@ -53,11 +53,11 @@
     "careerops",
     "automation"
   ],
-  "author": "Santiago Fernández de Valderrama <hi@santifer.io> (https://santifer.io)",
-  "homepage": "https://santifer.io",
+  "author": "[Your Name] <your@email.com>",
+  "homepage": "https://github.com/YOUR_ORG/YOUR_REPO",
   "repository": {
     "type": "git",
-    "url": "https://github.com/santifer/career-ops"
+    "url": "https://github.com/YOUR_ORG/YOUR_REPO"
   },
   "license": "MIT",
   "dependencies": {

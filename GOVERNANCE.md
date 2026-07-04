@@ -2,7 +2,7 @@
 
 ## Overview
 
-career-ops is maintained by [@santifer](https://github.com/santifer) under a **BDFL (Benevolent Dictator for Life)** model with a clear path for community members to earn trust and take on responsibilities.
+This project is maintained under a **BDFL (Benevolent Dictator for Life)** model with a clear path for community members to earn trust and take on responsibilities.
 
 The goal is to build a self-sustaining community where the project thrives even when the maintainer is offline.
 
@@ -22,7 +22,7 @@ Anyone can grow their role in the project. Roles are earned through sustained, q
 **Everyone starts here.**
 
 - Follow the [Code of Conduct](CODE_OF_CONDUCT.md)
-- Open issues, comment on PRs, help others in Discord
+- Open issues, comment on PRs, help others
 - Submit bug reports with reproduction steps
 
 ### Contributor
@@ -65,7 +65,7 @@ You don't apply for roles. They emerge naturally:
 
 1. **Start contributing** — fix a bug, translate a mode, improve docs
 2. **Be consistent** — one quality PR per month beats ten rushed ones
-3. **Help others** — answer questions in Discord, review PRs, triage issues
+3. **Help others** — answer questions, review PRs, triage issues
 4. **Understand the project** — read CLAUDE.md, DATA_CONTRACT.md, the architecture docs
 5. **The maintainer will notice** — and reach out when the time is right
 

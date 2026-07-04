@@ -1,10 +1,6 @@
 # Career-Ops -- AI Job Search Pipeline
 
-## Origin
-
-This system was built and used by [santifer](https://santifer.io) to evaluate 740+ job offers, generate 100+ tailored CVs, and land a Head of Applied AI role. The archetypes, scoring logic, negotiation scripts, and proof point structure all reflect his specific career search in AI/automation roles.
-
-The portfolio that goes with this system is also open source: [cv-santiago](https://github.com/santifer/cv-santiago).
+This system was built to evaluate job offers, generate tailored CVs, and track job applications. The archetypes, scoring logic, negotiation scripts, and proof point structure all reflect standard career search frameworks in tech.
 
 **It will work out of the box, but it's designed to be made yours.** If the archetypes don't match your career, the modes are in the wrong language, or the scoring doesn't fit your priorities -- just ask. You (AI Agent) can edit the user's files. The user says "change the archetypes to data engineering roles" and you do it. That's the whole point.
 
@@ -41,7 +37,7 @@ Anything not in this list is **out of scope for content generation**, including:
 - Cross-session inferences about the user's work that have not been written into one of the in-scope files
 - Knowledge from other Claude Code projects on the same machine
 
-**Rule from the original design (santifer's case study):** *"Keywords get reformulated, never fabricated."* Reorder, reframe, emphasise — but never invent. If a claim isn't backed by an in-scope file, ask the user. If they cannot or do not want to add it, the output goes without it. Silence on a topic is fine; manufactured detail is not.
+**Rule from the original design:** *"Keywords get reformulated, never fabricated."* Reorder, reframe, emphasise — but never invent. If a claim isn't backed by an in-scope file, ask the user. If they cannot or do not want to add it, the output goes without it. Silence on a topic is fine; manufactured detail is not.
 
 **Authorship claims are non-negotiable.** Never claim the user authored a project, repo, library, tool, framework, or open-source artefact unless explicitly attributed to them in `cv.md` or `article-digest.md`. Tool-of-trade conflation (the user uses X → the user built X) is the most common fabrication pattern and is explicitly forbidden.
 
@@ -202,7 +198,7 @@ Once all files exist, confirm:
 >
 > Everything is customizable — just ask me to change anything.
 >
-> Tip: Having a personal portfolio dramatically improves your job search. If you don't have one yet, the author's portfolio is also open source: github.com/santifer/cv-santiago — feel free to fork it and make it yours."
+> Tip: Having a personal portfolio dramatically improves your job search. Feel free to build one and link it to showcase your work."
 
 Then suggest automation:
 > "Want me to scan for new offers automatically? I can set up a recurring scan every few days so you don't miss anything. Just say 'scan every 3 days' and I'll configure it."

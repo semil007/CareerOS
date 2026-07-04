@@ -1,9 +1,4 @@
 {
-  "name": "career-ops",
-  "version": "1.6.0",
-  "description": "AI job search command center — evaluate offers, generate CVs, scan portals, track applications",
-  "author": {
-    "name": "santifer",
-    "url": "https://santifer.io"
-  }
+  "name": "your-org",
+  "url": "https://github.com/YOUR_ORG/YOUR_REPO"
 }

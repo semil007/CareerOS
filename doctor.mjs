@@ -120,7 +120,7 @@ function checkPlaywrightMcp(root) {
       'Browser-driven JD fetching and liveness checks (scan / pipeline / apply) need the',
       'Playwright MCP server. No project-level MCP config was detected in `.mcp.json`',
       'or `.claude/settings*.json`, so SPA job boards may return empty or stale content.',
-      'Tracking: https://github.com/santifer/career-ops/issues/506',
+      'Tracking: https://github.com/YOUR_ORG/YOUR_REPO/issues/506',
     ],
   };
 }
@@ -347,10 +347,8 @@ async function main() {
     console.log(`Result: ${failures} issue${failures === 1 ? '' : 's'} found. Fix them and run \`npm run doctor\` again.`);
     process.exit(1);
   } else {
-    const warnNote = warnings > 0 ? ` (${warnings} warning${warnings === 1 ? '' : 's'} — see above)` : '';
-    console.log(`Result: All checks passed${warnNote}. You're ready to go! Run \`claude\` (or \`opencode\`) to start.`);
-    console.log('');
-    console.log('Join the community: https://discord.gg/8pRpHETxa4');
+    const warns = warnings;
+    console.log('\nResult: All checks passed' + (warns ? ' (' + warns + ' warning' + (warns > 1 ? 's' : '') + ' — see above)' : '') + '. You\'re ready to go! Run your AI CLI to start.\n');
     process.exit(0);
   }
 }

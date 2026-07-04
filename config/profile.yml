@@ -1,0 +1,72 @@
+# Career-Ops Profile — Semil Periyasamy
+
+candidate:
+  full_name: "Semil Periyasamy"
+  email: "semilpm@gmail.com"
+  phone: "+91 7092404027"
+  location: "Coimbatore, Tamil Nadu, India"
+  timezone: "Asia/Kolkata"
+  linkedin: "https://www.linkedin.com/in/semil-p/"
+  portfolio_url: "https://www.getsemil.com/"
+  github: "https://github.com/semil007"
+  photo: ""
+
+target_roles:
+  primary:
+    - "Machine Learning Engineer"
+    - "AI Engineer"
+    - "ML Infrastructure Engineer"
+    - "GPU / Inference Engineer"
+  archetypes:
+    - name: "Applied ML / LLM Engineer"
+      level: "Mid-level (2 YOE)"
+      fit: "primary"
+    - name: "ML Infrastructure / Inference Engineer"
+      level: "Mid-level"
+      fit: "primary"
+    - name: "MLOps / LLMOps Engineer"
+      level: "Mid-level"
+      fit: "secondary"
+    - name: "Agentic AI / RAG Engineer"
+      level: "Mid-level"
+      fit: "secondary"
+
+narrative:
+  headline: "Applied AI/ML Engineer — production LLMs, RAG, agentic systems, and GPU inference optimization"
+  exit_story: "Building production-grade AI systems at AK Technologies — now targeting roles where I can scale LLM inference, GPU infrastructure, and applied ML at companies pushing the frontier of AI."
+  superpowers:
+    - "End-to-end LLM pipelines: fine-tuning (Llama 3 70B), RAG, multi-agent systems"
+    - "High-throughput inference: TensorRT-LLM, vLLM, quantization, KV-cache optimization (40% throughput gain)"
+    - "Distributed GPU infrastructure with production reliability (Redis, health checks, 35% latency reduction)"
+  proof_points:
+    - name: "Multi-agent ERP assistant"
+      hero_metric: "Production deployment with autonomous document-driven queries and finance intelligence"
+    - name: "Llama 3 70B fine-tuning & inference"
+      hero_metric: "40% inference throughput improvement via TensorRT-LLM, vLLM, INT8/FP8 quantization"
+    - name: "Distributed GPU inference stack"
+      hero_metric: "35% multi-node latency reduction with Redis caching and fallback mechanisms"
+    - name: "Multilingual document intelligence (Gemini 1.5)"
+      hero_metric: "1,000+ high-resolution requests/hour on GCP/Azure with W&B observability"
+    - name: "Open-source contributions"
+      url: "vLLM, LLMCache"
+      hero_metric: "KV-cache docs and cache reuse strategies for high-throughput serving"
+
+compensation:
+  # All salary tiers — evaluate everything, negotiate based on role quality
+  # Normal:  ₹8L–14L  (early-stage startups, tier-2 cities, smaller product cos)
+  # Mid:     ₹15L–22L (funded startups, mid-size product companies)
+  # High:    ₹23L–35L (unicorns, top product cos, FAANG India)
+  # Premium: ₹35L+    (FAANG, frontier AI labs, equity-heavy offers)
+  target_range: "₹10L–35L (India) / $60K–140K (remote global)"
+  currency: "INR"
+  minimum: "₹8L"
+  location_flexibility: "Remote preferred; open to hybrid in India; open to global remote with timezone overlap"
+
+location:
+  country: "India"
+  city: "Coimbatore"
+  timezone: "Asia/Kolkata"
+  visa_status: "Indian citizen — may need sponsorship for roles outside India"
+
+cv:
+  output_format: "html"
