@@ -1,6 +1,8 @@
-# AI Job Search Pipeline
+# CareerOS
 
 An AI-powered, CLI-agnostic job search automation system: pipeline tracking, offer evaluation, CV generation, portal scanning, and batch processing. Runs on any AI coding CLI that follows the open agent skill standard (Claude Code, Codex, OpenCode, Qwen, Antigravity CLI, Grok Build CLI).
+
+> Inspired by [career-ops](https://github.com/santifer/career-ops.git) — loved the core idea, built my own direction on top of it.
 
 ---
 
@@ -23,8 +25,8 @@ An AI-powered, CLI-agnostic job search automation system: pipeline tracking, off
 ## Quick Start
 
 ```bash
-git clone https://github.com/YOUR_ORG/YOUR_REPO.git
-cd YOUR_REPO && npm install
+git clone https://github.com/semil007/CareerOS.git
+cd CareerOS && npm install
 npx playwright install chromium   # only needed for PDF generation
 
 # Check setup
@@ -44,6 +46,32 @@ claude   # or codex / opencode / gemini / qwen / agy / grok
 On first launch, the system walks you through setup — your CV, profile and target roles — just by chatting. Nothing to edit by hand.
 
 See [docs/SETUP.md](docs/SETUP.md) for the full setup guide, [docs/RUNNING_ON_A_BUDGET.md](docs/RUNNING_ON_A_BUDGET.md) for running on cheaper or local models, and [docs/FAQ.md](docs/FAQ.md) for common setup questions.
+
+## Codex Integration (CODEX.md)
+
+This system supports Codex through the same shared router, but the invocation model is different from CLIs that auto-register slash commands. For the full guide, see [docs/CODEX.md](docs/CODEX.md).
+
+### Interactive Codex
+
+```bash
+cd CareerOS
+codex
+```
+
+Slash commands are not guaranteed in Codex. If `/career-ops` is unavailable, ask Codex to run the mode directly in plain language:
+
+```text
+Evaluate this JD with career-ops auto-pipeline: https://company.com/jobs/123
+Run the career-ops scan mode and summarize new matches.
+Run the career-ops pipeline mode for data/pipeline.md.
+Run the career-ops pdf mode for the latest evaluated role.
+Run the career-ops tracker mode and summarize the current statuses.
+```
+
+For one-shot execution or headless mode, use `codex exec` followed by the prompt:
+```bash
+codex exec "Evaluate this JD with career-ops auto-pipeline: https://company.com/jobs/123"
+```
 
 ## Usage
 
@@ -124,4 +152,4 @@ The code is licensed under [MIT](LICENSE).
 
 ## Inspiration
 
-This project was originally inspired by ideas explored in existing open-source AI career tooling. The implementation and future direction are independently developed.
+This project was inspired by [career-ops](https://github.com/santifer/career-ops.git) — I discovered it, loved the core idea, and used it as a foundation to build **CareerOS** with my own features and direction.
