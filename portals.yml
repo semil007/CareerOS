@@ -49,6 +49,15 @@ title_filter:
     # Agentic / RAG
     - "Agentic"
     - "RAG Engineer"
+    # Founding / Staff AI roles (common at AI-first startups)
+    - "Founding Engineer"           # catches "Founding Engineer (AI)", "Founding AI Engineer"
+    - "AI Software Engineer"        # catches "Senior AI Software Engineer"
+    - "Software Engineer, AI"       # catches "Software Engineer, AI/ML"
+    - "Software Engineer - AI"      # dash variant
+    - "Software Engineer (AI"       # paren variant
+    - "AI Product Engineer"
+    - "Prompt Engineer"
+    - "AI Agent"                    # catches "AI Agent Engineer", "AI Agents Platform"
   negative:
     - "Intern"
     - "Junior"

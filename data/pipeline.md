@@ -6,6 +6,8 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 
 
+- [x] https://himalayas.app/companies/may-mobility/jobs/lead-ml-engineer-mapping | May Mobility | Lead ML Engineer - Mapping | Canada, France, Germany, India, Netherlands, United Kingdom, United States
+
 ## Processed
 
 - [x] https://remoteok.com/remote-jobs/remote-senior-ai-engineer-architect-lemon-io-1134396 | Lemon.io | Senior AI Engineer / Architect | Remote — Score: 4.1/5 ✅ Apply
