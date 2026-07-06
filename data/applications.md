@@ -4,7 +4,7 @@
 |---|------|---------|------|-------|--------|-----|--------|-------|
 | 26 | 2026-07-04 | Lemon.io | Senior AI Engineer / Architect | 4.1/5 | Evaluated | ✅ | [004](../reports/004-lemon-io-2026-07-04.md) | Remote worldwide $81/hr median — apply as Track 2 Agent Architect |
 | 10 | 2026-07-04 | Ema | Software Engineer Machine Learning | 4.5/5 | Applied | ✅ | [003](../reports/003-pipeline-batch-2026-07-04.md) | CV ready — apply manually at jobs.ashbyhq.com/ema/88d004d9 |
-| 11 | 2026-07-04 | Sarvam AI | Data Scientist Evaluations Chanakya | 4.4/5 | Evaluated | ✅ | [003](../reports/003-pipeline-batch-2026-07-04.md) | CV ready — apply manually at jobs.ashbyhq.com/sarvam/7c42207a |
+| 11 | 2026-07-04 | Sarvam AI | Data Scientist Evaluations Chanakya | 4.4/5 | Applied | ✅ | [003](../reports/003-pipeline-batch-2026-07-04.md) | CV ready — apply manually at jobs.ashbyhq.com/sarvam/7c42207a |
 | 12 | 2026-07-04 | Sarvam AI | Embedded Data Scientist Chanakya | 4.1/5 | Evaluated | ✅ | [003](../reports/003-pipeline-batch-2026-07-04.md) | CV ready — apply manually at jobs.ashbyhq.com/sarvam/dc047f4f |
 | 13 | 2026-07-04 | Sarvam AI | Performance Engineer On-Device Inference | 3.8/5 | Evaluated | ❌ | [003](../reports/003-pipeline-batch-2026-07-04.md) | Stretch — server TensorRT yes on-device NPU no |
 | 14 | 2026-07-04 | Sarvam AI | Architect On-Device Inference | 2.5/5 | SKIP | ❌ | [003](../reports/003-pipeline-batch-2026-07-04.md) | 8+YOE OEM kernel work too senior |
