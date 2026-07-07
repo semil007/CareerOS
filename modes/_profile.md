@@ -44,12 +44,13 @@ Offer portfolio link in applications for ML Engineer, AI Engineer, and ML Infras
 
 ## Your Comp Targets
 
-**Salary tiers — score ALL of them, don't filter on comp alone:**
+**Salary tiers — score ALL tiers, salary is NOT a filter criterion:**
 
 | Tier | Range (India) | Score | When to apply |
 |------|--------------|-------|---------------|
-| Normal | ₹8L–14L | 3.0 comp | Early-stage startups, tier-2, smaller cos — apply if role/stack is strong |
-| Mid | ₹15L–22L | 3.5–4.0 comp | Funded startups, mid-size product companies — good target |
+| Entry/Junior | ₹4L–8L | 3.0 comp | Junior/graduate roles, early startups — APPLY if ML stack present |
+| Normal | ₹8L–14L | 3.5 comp | Early-stage startups, tier-2, smaller cos — apply if role/stack is strong |
+| Mid | ₹15L–22L | 4.0 comp | Funded startups, mid-size product companies — good target |
 | High | ₹23L–35L | 4.5 comp | Unicorns, top product cos, FAANG India — prioritize |
 | Premium | ₹35L+ | 5.0 comp | FAANG, frontier AI labs, equity-heavy — apply immediately |
 
@@ -61,7 +62,7 @@ Offer portfolio link in applications for ML Engineer, AI Engineer, and ML Infras
 | High | $100K–140K | 4.5 comp |
 | Premium | $140K+ | 5.0 comp |
 
-**Walk-away:** Below ₹8L India / below $40K global remote — skip unless exceptional learning opportunity.
+**Walk-away:** Only roles with ZERO ML/AI component (e.g., pure Salesforce admin, pure Java backend with no ML). Salary alone is NEVER a reason to skip.
 
 **Scoring rule:** Do NOT penalize a role just because it's in the Normal tier. Score comp based on the tier table above. A ₹10L role at a great company with production LLM work scores 3.0 on comp — that's acceptable if stack match (Block B) is 4.5+.
 
@@ -104,6 +105,13 @@ High tier (₹23–35L):
 
 - **Boost (+0.3):** JD mentions vLLM, TensorRT-LLM, Llama, RAG, agentic systems, GPU inference, quantization
 - **Boost (+0.2):** JD mentions W&B, Vertex AI, Azure ML, MLOps, LLMOps
+- **Boost (+0.2):** Junior/entry-level role explicitly — these are high-volume apply targets
 - **Penalty (-0.5):** Pure data analyst / BI / Tableau roles with no ML engineering
-- **Penalty (-0.3):** Roles requiring 7+ years seniority with no mid-level path
-- **Deal-breaker:** No ML/AI component (pure backend, pure frontend, pure DevOps without ML)
+- **Penalty (-0.3):** Roles requiring 7+ years seniority with no mid/junior path
+- **Deal-breaker:** No ML/AI component whatsoever (pure frontend, pure Java backend, pure DevOps without ML)
+
+## Apply Threshold
+
+- **Score ≥ 3.0/5 → APPLY** (the user wants volume; don't skip borderline roles)
+- **Score 2.5–2.9 → BORDERLINE** — note in report, let user decide
+- **Score < 2.5 → SKIP** — genuine mismatch (wrong domain, hard PhD requirement, pure non-ML role)

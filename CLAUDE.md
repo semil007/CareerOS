@@ -317,7 +317,7 @@ Verify a posting is still live before applying — using the cheapest check that
 - **Governance**: BDFL model with contributor ladder — Participant → Contributor → Triager → Reviewer → Maintainer (see `GOVERNANCE.md`)
 - **Security**: private vulnerability reporting via email (see `SECURITY.md`)
 - **Support**: help questions go to Discord/Discussions, not issues (see `SUPPORT.md`)
-- **Discord**: https://discord.gg/8pRpHETxa4
+- **Discord**: https://discord.gg/prcFQ8k4U
 
 ## Stack and Conventions
 

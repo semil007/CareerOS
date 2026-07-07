@@ -30,6 +30,7 @@
 import { readFileSync, existsSync, writeFileSync, mkdirSync, readdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { execFileSync } from 'child_process';
 
 try {
   const { config } = await import('dotenv');
@@ -42,11 +43,22 @@ const ROOT = dirname(fileURLToPath(import.meta.url));
 // Paths
 // ---------------------------------------------------------------------------
 const PATHS = {
-  shared:  join(ROOT, 'modes', '_shared.md'),
-  oferta:  join(ROOT, 'modes', 'oferta.md'),
-  cv:      join(ROOT, 'cv.md'),
-  reports: join(ROOT, 'reports'),
+  shared:           join(ROOT, 'modes', '_shared.md'),
+  oferta:           join(ROOT, 'modes', 'oferta.md'),
+  cv:               join(ROOT, 'cv.md'),
+  reports:          join(ROOT, 'reports'),
+  trackerAdditions: join(ROOT, 'batch', 'tracker-additions'),
 };
+
+function tsvSafe(value) {
+  return String(value ?? '').replace(/[\t\r\n]+/g, ' ').trim();
+}
+
+function normalizedTrackerScore(value) {
+  const clean = tsvSafe(value);
+  if (!clean || clean === '?') return 'N/A';
+  return /\/5$/i.test(clean) ? clean : `${clean}/5`;
+}
 
 // ---------------------------------------------------------------------------
 // CLI argument parsing
@@ -353,6 +365,7 @@ if (summaryMatch) {
 // Save report
 // ---------------------------------------------------------------------------
 if (saveReport) {
+  let reportSaved = false;
   try {
     if (!existsSync(PATHS.reports)) {
       mkdirSync(PATHS.reports, { recursive: true });
@@ -363,6 +376,7 @@ if (saveReport) {
     const companySlug = company.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
     const filename    = `${num}-${companySlug}-${today}.md`;
     const reportPath  = join(PATHS.reports, filename);
+    const trackerPath = join(PATHS.trackerAdditions, `${num}-${companySlug}.tsv`);
 
     const reportContent = `# Evaluation: ${company} — ${role}
 
@@ -379,12 +393,40 @@ ${evaluationText.replace(/---SCORE_SUMMARY---[\s\S]*?---END_SUMMARY---/, '').tri
 `;
 
     writeFileSync(reportPath, reportContent, 'utf-8');
+    mkdirSync(PATHS.trackerAdditions, { recursive: true });
+    
+    const trackerFields = [
+      String(parseInt(num, 10)),
+      today,
+      tsvSafe(company),
+      tsvSafe(role),
+      'Evaluated',
+      normalizedTrackerScore(score),
+      '❌',
+      `[${num}](reports/${filename})`,
+      `OpenAI-compatible (${modelName}) evaluation`,
+    ];
+    writeFileSync(trackerPath, `${trackerFields.join('\t')}\n`, 'utf-8');
+    
     console.log(`\n✅  Report saved: reports/${filename}`);
-
-    console.log(`\n📊  Tracker entry (add to data/applications.md):`);
-    console.log(`    | ${num} | ${today} | ${company} | ${role} | ${score}/5 | Evaluated | ❌ | [${num}](reports/${filename}) |`);
+    console.log(`📊  Tracker entry saved to: batch/tracker-additions/${num}-${companySlug}.tsv`);
+    reportSaved = true;
   } catch (err) {
     console.warn(`⚠️   Could not save report: ${err.message}`);
+  }
+
+  if (reportSaved) {
+    try {
+      const mergeOutput = execFileSync(process.execPath, [join(ROOT, 'merge-tracker.mjs')], {
+        cwd: ROOT,
+        encoding: 'utf-8',
+        stdio: ['ignore', 'pipe', 'pipe'],
+      });
+      if (mergeOutput.trim()) console.log(mergeOutput.trim());
+      console.log('📊  Tracker merged into data/applications.md.');
+    } catch (err) {
+      console.warn(`⚠️   Report saved, but could not merge tracker addition: ${err.message}`);
+    }
   }
 }
 

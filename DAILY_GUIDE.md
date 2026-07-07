@@ -90,10 +90,11 @@ git push
 | `node output/_apply_today.mjs --submit` | After dry run check | Submit all + update tracker |
 | `node followup-cadence.mjs` | Every 2-3 days | Follow-up reminders |
 
-### Weekly
+### Weekly / Maintenance
 
 | Command | What |
 |---------|------|
+| `node merge-tracker.mjs` | Merges pending TSV additions into `data/applications.md` (runs automatically in eval scripts) |
 | `node analyze-patterns.mjs` | Which companies/roles score best for you |
 | `node detect-reposts.mjs --summary` | Flag ghost listings reposted 2+ times |
 | `node verify-pipeline.mjs` | Health check — statuses, links, dupes |
@@ -200,6 +201,21 @@ Non-Sarvam jobs in the same run are unaffected.
 | `modes/_profile.md` | Scoring preferences |
 | `portals.yml` | 91 companies the scanner watches |
 
+## MANUALLY ADDING ENTRY TO TRACKER (TSV MERGE)
+
+To keep `data/applications.md` clean and formatted, **never add new rows manually**. Instead, use the TSV merge workflow:
+
+1. Create a `.tsv` file in `batch/tracker-additions/` (e.g. `999-my-job.tsv`).
+2. Add a single line containing 9 tab-separated values:
+   ```tsv
+   [num]  [date]  [company]  [role]  Evaluated  [score]/5  ❌  [reports/link]  [notes]
+   ```
+3. Run the merger:
+   ```bash
+   node merge-tracker.mjs
+   ```
+This automatically updates `data/applications.md`, resolves duplicates, and archives the TSV file.
+
 ---
 
 ## WHAT NEEDS AI CHAT vs WHAT RUNS LOCALLY
@@ -220,4 +236,4 @@ Non-Sarvam jobs in the same run are unaffected.
 
 ---
 
-*Last updated: 2026-07-04*
+*Last updated: 2026-07-06*

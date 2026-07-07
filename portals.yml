@@ -58,9 +58,24 @@ title_filter:
     - "AI Product Engineer"
     - "Prompt Engineer"
     - "AI Agent"                    # catches "AI Agent Engineer", "AI Agents Platform"
+    # Junior / entry-level ML titles
+    - "Junior ML"
+    - "Junior AI"
+    - "Junior Machine Learning"
+    - "Entry Level ML"
+    - "Entry Level AI"
+    - "Associate ML"
+    - "Associate AI"
+    - "SDE-1"                        # Software Dev Engineer L1
+    - "SDE1"
+    - "L3"                           # Grad-hire level at many India cos
+    - "Graduate Engineer"            # many India MNCs post grad-level ML roles
+    - "Data Engineer"                # Data engineering has heavy ML overlap in India
+    - "ML Ops"                       # space variant of MLOps
+    - "AI Ops"                       # space variant of AIOps
+    - "AI Developer"                 # common alternate title for junior AI engineers
   negative:
     - "Intern"
-    - "Junior"
     - "Data Analyst"
     - "Business Analyst"
     - "Salesforce"
@@ -129,9 +144,36 @@ location_filter:
     - "toronto only"
     - "sydney only"
 
+# Annualized INR range (6 LPA – 25 LPA).
+# Jobs with NO salary data still PASS (conservative — most Indian ATS don't
+# expose salary in the API payload, so we never want to silently drop them).
+# Only drops a job when BOTH bounds are known and the job is entirely outside
+# the range.
+
+# Quick reference:
+#   6 LPA  = 600000 INR / year
+#   10 LPA = 1000000 INR / year
+#   25 LPA = 2500000 INR / year
+
+
+# To disable salary filtering: set both min and max to 0.
+# Salary filter — DISABLED (user wants all roles regardless of comp).
+# Set min: 0 and max: 0 to pass all jobs through.
+salary_filter:
+  min: 0            # 0 = no minimum — junior/entry roles included
+  max: 0            # 0 = no maximum — no ceiling either
+  currency: INR
+
 content_filter:
+  # NOTE: content_filter is applied conservatively — if a job has NO content
+  # field in the ATS API (very common), it PASSES regardless of these lists.
+  # Only drops jobs when content IS available AND it matches a negative keyword.
+  # The positive list is intentionally broad — just needs ONE keyword present.
   positive:
+    - "machine learning"
+    - "deep learning"
     - "pytorch"
+    - "tensorflow"
     - "llm"
     - "rag"
     - "inference"
@@ -145,8 +187,24 @@ content_filter:
     - "transformer"
     - "hugging face"
     - "langchain"
-    - "tensorflow"
-    - "deep learning"
+    - "scikit"
+    - "keras"
+    - "neural network"
+    - "natural language"
+    - "computer vision"
+    - "image recognition"
+    - "recommendation"
+    - "classification"
+    - "regression"
+    - "nlp"
+    - "bert"
+    - "gpt"
+    - "model training"
+    - "model deployment"
+    - "data science"
+    - "feature engineering"
+    - "ml pipeline"
+    - "ai model"
   negative:
     - "wordpress"
     - "salesforce admin"
@@ -164,19 +222,19 @@ tracked_companies:
 
   - name: Observe.AI
     careers_url: https://jobs.ashbyhq.com/observeai
-    enabled: true
+    enabled: false   # 404 — slug moved or closed; check careers page manually
 
   - name: Postman
     careers_url: https://jobs.ashbyhq.com/postman
-    enabled: true
+    enabled: false   # 404 — slug moved or closed
 
   - name: Turing
     careers_url: https://jobs.ashbyhq.com/turing
-    enabled: true
+    enabled: false   # 404 — slug moved; Turing uses own careers portal
 
   - name: Hasura
     careers_url: https://jobs.ashbyhq.com/hasura
-    enabled: true
+    enabled: false   # 404 — Hasura moved to Workday
 
   - name: Cohere
     careers_url: https://jobs.ashbyhq.com/cohere
@@ -196,11 +254,11 @@ tracked_companies:
 
   - name: Glean
     careers_url: https://jobs.ashbyhq.com/glean
-    enabled: true
+    enabled: false   # 404 — Glean moved or closed
 
   - name: Dunzo
     careers_url: https://jobs.ashbyhq.com/dunzo
-    enabled: true
+    enabled: false   # 404 — Dunzo shut down or off Ashby
 
   # ════════════════════════════════════════════════════
   # TIER 2 — INDIA PRODUCT COS (Lever API — zero token)
@@ -211,19 +269,19 @@ tracked_companies:
 
   - name: PhonePe
     careers_url: https://jobs.lever.co/phonepe
-    enabled: true
+    enabled: false   # 404/timeout — PhonePe uses Workday; search via websearch tier
 
   - name: CRED
     careers_url: https://jobs.lever.co/cred-club
-    enabled: true
+    enabled: false   # 404 — CRED moved off Lever
 
   - name: Razorpay
     careers_url: https://jobs.lever.co/razorpay
-    enabled: true
+    enabled: false   # 404 — Razorpay moved off Lever
 
   - name: Zepto
     careers_url: https://jobs.lever.co/zeptonow
-    enabled: true
+    enabled: false   # 404 — Zepto moved off Lever
 
   - name: Freshworks
     careers_url: https://jobs.lever.co/freshworks
@@ -231,35 +289,35 @@ tracked_companies:
 
   - name: Yellow.ai
     careers_url: https://jobs.lever.co/yellowai
-    enabled: true
+    enabled: false   # 404 — Yellow.ai moved off Lever
 
   - name: InMobi
     careers_url: https://jobs.lever.co/inmobi
-    enabled: true
+    enabled: false   # 404 — InMobi moved off Lever
 
   - name: Nference
     careers_url: https://jobs.lever.co/nference
-    enabled: true
+    enabled: false   # 404 — Nference moved off Lever
 
   - name: Flipkart
     careers_url: https://jobs.lever.co/flipkart
-    enabled: true
+    enabled: false   # 404 — Flipkart uses Workday, not Lever
 
   - name: Innovaccer
     careers_url: https://jobs.lever.co/innovaccer
-    enabled: true
+    enabled: false   # 404 — slug changed
 
   - name: Darwinbox
     careers_url: https://jobs.lever.co/darwinbox
-    enabled: true
+    enabled: false   # 404 — Darwinbox uses own careers portal
 
   - name: OLX India
     careers_url: https://jobs.lever.co/olxgroup
-    enabled: true
+    enabled: false   # 404 — OLX India shut down / off Lever
 
   - name: MoEngage
     careers_url: https://jobs.lever.co/moengage
-    enabled: true
+    enabled: false   # 404 — MoEngage moved off Lever
 
   - name: Mindtickle
     careers_url: https://jobs.lever.co/mindtickle
@@ -267,39 +325,39 @@ tracked_companies:
 
   - name: LeadSquared
     careers_url: https://jobs.lever.co/leadsquared
-    enabled: true
+    enabled: false   # 404 — LeadSquared moved off Lever
 
   - name: Vymo
     careers_url: https://jobs.lever.co/vymo
-    enabled: true
+    enabled: false   # 404 — Vymo moved off Lever
 
   - name: Exotel
     careers_url: https://jobs.lever.co/exotel
-    enabled: true
+    enabled: false   # 404 — Exotel moved off Lever
 
   - name: Tiger Analytics
     careers_url: https://jobs.lever.co/tigeranalytics
-    enabled: true
+    enabled: false   # 404 — Tiger Analytics moved off Lever
 
   - name: LatentView Analytics
     careers_url: https://jobs.lever.co/latentview
-    enabled: true
+    enabled: false   # 404 — LatentView moved off Lever
 
   - name: Sigmoid
     careers_url: https://jobs.lever.co/sigmoid
-    enabled: true
+    enabled: false   # 404 — Sigmoid moved off Lever
 
   - name: Quantiphi
     careers_url: https://jobs.lever.co/quantiphi
-    enabled: true
+    enabled: false   # 404 — Quantiphi moved off Lever
 
   - name: Saama Technologies
     careers_url: https://jobs.lever.co/saama
-    enabled: true
+    enabled: false   # 404 — Saama moved off Lever
 
   - name: Incture Technologies
     careers_url: https://jobs.lever.co/incture
-    enabled: true
+    enabled: false   # 404 — Incture moved off Lever
 
   - name: Mistral AI
     careers_url: https://jobs.lever.co/mistral
@@ -307,7 +365,7 @@ tracked_companies:
 
   - name: Persistent Systems
     careers_url: https://jobs.lever.co/persistent
-    enabled: true
+    enabled: false   # 404 — Persistent Systems moved off Lever
 
   # ═════════════════════════════════════════════════════════
   # TIER 3 — INDIA + GLOBAL (Greenhouse API — zero token)
@@ -315,7 +373,7 @@ tracked_companies:
   - name: Swiggy
     careers_url: https://job-boards.greenhouse.io/swiggy
     api: https://boards-api.greenhouse.io/v1/boards/swiggy/jobs
-    enabled: true
+    enabled: false   # 404 — Swiggy moved off Greenhouse; try iimjobs/Naukri
 
   - name: Anthropic
     careers_url: https://job-boards.greenhouse.io/anthropic
@@ -325,27 +383,27 @@ tracked_companies:
   - name: Browserstack
     careers_url: https://job-boards.greenhouse.io/browserstack
     api: https://boards-api.greenhouse.io/v1/boards/browserstack/jobs
-    enabled: true
+    enabled: false   # 404 — BrowserStack moved off Greenhouse
 
   - name: Chargebee
     careers_url: https://job-boards.greenhouse.io/chargebee
     api: https://boards-api.greenhouse.io/v1/boards/chargebee/jobs
-    enabled: true
+    enabled: false   # 404 — Chargebee moved off Greenhouse
 
   - name: CleverTap
     careers_url: https://job-boards.greenhouse.io/clevertap
     api: https://boards-api.greenhouse.io/v1/boards/clevertap/jobs
-    enabled: true
+    enabled: false   # 404 — CleverTap moved off Greenhouse
 
   - name: Sprinklr
     careers_url: https://job-boards.greenhouse.io/sprinklr
     api: https://boards-api.greenhouse.io/v1/boards/sprinklr/jobs
-    enabled: true
+    enabled: false   # 404 — Sprinklr moved off Greenhouse
 
   - name: Fractal Analytics
     careers_url: https://job-boards.greenhouse.io/fractalanalytics
     api: https://boards-api.greenhouse.io/v1/boards/fractalanalytics/jobs
-    enabled: true
+    enabled: false   # 404 — Fractal Analytics moved off Greenhouse
 
   - name: ThoughtWorks India
     careers_url: https://job-boards.greenhouse.io/thoughtworks
@@ -355,7 +413,7 @@ tracked_companies:
   - name: Lenskart
     careers_url: https://job-boards.greenhouse.io/lenskart
     api: https://boards-api.greenhouse.io/v1/boards/lenskart/jobs
-    enabled: true
+    enabled: false   # 404 — Lenskart moved off Greenhouse
 
   - name: Weights & Biases (CoreWeave)
     careers_url: https://job-boards.greenhouse.io/coreweave
@@ -380,7 +438,7 @@ tracked_companies:
   - name: Cohesity
     careers_url: https://job-boards.greenhouse.io/cohesity
     api: https://boards-api.greenhouse.io/v1/boards/cohesity/jobs
-    enabled: true
+    enabled: false   # 404 — Cohesity moved off Greenhouse
 
   - name: Druva
     careers_url: https://job-boards.greenhouse.io/druva
@@ -390,7 +448,7 @@ tracked_companies:
   - name: Icertis
     careers_url: https://job-boards.greenhouse.io/icertis
     api: https://boards-api.greenhouse.io/v1/boards/icertis/jobs
-    enabled: true
+    enabled: false   # 404 — Icertis moved off Greenhouse
 
   - name: Rubrik
     careers_url: https://job-boards.greenhouse.io/rubrik
@@ -400,17 +458,17 @@ tracked_companies:
   - name: Palo Alto Networks India
     careers_url: https://job-boards.greenhouse.io/paloaltonetworks
     api: https://boards-api.greenhouse.io/v1/boards/paloaltonetworks/jobs
-    enabled: true
+    enabled: false   # 404 — PAN moved off Greenhouse
 
   - name: Whatfix
     careers_url: https://job-boards.greenhouse.io/whatfix
     api: https://boards-api.greenhouse.io/v1/boards/whatfix/jobs
-    enabled: true
+    enabled: false   # 404 — Whatfix moved off Greenhouse
 
   - name: Mindtree (LTIMindtree)
     careers_url: https://job-boards.greenhouse.io/ltimindtree
     api: https://boards-api.greenhouse.io/v1/boards/ltimindtree/jobs
-    enabled: true
+    enabled: false   # 404 — LTIMindtree moved off Greenhouse
 
   # ══════════════════════════════════════════════════
   # TIER 4 — GLOBAL BOARDS (provider-based, zero token)
@@ -426,6 +484,42 @@ tracked_companies:
   - name: Himalayas
     provider: himalayas
     enabled: true
+
+  # ═══════════════════════════════════════════════════════════════════════
+  # TIER 4b — ADDITIONAL ZERO-TOKEN BOARD PROVIDERS (native parsers)
+  # These use built-in providers — no AI tokens, no websearch, pure API/RSS.
+  # ═══════════════════════════════════════════════════════════════════════
+  - name: We Work Remotely
+    provider: weworkremotely      # native RSS provider — much better than websearch
+    enabled: true
+
+  - name: Working Nomads
+    provider: workingnomads       # native JSON provider
+    enabled: true
+
+  - name: Jobicy
+    provider: jobicy              # native JSON feed — global remote AI/ML roles
+    enabled: true
+
+  - name: Hacker News Hiring
+    provider: hackernews          # scrapes monthly "Ask HN: Who is hiring?" thread
+    enabled: true
+
+  - name: Glints India
+    provider: glints
+    searchKeywords: "Machine Learning AI Engineer LLM MLOps"
+    countryCode: IN               # IN = India
+    pageSize: 30
+    maxPages: 5
+    enabled: false   # 403 — Cloudflare firewall blocks direct requests without cookies
+
+  - name: Glints Remote
+    provider: glints
+    searchKeywords: "Machine Learning Engineer AI LLM MLOps remote"
+    countryCode: ID               # ID = Indonesia/SE Asia — broad remote coverage
+    pageSize: 30
+    maxPages: 3
+    enabled: false   # 403 — Cloudflare firewall blocks direct requests without cookies
 
   # ════════════════════════════════════════════════════
   # TIER 5 — MNC INDIA GCC / R&D CENTRES (websearch)
@@ -619,10 +713,149 @@ tracked_companies:
     scan_query: 'site:apply.workable.com/huggingface "ML" OR "Inference" OR "Research" remote'
     enabled: true
 
+  # ═══════════════════════════════════════════════════════════
+  # TIER 7 — INDIA-CENTRIC JOB BOARDS (from top_25 list)
+  # ═══════════════════════════════════════════════════════════
+  - name: Hirist
+    careers_url: https://www.hirist.tech
+    scan_method: websearch
+    scan_query: 'site:hirist.tech "Machine Learning" OR "AI Engineer" OR "LLM" OR "MLOps" OR "Generative AI" bangalore OR chennai OR hyderabad OR india'
+    enabled: true
+
+  - name: Foundit (Monster APAC)
+    careers_url: https://www.foundit.in
+    scan_method: websearch
+    scan_query: 'site:foundit.in "Machine Learning Engineer" OR "AI Engineer" OR "LLM" OR "Deep Learning" bangalore OR chennai OR hyderabad OR mumbai OR pune'
+    enabled: true
+
+  - name: Instahyre
+    careers_url: https://www.instahyre.com
+    scan_method: websearch
+    scan_query: '"instahyre" "Machine Learning" OR "AI Engineer" OR "LLM" OR "MLOps" bangalore OR hyderabad OR india'
+    enabled: true
+
+  - name: Cuvette
+    careers_url: https://cuvette.tech
+    scan_method: websearch
+    scan_query: 'site:cuvette.tech "Machine Learning" OR "AI Engineer" OR "Deep Learning" OR "NLP" india'
+    enabled: true
+
+  - name: GeeksforGeeks Jobs
+    careers_url: https://www.geeksforgeeks.org/jobs
+    scan_method: websearch
+    scan_query: 'site:geeksforgeeks.org/jobs "Machine Learning" OR "AI Engineer" OR "LLM" OR "Data Science" india bangalore OR hyderabad'
+    enabled: true
+
+  - name: Hasjob (Hasgeek)
+    careers_url: https://hasjob.co
+    scan_method: websearch
+    scan_query: 'site:hasjob.co "Machine Learning" OR "AI" OR "LLM" OR "Deep Learning" india'
+    enabled: true
+
+  # ═══════════════════════════════════════════════════════════
+  # TIER 8 — REMOTE-FIRST & GLOBAL BOARDS (from top_25 list)
+  # ═══════════════════════════════════════════════════════════
+  - name: We Work Remotely
+    careers_url: https://weworkremotely.com
+    scan_method: websearch
+    scan_query: 'site:weworkremotely.com "Machine Learning" OR "AI Engineer" OR "LLM" OR "MLOps" OR "Generative AI"'
+    enabled: true
+
+  - name: Remote.co
+    careers_url: https://remote.co
+    scan_method: websearch
+    scan_query: 'site:remote.co "Machine Learning" OR "AI Engineer" OR "LLM" OR "Deep Learning" remote'
+    enabled: true
+
+  - name: FlexJobs
+    careers_url: https://www.flexjobs.com
+    scan_method: websearch
+    scan_query: 'site:flexjobs.com "Machine Learning Engineer" OR "AI Engineer" OR "MLOps" remote'
+    enabled: true
+
+  - name: Working Nomads
+    careers_url: https://www.workingnomads.com
+    scan_method: websearch
+    scan_query: 'site:workingnomads.com "Machine Learning" OR "AI Engineer" OR "LLM" OR "Data Science" remote'
+    enabled: true
+
+  # ═══════════════════════════════════════════════════════════
+  # TIER 9 — DEDICATED AI/ML NICHE PORTALS (from top_25 list)
+  # ═══════════════════════════════════════════════════════════
+  - name: AI Jobs (aijobs.ai)
+    careers_url: https://aijobs.ai
+    scan_method: websearch
+    scan_query: 'site:aijobs.ai "Machine Learning" OR "AI Engineer" OR "LLM" OR "MLOps" OR "Inference" india OR remote'
+    enabled: true
+
+  - name: Kaggle Jobs
+    careers_url: https://www.kaggle.com/jobs
+    scan_method: websearch
+    scan_query: 'site:kaggle.com/jobs "Machine Learning" OR "AI" OR "Data Science" OR "LLM" india OR remote'
+    enabled: true
+
+  # ═══════════════════════════════════════════════════════════
+  # TIER 10 — VETTED TALENT NETWORKS (from top_25 list)
+  # ═══════════════════════════════════════════════════════════
+  - name: Toptal
+    careers_url: https://www.toptal.com
+    scan_method: websearch
+    scan_query: 'site:toptal.com "Machine Learning" OR "AI Engineer" OR "Data Scientist" OR "LLM" remote india'
+    enabled: true
+
+  - name: Upwork
+    careers_url: https://www.upwork.com
+    scan_method: websearch
+    scan_query: 'site:upwork.com/freelance-jobs "Machine Learning" OR "AI Engineer" OR "LLM" OR "MLOps" remote'
+    enabled: true
+
+  - name: Braintrust
+    careers_url: https://www.usebraintrust.com
+    scan_method: websearch
+    scan_query: 'site:usebraintrust.com "Machine Learning" OR "AI Engineer" OR "LLM" OR "Deep Learning" remote'
+    enabled: true
+
+  - name: Gun.io
+    careers_url: https://www.gun.io
+    scan_method: websearch
+    scan_query: 'site:gun.io "Machine Learning" OR "AI Engineer" OR "LLM" OR "MLOps" remote'
+    enabled: true
+
+  - name: Revelo
+    careers_url: https://www.revelo.com
+    scan_method: websearch
+    scan_query: 'site:revelo.com "Machine Learning" OR "AI Engineer" OR "Data Science" remote india OR "asia timezone"'
+    enabled: true
+
+  # ═══════════════════════════════════════════════════════════
+  # TIER 11 — MODERN AI SOURCING MARKETPLACES (from top_25 list)
+  # ═══════════════════════════════════════════════════════════
+  - name: Paraform
+    careers_url: https://www.paraform.com
+    scan_method: websearch
+    scan_query: 'site:paraform.com "Machine Learning" OR "AI Engineer" OR "LLM" OR "AI" remote india'
+    enabled: true
+
+  - name: Dover
+    careers_url: https://www.dover.com
+    scan_method: websearch
+    scan_query: 'site:dover.com "Machine Learning" OR "AI Engineer" OR "LLM" OR "MLOps" remote'
+    enabled: true
+
+  - name: Underdog.io
+    careers_url: https://underdog.io
+    scan_method: websearch
+    scan_query: 'site:underdog.io "Machine Learning" OR "AI Engineer" OR "LLM" OR "Generative AI" remote india'
+    enabled: true
+
 search_queries:
   # ── Greenhouse board — India ML/AI (API-backed, very fast) ───────────
   - name: Greenhouse India — ML Engineer
     query: 'site:job-boards.greenhouse.io "Machine Learning" OR "AI Engineer" OR "LLM" bangalore OR chennai OR hyderabad OR mumbai OR india'
+    enabled: true
+
+  - name: Greenhouse India — Data Science / GenAI
+    query: 'site:job-boards.greenhouse.io "Data Scientist" OR "Generative AI" OR "AI Research" bangalore OR hyderabad OR india'
     enabled: true
 
   - name: Greenhouse India — MLOps / Inference
@@ -640,6 +873,7 @@ search_queries:
     enabled: true
 
   # ── LinkedIn India (websearch proxy) ────────────────────────────────
+  # LinkedIn has the most AI/ML jobs in India — we hit it from many angles.
   - name: LinkedIn — ML Engineer Bangalore
     query: '"Machine Learning Engineer" OR "AI Engineer" bangalore site:linkedin.com/jobs'
     enabled: true
@@ -654,6 +888,26 @@ search_queries:
 
   - name: LinkedIn — MLOps India
     query: '"MLOps Engineer" OR "ML Platform Engineer" OR "LLMOps" india site:linkedin.com/jobs'
+    enabled: true
+
+  - name: LinkedIn — NLP / Computer Vision India
+    query: '"NLP Engineer" OR "Computer Vision Engineer" OR "Deep Learning Engineer" india bangalore OR hyderabad OR chennai site:linkedin.com/jobs'
+    enabled: true
+
+  - name: LinkedIn — AI Startup India (6-10 LPA range)
+    query: '"ML Engineer" OR "AI Engineer" india "6 LPA" OR "7 LPA" OR "8 LPA" OR "9 LPA" OR "10 LPA" site:linkedin.com/jobs'
+    enabled: true
+
+  - name: LinkedIn — ML Infrastructure India
+    query: '"ML Infrastructure" OR "AI Infrastructure" OR "GPU Engineer" OR "Inference Engineer" india site:linkedin.com/jobs'
+    enabled: true
+
+  - name: LinkedIn — Data Science India Startups
+    query: '"Data Scientist" OR "ML Scientist" india startup bangalore OR hyderabad OR chennai site:linkedin.com/jobs'
+    enabled: true
+
+  - name: LinkedIn — Remote AI/ML India-friendly
+    query: '"Machine Learning" OR "AI Engineer" remote india OR IST OR "Asia/Kolkata" site:linkedin.com/jobs'
     enabled: true
 
   # ── Naukri (India's biggest job board) ──────────────────────────────

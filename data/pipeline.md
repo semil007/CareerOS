@@ -8,6 +8,21 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [x] https://himalayas.app/companies/may-mobility/jobs/lead-ml-engineer-mapping | May Mobility | Lead ML Engineer - Mapping | Canada, France, Germany, India, Netherlands, United Kingdom, United States
 
+- [x] https://job-boards.greenhouse.io/arizeai/jobs/5396396004 | Arize AI | Senior AI Product Engineer, Backend | Remote (United States)
+- [x] https://job-boards.greenhouse.io/arizeai/jobs/5396420004 | Arize AI | Senior AI Product Engineer, Fullstack | Remote (United States)
+- [x] https://www.druva.com/why-druva/explore/careers/jobs/8564142002/?gh_jid=8564142002 | Druva | Staff Software Engineer (AI) | Pune, Maharashtra, India
+
+- [x] https://weworkremotely.com/remote-jobs/qventus-senior-lead-product-manager-agentic-ai-platform | Qventus | Senior/Lead Product Manager, Agentic AI Platform | Anywhere in the World
+- [x] https://weworkremotely.com/remote-jobs/rimini-street-forward-deployed-engineer-agentic-ai | Rimini Street | Forward Deployed Engineer (Agentic AI) | Anywhere in the World
+- [x] https://weworkremotely.com/remote-jobs/reveleer-full-stack-ai-engineer | Reveleer | Full Stack AI Engineer | Anywhere in the World
+- [x] https://weworkremotely.com/remote-jobs/tether-ai-research-engineer | Tether | AI Research Engineer | Anywhere in the World
+
+- [x] https://jobs.ashbyhq.com/sarvam/7ee2ff5d-32a2-4b0a-9ae9-117ba8b626d1 | Sarvam AI | Staff Data Engineer | Bengaluru
+- [x] https://jobs.ashbyhq.com/sarvam/e7f783e8-6378-4158-97d5-48a397a91698 | Sarvam AI | ML Ops Engineer, Chanakya | Delhi
+- [x] https://jobs.lever.co/meesho/489fe662-5d28-4305-953e-91ee21e8538c | Meesho | Data Scientist III | Bangalore, Karnataka
+- [x] https://jobs.lever.co/meesho/3d5bf582-493f-4298-b7de-e42a7d58a358 | Meesho | Principal Data Scientist | Bangalore, Karnataka
+- [x] https://jobs.lever.co/meesho/322aaf36-0d79-4190-876f-8b2e91b707bf | Meesho | Senior Principal Data Scientist | Bangalore, Karnataka
+
 ## Processed
 
 - [x] https://remoteok.com/remote-jobs/remote-senior-ai-engineer-architect-lemon-io-1134396 | Lemon.io | Senior AI Engineer / Architect | Remote — Score: 4.1/5 ✅ Apply

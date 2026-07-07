@@ -51,13 +51,78 @@ function readPending() {
 }
 
 // ── fetch JD text via Playwright ─────────────────────────────────
-async function fetchJD(url) {
+async function fetchJD(url, company = '') {
+  // 1. Try Greenhouse API first to avoid iframes and cookie/bot walls
+  const m1 = url.match(/(?:job-boards|boards)\.greenhouse\.io\/([^/]+)\/jobs\/(\d+)/);
+  const m2 = url.match(/gh_jid=(\d+)/);
+  if (m1 || m2) {
+    const jobId = m1 ? m1[2] : m2[1];
+    let board = m1 ? m1[1] : null;
+    if (!board && company) {
+      board = company.toLowerCase().replace(/[^a-z0-9]+/g, '');
+    }
+    if (board && jobId) {
+      try {
+        const res = await fetch(`https://boards-api.greenhouse.io/v1/boards/${board}/jobs/${jobId}`);
+        if (res.ok) {
+          const json = await res.json();
+          if (json.content) {
+            const decoded = json.content
+              .replace(/&amp;/g, '&')
+              .replace(/&lt;/g, '<')
+              .replace(/&gt;/g, '>')
+              .replace(/&quot;/g, '"')
+              .replace(/&#39;/g, "'")
+              .replace(/&nbsp;/g, ' ');
+            const cleanText = decoded.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+            return `URL: ${url}\nCompany: ${json.company_name || company}\nTitle: ${json.title}\n\n${cleanText}`;
+          }
+        }
+      } catch (e) {
+        // Fall back silently to Playwright
+      }
+    }
+  }
+
+  // 1.5. Try Ashby API next to bypass anti-bot and client-rendering delay
+  const mAshby = url.match(/jobs\.ashbyhq\.com\/([^/]+)\/([^/?#]+)/);
+  if (mAshby) {
+    const board = mAshby[1];
+    const jobId = mAshby[2];
+    if (board && jobId) {
+      try {
+        const res = await fetch(`https://api.ashbyhq.com/posting-api/job-board/${board}?includeCompensation=true`);
+        if (res.ok) {
+          const json = await res.json();
+          if (json && Array.isArray(json.jobs)) {
+            const job = json.jobs.find(j => j.id === jobId || (j.jobUrl && j.jobUrl.includes(jobId)));
+            if (job) {
+              const description = job.descriptionPlain || job.descriptionHtml || '';
+              const cleanText = description
+                .replace(/<[^>]*>/g, ' ')
+                .replace(/\s+/g, ' ')
+                .trim();
+              return `URL: ${url}\nCompany: ${company || board}\nTitle: ${job.title}\n\n${cleanText}`;
+            }
+          }
+        }
+      } catch (e) {
+        // Fall back silently to Playwright
+      }
+    }
+  }
+
+  // 2. Playwright fallback with realistic User-Agent
   let chromium;
   try { ({ chromium } = await import('playwright')); }
   catch { throw new Error('Playwright not installed — run: npx playwright install chromium'); }
 
   const browser = await chromium.launch({ headless: true });
-  const page    = await browser.newPage();
+  const context = await browser.newContext({
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    locale: 'en-US',
+  });
+  const page = await context.newPage();
   try {
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
     await page.waitForTimeout(2500);
@@ -132,7 +197,7 @@ for (const [i, job] of toProcess.entries()) {
   try {
     // 1. Fetch JD
     process.stdout.write('  [1/3] Fetching JD... ');
-    const jdText = await fetchJD(job.url);
+    const jdText = await fetchJD(job.url, job.company);
     writeFileSync(tmpFile, jdText, 'utf-8');
     console.log(`done (${Math.round(jdText.length / 1000)}k chars)`);
 
