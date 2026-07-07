@@ -418,6 +418,10 @@ export async function renderHtmlToPdf(html, outputPath, opts = {}) {
     const pdfString = pdfBuffer.toString('latin1');
     const pageCount = (pdfString.match(/\/Type\s*\/Page[^s]/g) || []).length;
 
+    if (pageCount > 1) {
+      throw new Error(`PDF generation failed: Generated PDF is ${pageCount} pages, but must be strictly 1 page. Adjust margins or trim content.`);
+    }
+
     console.log(`✅ PDF generated: ${outputPath}`);
     console.log(`📊 Pages: ${pageCount}`);
     console.log(`📦 Size: ${(pdfBuffer.length / 1024).toFixed(1)} KB`);

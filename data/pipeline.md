@@ -23,6 +23,22 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [x] https://jobs.lever.co/meesho/3d5bf582-493f-4298-b7de-e42a7d58a358 | Meesho | Principal Data Scientist | Bangalore, Karnataka
 - [x] https://jobs.lever.co/meesho/322aaf36-0d79-4190-876f-8b2e91b707bf | Meesho | Senior Principal Data Scientist | Bangalore, Karnataka
 
+- [x] https://weworkremotely.com/remote-jobs/a-team-senior-independent-ai-engineer-architect | A.Team | Senior Independent AI Engineer / Architect | Anywhere in the World
+
+- [x] https://jobs.ashbyhq.com/articul8/12b6cc4e-5fe2-4a47-a898-24a4617bb8de | Articul8 AI | Principal Applied AI Researcher - Domain- Specific Models (Brazil) | Brazil/Remote
+- [x] https://jobs.ashbyhq.com/articul8/50b4a531-f683-4105-9cca-cad851cdcdcd | Articul8 AI | Applied AI Researcher (Brazil) | Brazil/Remote
+- [x] https://jobs.ashbyhq.com/articul8/73bff7e6-827a-4a70-b7a9-712d421a8dd8 | Articul8 AI | Applied AI Researcher (India) | India/Bengaluru — Score: 2.2/5 ⏭ Skip (PhD required)
+- [x] https://jobs.ashbyhq.com/articul8/a390b489-5c17-4f62-91a6-97cbd030a652 | Articul8 AI | Senior Applied AI Researcher (India) | India/Bengaluru
+- [x] https://jobs.ashbyhq.com/articul8/aa885799-445c-49d1-8607-0f3346e8cf15 | Articul8 AI | Senior Applied AI Researcher (Brazil) | Brazil/Remote
+- [x] https://jobs.ashbyhq.com/articul8/fab35c76-2048-4540-a7ab-118b9b56e434 | Articul8 AI | Principal Applied AI Researcher - Domain- Specific Models (India) | India/Bengaluru
+
+- [x] https://jobs.ashbyhq.com/wisdom-ai/93441adc-4cd9-4253-a335-c20a5aa4ada6 | Wisdom AI | Software Engineer, NLP/Machine Learning | Bengaluru — Score: 4.3/5 ✅ Apply
+- [x] https://jobs.ashbyhq.com/wisdom-ai/a590329c-488f-4382-944e-bb70d04bb674 | Wisdom AI | Agentic Context Engineer - Bengaluru, India | Bengaluru — Score: 3.0/5 ⚠️ Below threshold
+
+- [x] https://jobs.ashbyhq.com/kantiv/d28a422f-970b-4ad8-869f-a8d02deda68f | Joist AI (Kantiv) | Agentic Systems Engineer | Remote - India — Score: 4.2/5 ✅ Apply
+
+- [x] https://himalayas.app/companies/saaf-finance/jobs/forward-deployed-ai-engineer-8721758659 | Saaf Finance | Forward-Deployed AI Engineer | India
+
 ## Processed
 
 - [x] https://remoteok.com/remote-jobs/remote-senior-ai-engineer-architect-lemon-io-1134396 | Lemon.io | Senior AI Engineer / Architect | Remote — Score: 4.1/5 ✅ Apply

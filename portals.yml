@@ -220,6 +220,18 @@ tracked_companies:
     careers_url: https://jobs.ashbyhq.com/sarvam
     enabled: true
 
+  - name: Articul8 AI
+    careers_url: https://jobs.ashbyhq.com/articul8
+    enabled: true
+
+  - name: Wisdom AI
+    careers_url: https://jobs.ashbyhq.com/wisdom-ai
+    enabled: true
+
+  - name: Joist AI (Kantiv)
+    careers_url: https://jobs.ashbyhq.com/kantiv
+    enabled: true
+
   - name: Observe.AI
     careers_url: https://jobs.ashbyhq.com/observeai
     enabled: false   # 404 — slug moved or closed; check careers page manually

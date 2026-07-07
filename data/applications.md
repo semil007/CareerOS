@@ -2,6 +2,14 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 43 | 2026-07-07 | Saaf Finance | Forward‑Deployed AI Engineer | 4.4/5 | Evaluated | ❌ | [036](../reports/036-saaf-finance-2026-07-07.md) | OpenAI-compatible (openai/gpt-oss-120b) evaluation |
+| 42 | 2026-07-07 | Articul8 AI | Principal Applied AI Researcher - Domain-Specific Models | 2.7/5 | Evaluated | ❌ | [035](../reports/035-articul8-ai-2026-07-07.md) | Re-eval 2026-07-07 (2.5→2.7). OpenAI-compatible (openai/gpt-oss-120b) evaluation |
+| 41 | 2026-07-07 | A.Team | Senior Independent AI Engineer / Architect | 4.2/5 | ✅ | ❌ | [030](../reports/030-a-team-2026-07-07.md) | OpenAI-compatible (openai/gpt-oss-120b) evaluation |
+| 40 | 2026-07-07 | Joist AI (Kantiv) | Agentic Systems Engineer | 4.2/5 | ✅ | ❌ | [029](../reports/029-joist-ai-kantiv-2026-07-07.md) | OpenAI-compatible (openai/gpt-oss-120b) evaluation |
+| 39 | 2026-07-07 | Wisdom AI | Software Engineer, NLP/Machine Learning | 4.3/5 | ✅ | ❌ | [028](../reports/028-wisdom-ai-2026-07-07.md) | OpenAI-compatible (openai/gpt-oss-120b) evaluation |
+| 38 | 2026-07-07 | Wisdom AI | Agentic Context Engineer | 3.0/5 | Evaluated | ❌ | [027](../reports/027-wisdom-ai-2026-07-07.md) | OpenAI-compatible (openai/gpt-oss-120b) evaluation |
+| 37 | 2026-07-07 | Articul8 AI | Applied AI Researcher (Brazil) | 3.6/5 | Evaluated | ❌ | [032](../reports/032-articul8-ai-2026-07-07.md) | Re-eval 2026-07-07 (2.2→3.6). OpenAI-compatible (openai/gpt-oss-120b) evaluation |
+| 36 | 2026-07-07 | Unknown | Unknown | 0.0/5 | Evaluated | ❌ | [025](../reports/025-unknown-2026-07-07.md) | OpenAI-compatible (Qwen/Qwen3.7-Plus) evaluation |
 | 35 | 2026-07-06 | Sarvam AI | ML Ops Engineer, Chanakya | 3.7/5 | Evaluated | ❌ | [024](../reports/024-sarvam-ai-2026-07-06.md) | OpenAI-compatible (Qwen/Qwen3.7-Plus) evaluation |
 | 34 | 2026-07-06 | Meesho | Data Scientist III | 3.0/5 | Evaluated | ❌ | [021](../reports/021-meesho-2026-07-06.md) | OpenAI-compatible (Qwen/Qwen3.7-Plus) evaluation |
 | 33 | 2026-07-06 | unknown | unknown | N/A | Evaluated | ❌ | [020](../reports/020-unknown-2026-07-06.md) | OpenAI-compatible (Qwen/Qwen3.7-Plus) evaluation |

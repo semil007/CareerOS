@@ -196,8 +196,17 @@ const userMessage = `Tailor the CV for this job:\n\n${jdText.slice(0, 8000)}`;
 let tailored;
 try {
   const raw = await callModel(systemPrompt, userMessage);
-  // Strip markdown code fences if model wraps in ```json ... ```
-  const clean = raw.replace(/^```(?:json)?\s*/i, '').replace(/\s*```\s*$/, '').trim();
+  
+  // Extract JSON object to ignore conversational filler (e.g. "I'm sorry, here is the JSON: ...")
+  let clean = raw;
+  const jsonMatch = raw.match(/\{[\s\S]*\}/);
+  if (jsonMatch) {
+    clean = jsonMatch[0];
+  } else {
+    // Fallback to strip markdown if no clear block is found
+    clean = raw.replace(/^```(?:json)?\s*/i, '').replace(/\s*```\s*$/, '').trim();
+  }
+  
   tailored = JSON.parse(clean);
 } catch (err) {
   console.error(`❌  Model error or JSON parse failed: ${err.message}`);
@@ -216,20 +225,15 @@ let html;
 if (templateHtml) {
   html = templateHtml
     .replace(
-      /(<div class="header-sub">)[^<]*/,
+      /(<div class="title-line">)[^<]*/,
       `$1${tailored.headline}`
     )
     .replace(
-      /(<div class="summary-text">\s*)[^<]*/s,
+      /(<p class="summary-text">\s*)[^<]*/s,
       (_, open) => open + (tailored.summary || '')
     )
     .replace(
-      /(<div class="competencies-grid">)[\s\S]*?(<\/div>)/,
-      `$1\n      ${tagsHtml}\n    $2`
-    )
-    .replace(
-      // Replace AK Technologies bullet list
-      /(<div class="job-role">Machine Learning Engineer[^<]*<\/div>\s*<ul>)[\s\S]*?(<\/ul>)/,
+      /(<div class="entry-title-company">Machine Learning Engineer[\s\S]*?<\/div>[\s\S]*?<ul class="bullets">)[\s\S]*?(<\/ul>)/,
       `$1\n        ${bulletsHtml}\n      $2`
     );
 } else {

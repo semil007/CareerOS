@@ -285,20 +285,42 @@ console.log(`🤖  Calling ${modelName} via ${endpointHost}... this may take a m
 const headers = { 'Content-Type': 'application/json' };
 if (apiKey) headers['Authorization'] = `Bearer ${apiKey}`;
 
+// Sanitize strings to remove control characters that break JSON parsing on
+// some API servers (Qubrid/vLLM in particular reject bodies with stray \x00-\x1F
+// control chars outside of the standard \n \r \t).
+function sanitizeForJson(str) {
+  // eslint-disable-next-line no-control-regex
+  return str.replace(/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/g, '');
+}
+
+const cleanSystemPrompt = sanitizeForJson(systemPrompt);
+const cleanJdText       = sanitizeForJson(jdText);
+
+const requestBody = {
+  model:    modelName,
+  messages: [
+    { role: 'system', content: cleanSystemPrompt },
+    { role: 'user',   content: `JOB DESCRIPTION TO EVALUATE:\n\n${cleanJdText}` },
+  ],
+  stream:      false,
+  temperature: 0.4,
+};
+
+// Validate JSON serialization before sending
+let bodyString;
+try {
+  bodyString = JSON.stringify(requestBody);
+} catch (jsonErr) {
+  console.error(`❌  Failed to serialize request body to JSON: ${jsonErr.message}`);
+  process.exit(1);
+}
+
 let evaluationText;
 try {
   const res = await fetch(endpoint, {
     method: 'POST',
     headers,
-    body: JSON.stringify({
-      model:    modelName,
-      messages: [
-        { role: 'system', content: systemPrompt },
-        { role: 'user',   content: `JOB DESCRIPTION TO EVALUATE:\n\n${jdText}` },
-      ],
-      stream:      false,
-      temperature: 0.4,
-    }),
+    body: bodyString,
     signal: AbortSignal.timeout(timeoutMs),
   });
 
