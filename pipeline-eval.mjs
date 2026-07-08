@@ -112,6 +112,43 @@ async function fetchJD(url, company = '') {
     }
   }
 
+  // 1.7. Try SmartRecruiters API to bypass bot walls
+  const mSR = url.match(/jobs\.smartrecruiters\.com\/([^/]+)\/postings\/(\d+)/) || url.match(/jobs\.smartrecruiters\.com\/([^/]+)\/(\d+)/);
+  if (mSR) {
+    const company = mSR[1];
+    const jobId = mSR[2];
+    if (company && jobId) {
+      try {
+        const res = await fetch(`https://api.smartrecruiters.com/v1/companies/${company}/postings/${jobId}`);
+        if (res.ok) {
+          const json = await res.json();
+          if (json && json.jobAd && json.jobAd.sections) {
+            const sections = json.jobAd.sections;
+            const pieces = [
+              sections.companyDescription?.text,
+              sections.jobDescription?.text,
+              sections.qualifications?.text,
+              sections.additionalInformation?.text
+            ].filter(Boolean).join('\n');
+            const cleanText = pieces
+              .replace(/&amp;/g, '&')
+              .replace(/&lt;/g, '<')
+              .replace(/&gt;/g, '>')
+              .replace(/&quot;/g, '"')
+              .replace(/&#39;/g, "'")
+              .replace(/&nbsp;/g, ' ')
+              .replace(/<[^>]*>/g, ' ')
+              .replace(/\s+/g, ' ')
+              .trim();
+            return `URL: ${url}\nCompany: ${json.company?.name || company}\nTitle: ${json.name}\n\n${cleanText}`;
+          }
+        }
+      } catch (e) {
+        // Fall back silently to Playwright
+      }
+    }
+  }
+
   // 2. Playwright fallback with realistic User-Agent
   let chromium;
   try { ({ chromium } = await import('playwright')); }

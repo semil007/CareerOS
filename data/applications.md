@@ -2,7 +2,12 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
-| 43 | 2026-07-07 | Saaf Finance | Forward‑Deployed AI Engineer | 4.4/5 | Evaluated | ❌ | [036](../reports/036-saaf-finance-2026-07-07.md) | OpenAI-compatible (openai/gpt-oss-120b) evaluation |
+| 48 | 2026-07-08 | Bosch Group | Sr Data Engineer | 2.0/5 | Evaluated | ❌ | [047](../reports/047-bosch-group-2026-07-08.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 47 | 2026-07-08 | unknown | unknown | N/A | Evaluated | ❌ | [042](../reports/042-unknown-2026-07-08.md) | OpenAI-compatible (openai/gpt-oss-120b) evaluation |
+| 46 | 2026-07-08 | unknown | unknown | N/A | Evaluated | ❌ | [041](../reports/041-unknown-2026-07-08.md) | OpenAI-compatible (openai/gpt-oss-120b) evaluation |
+| 45 | 2026-07-08 | unknown | unknown | N/A | Evaluated | ❌ | [040](../reports/040-unknown-2026-07-08.md) | OpenAI-compatible (openai/gpt-oss-120b) evaluation |
+| 44 | 2026-07-08 | unknown | unknown | N/A | Evaluated | ❌ | [039](../reports/039-unknown-2026-07-08.md) | OpenAI-compatible (openai/gpt-oss-120b) evaluation |
+| 43 | 2026-07-08 | unknown | unknown | N/A | Evaluated | ❌ | [038](../reports/038-unknown-2026-07-08.md) | OpenAI-compatible (openai/gpt-oss-120b) evaluation |
 | 42 | 2026-07-07 | Articul8 AI | Principal Applied AI Researcher - Domain-Specific Models | 2.7/5 | Evaluated | ❌ | [035](../reports/035-articul8-ai-2026-07-07.md) | Re-eval 2026-07-07 (2.5→2.7). OpenAI-compatible (openai/gpt-oss-120b) evaluation |
 | 41 | 2026-07-07 | A.Team | Senior Independent AI Engineer / Architect | 4.2/5 | ✅ | ❌ | [030](../reports/030-a-team-2026-07-07.md) | OpenAI-compatible (openai/gpt-oss-120b) evaluation |
 | 40 | 2026-07-07 | Joist AI (Kantiv) | Agentic Systems Engineer | 4.2/5 | ✅ | ❌ | [029](../reports/029-joist-ai-kantiv-2026-07-07.md) | OpenAI-compatible (openai/gpt-oss-120b) evaluation |

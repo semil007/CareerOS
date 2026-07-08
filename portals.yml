@@ -550,8 +550,9 @@ tracked_companies:
 
   - name: Amazon India (AWS / Science)
     careers_url: https://www.amazon.jobs
-    scan_method: websearch
-    scan_query: 'site:amazon.jobs "Machine Learning Engineer" OR "Applied Scientist" OR "AI Engineer" bangalore OR hyderabad OR chennai india'
+    provider: amazon
+    query: "Machine Learning"
+    location: "India"
     enabled: true
 
   - name: Meta India
@@ -567,15 +568,11 @@ tracked_companies:
     enabled: true
 
   - name: Salesforce India
-    careers_url: https://careers.salesforce.com
-    scan_method: websearch
-    scan_query: 'site:careers.salesforce.com "ML Engineer" OR "AI Engineer" OR "Applied Scientist" bangalore OR hyderabad india'
+    careers_url: https://salesforce.wd1.myworkdayjobs.com/External_Career_Site
     enabled: true
 
   - name: Adobe India (Sensei / AI)
-    careers_url: https://careers.adobe.com
-    scan_method: websearch
-    scan_query: 'site:careers.adobe.com "Machine Learning" OR "AI Engineer" OR "Research Scientist" bangalore OR noida india'
+    careers_url: https://adobe.wd5.myworkdayjobs.com/externalcareers
     enabled: true
 
   - name: Oracle India (AI/ML)
@@ -591,15 +588,11 @@ tracked_companies:
     enabled: true
 
   - name: Qualcomm India
-    careers_url: https://careers.qualcomm.com
-    scan_method: websearch
-    scan_query: 'site:careers.qualcomm.com "Machine Learning" OR "AI" OR "Deep Learning" bangalore OR hyderabad india'
+    careers_url: https://qualcomm.myworkdayjobs.com/External
     enabled: true
 
   - name: Walmart Global Tech India
-    careers_url: https://careers.walmart.com
-    scan_method: websearch
-    scan_query: 'site:careers.walmart.com "Machine Learning" OR "AI Engineer" OR "MLOps" bangalore india'
+    careers_url: https://walmart.wd5.myworkdayjobs.com/Walmart_External_Careers
     enabled: true
 
   - name: Uber India (ML)
@@ -615,9 +608,7 @@ tracked_companies:
     enabled: true
 
   - name: Bosch India (AI/ML)
-    careers_url: https://www.bosch.in/careers/
-    scan_method: websearch
-    scan_query: '"bosch" india careers "Machine Learning" OR "AI" OR "Deep Learning" bangalore OR coimbatore'
+    careers_url: https://jobs.smartrecruiters.com/BoschGroup
     enabled: true
 
   - name: Siemens India (AI)
@@ -672,9 +663,7 @@ tracked_companies:
     enabled: true
 
   - name: Groww
-    careers_url: https://groww.in/careers
-    scan_method: websearch
-    scan_query: '"groww" careers "ML Engineer" OR "AI" OR "Data Scientist" bangalore'
+    careers_url: https://boards.greenhouse.io/groww
     enabled: true
 
   - name: Myntra
@@ -858,6 +847,36 @@ tracked_companies:
     careers_url: https://underdog.io
     scan_method: websearch
     scan_query: 'site:underdog.io "Machine Learning" OR "AI Engineer" OR "LLM" OR "Generative AI" remote india'
+    enabled: true
+
+  - name: Indeed — ML Engineer India (Apify)
+    provider: apify
+    actor: misceres/indeed-scraper
+    input:
+      position: "Machine Learning Engineer"
+      location: "India"
+      country: "IN"
+      maxItems: 25
+    field_map:
+      title: [positionName, title]
+      url: url
+      company: [company, companyName]
+      location: [location, formattedLocation]
+    enabled: true
+
+  - name: Indeed — Remote ML Engineer India (Apify)
+    provider: apify
+    actor: misceres/indeed-scraper
+    input:
+      position: "Machine Learning Engineer"
+      location: "remote"
+      country: "IN"
+      maxItems: 25
+    field_map:
+      title: [positionName, title]
+      url: url
+      company: [company, companyName]
+      location: [location, formattedLocation]
     enabled: true
 
 search_queries:

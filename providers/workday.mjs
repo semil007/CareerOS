@@ -16,10 +16,10 @@ const MAX_PAGES = 50; // safety cap — at most 1000 postings per site
 
 function resolveEndpoint(entry) {
   const url = entry.careers_url || '';
-  const m = url.match(/^https:\/\/([\w-]+)\.(wd[\w-]*)\.myworkdayjobs\.com\/(?:[a-z]{2}-[A-Z]{2}\/)?([^/?#]+)/);
+  const m = url.match(/^https:\/\/([\w-]+)(?:\.(wd[\w-]*))?\.myworkdayjobs\.com\/(?:[a-z]{2}-[A-Z]{2}\/)?([^/?#]+)/);
   if (!m) return null;
   const [, tenant, instance, site] = m;
-  const origin = `https://${tenant}.${instance}.myworkdayjobs.com`;
+  const origin = instance ? `https://${tenant}.${instance}.myworkdayjobs.com` : `https://${tenant}.myworkdayjobs.com`;
   return {
     api: `${origin}/wday/cxs/${tenant}/${site}/jobs`,
     // externalPath is relative to the site, not the host root — without the
