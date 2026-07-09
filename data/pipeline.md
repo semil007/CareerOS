@@ -106,6 +106,31 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://in.indeed.com/viewjob?jk=6cc90d6bd3cc5201 | UnitedHealth Group | Associate AI/ML Engineer | Hyderabad, Telangana
 - [ ] https://in.indeed.com/viewjob?jk=a457810ad73dafc9 | UnitedHealth Group | AI ML Engineer | Bengaluru, Karnataka
 
+- [ ] https://www.thoughtworks.com/careers/jobs/7813529?gh_jid=7813529 | ThoughtWorks India | Senior Machine Learning Engineer | Bangalore, India
+- [ ] https://weworkremotely.com/remote-jobs/mindrift-senior-software-engineer-ai-agent-evaluation | Mindrift | Senior Software Engineer - AI Agent Evaluation | Anywhere in the World
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000127577239 | Bosch India (AI/ML) | AI/ML Expert | coimbatore, , India
+- [ ] https://in.indeed.com/viewjob?jk=23f2d9b848eaa061 | Trantor Software Pvt. Ltd | AI/ML Engineer – Python & Agentic AI Systems | Remote
+- [ ] https://in.indeed.com/viewjob?jk=560cafe67bea2dab | ANSRSource India | Microsoft Forward Deployed AI Engineer Subject Matter Experts | Remote
+- [ ] https://in.indeed.com/viewjob?jk=f3e23d7f85a34331 | ASYVA INFOTECH | AI / NLP Engineer | Remote
+- [ ] https://in.indeed.com/viewjob?jk=596183f27fdd0163 | Hitachi Rail | AI/ML Engineer | Chennai, Tamil Nadu
+- [ ] https://in.indeed.com/viewjob?jk=42b97f63468c4d5e | Aqilea (formerly Soltia) | Sr Data Scientist | Bengaluru, Karnataka
+- [ ] https://in.indeed.com/viewjob?jk=e17bdb0d1e553327 | TechGrove by Banyan Software | Senior AI / RAG Engineer — Applied LLM & Retrieval | Bengaluru, Karnataka
+- [ ] https://in.indeed.com/viewjob?jk=b82acb825ed920ab | Unisys | Lead Engineer AI/ML | Bengaluru, Karnataka
+- [ ] https://in.indeed.com/viewjob?jk=3a30ebc471bf28f4 | Ipeople Infosysteams LLC | Senior AI Engineer | Bengaluru, Karnataka
+- [ ] https://in.indeed.com/viewjob?jk=3bd5b736c82dac6f | HSBC Global Services Limited | AI Platform Engineer / Senior Consultant Specialist | Hyderabad, Telangana
+- [ ] https://in.indeed.com/viewjob?jk=088381a2e480c53e | Syncron | Senior Machine Learning Engineer | Bengaluru, Karnataka
+- [ ] https://in.indeed.com/viewjob?jk=cd3ec535c0764257 | Autoliv Group | AI/ML Developer (Data Scientist) | Bengaluru, Karnataka
+- [ ] https://in.indeed.com/viewjob?jk=db5175a22ed55f9f | Merkle | Lead ML Engineer | India
+- [ ] https://in.indeed.com/viewjob?jk=eaa640a086f7fc50 | HCLTech | Sr Tech Lead-GenAI - VectorDBand MySQL | Pune, Maharashtra
+- [ ] https://in.indeed.com/viewjob?jk=c0d6920ff9561dd0 | Merkle | Lead AI Engineer | India
+- [ ] https://in.indeed.com/viewjob?jk=1702ac78e12fd055 | JPMorganChase | Software Engineer III - LLM / Gen AI Developer + AWS | Bengaluru, Karnataka
+- [ ] https://in.indeed.com/viewjob?jk=1ded0cd3dbf18f4b | Metyis AG | AI Engineer / Agent Developer | Gurugram, Haryana
+- [ ] https://in.indeed.com/viewjob?jk=a36a4ff69c4ec7c0 | Accenture | AI / ML Engineer | Bengaluru, Karnataka
+- [ ] https://in.indeed.com/viewjob?jk=d404a7cec4698758 | Merkle | AI Engineer | India
+- [ ] https://in.indeed.com/viewjob?jk=5c5a0510c9f396af | EXL Service | GenAI Engineer | India
+- [ ] https://in.indeed.com/viewjob?jk=40c2f07654087fb3 | EXL Service | Senior AI Engineer | India
+- [ ] https://in.indeed.com/viewjob?jk=d6fba25f8cc55234 | Recruise | 0005_Lead Data & ML Engineer | Bengaluru, Karnataka
+
 ## Processed
 
 - [x] https://remoteok.com/remote-jobs/remote-senior-ai-engineer-architect-lemon-io-1134396 | Lemon.io | Senior AI Engineer / Architect | Remote — Score: 4.1/5 ✅ Apply
