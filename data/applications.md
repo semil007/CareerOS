@@ -2,7 +2,89 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
-| 48 | 2026-07-08 | Bosch Group | Sr Data Engineer | 2.0/5 | Evaluated | ❌ | [047](../reports/047-bosch-group-2026-07-08.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 133 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [133](../reports/133-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 132 | 2026-07-13 | ARTPARK | AI/ML Engineer (Prompt Engineer) | 4.2/5 | Evaluated | ❌ | [132](../reports/132-artpark-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 131 | 2026-07-13 | Atlassian | Senior Machine Learning Systems Engineering Manager - AI & ML Platform | 2.2/5 | Evaluated | ❌ | [131](../reports/131-atlassian-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 130 | 2026-07-13 | Fusemachines | Data Scientist | 2.3/5 | Evaluated | ❌ | [130](../reports/130-fusemachines-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 129 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [129](../reports/129-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 128 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [128](../reports/128-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 127 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [127](../reports/127-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 126 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [126](../reports/126-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 125 | 2026-07-13 | Rupa Career Solutions | AI/ML Engineer | 2.2/5 | Evaluated | ❌ | [125](../reports/125-rupa-career-solutions-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 124 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [124](../reports/124-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 123 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [123](../reports/123-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 122 | 2026-07-13 | Verterim | AI/ML Fine-Tuning and Training Engineer | 3.6/5 | Evaluated | ❌ | [122](../reports/122-verterim-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 121 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [121](../reports/121-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 120 | 2026-07-13 | Unknown | Unknown | N/A/5 | Evaluated | ❌ | [120](../reports/120-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 119 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [119](../reports/119-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 118 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [118](../reports/118-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 117 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [117](../reports/117-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 116 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [116](../reports/116-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 115 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [115](../reports/115-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 114 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [114](../reports/114-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 113 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [113](../reports/113-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 112 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [112](../reports/112-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 111 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [111](../reports/111-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 110 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [110](../reports/110-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 109 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [109](../reports/109-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 108 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [108](../reports/108-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 107 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [107](../reports/107-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 106 | 2026-07-13 | Wonderdog | Full-Stack Product Engineer - Agentic First | 3.5/5 | Evaluated | ❌ | [106](../reports/106-wonderdog-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 105 | 2026-07-13 | Anthropic | Research Engineer, Model Evaluations | 3.9/5 | Evaluated | ❌ | [105](../reports/105-anthropic-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 104 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [104](../reports/104-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 103 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [103](../reports/103-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 102 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [102](../reports/102-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 101 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [101](../reports/101-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 100 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [100](../reports/100-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 99 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [099](../reports/099-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 98 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [098](../reports/098-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 97 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [097](../reports/097-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 96 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [096](../reports/096-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 95 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [095](../reports/095-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 94 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [094](../reports/094-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 93 | 2026-07-13 | Syncron | Senior Machine Learning Engineer | 3.1/5 | Evaluated | ❌ | [093](../reports/093-syncron-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 92 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [092](../reports/092-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 91 | 2026-07-13 | iPeople Infosystems LLC | Senior AI Engineer | 2.3/5 | Evaluated | ❌ | [091](../reports/091-ipeople-infosystems-llc-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 90 | 2026-07-13 | Unisys | Lead Engineer AI/ML | 2.8/5 | Evaluated | ❌ | [090](../reports/090-unisys-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 89 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [089](../reports/089-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 88 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [088](../reports/088-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 87 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [087](../reports/087-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 86 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [086](../reports/086-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 85 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [085](../reports/085-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 84 | 2026-07-13 | Trantor Software Pvt. Ltd | AI/ML Engineer – Python & Agentic AI Systems | 3.3/5 | Evaluated | ❌ | [084](../reports/084-trantor-software-pvt-ltd-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 83 | 2026-07-13 | Mindrift | Senior Software Engineer - AI Agent Evaluation | 2.7/5 | Evaluated | ❌ | [083](../reports/083-mindrift-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 82 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [082](../reports/082-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 81 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [081](../reports/081-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 80 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [080](../reports/080-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 79 | 2026-07-13 | Expedia Group | Senior Manager, Machine Learning Science | 2.5/5 | Evaluated | ❌ | [079](../reports/079-expedia-group-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 76 | 2026-07-13 | EXL Service | Cloud AI Data Engineer | 3.2/5 | Evaluated | ❌ | [078](../reports/078-exl-service-2026-07-13.md) | Re-eval 2026-07-13 (3.1→3.2). OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 75 | 2026-07-13 | e-Stone Information Technology | Data Engineer | 2.7/5 | Evaluated | ❌ | [075](../reports/075-e-stone-information-technology-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 74 | 2026-07-13 | Echt Ventures Pvt Ltd | AI Prompt Engineer / AI Automation Specialist | 2.8/5 | Evaluated | ❌ | [074](../reports/074-echt-ventures-pvt-ltd-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 73 | 2026-07-13 | GSK | Principal Data Scientist | 3.2/5 | Evaluated | ❌ | [073](../reports/073-gsk-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 72 | 2026-07-13 | Bain & Company | Associate - AI Engineer (CTE) | 4.2/5 | Evaluated | ❌ | [072](../reports/072-bain-company-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 71 | 2026-07-13 | Orion Innovation | Full Stack Gen AI Engineer | 2.0/5 | Evaluated | ❌ | [071](../reports/071-orion-innovation-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 70 | 2026-07-13 | Dentsu (Merkle) | Generative AI Engineer | 4.1/5 | Evaluated | ❌ | [070](../reports/070-dentsu-merkle-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 69 | 2026-07-13 | VGreen Technology Solutions | AI Engineer (Generative AI) | 3.8/5 | Evaluated | ❌ | [069](../reports/069-vgreen-technology-solutions-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 68 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [068](../reports/068-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 67 | 2026-07-13 | Luxoft | AI Agent Architect | 3.7/5 | Evaluated | ❌ | [067](../reports/067-luxoft-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 66 | 2026-07-13 | CloudiQS | Senior Full Stack AI Engineer (AWS Bedrock, AgentCore, TypeScript, Remote) | 2.7/5 | Evaluated | ❌ | [066](../reports/066-cloudiqs-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 65 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [065](../reports/065-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 64 | 2026-07-13 | Cyptrix Innovations | AI/ML Developer | 3.4/5 | Evaluated | ❌ | [064](../reports/064-cyptrix-innovations-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 63 | 2026-07-13 | Delphic | AI/ML Engineer / Python | 3.7/5 | Evaluated | ❌ | [063](../reports/063-delphic-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 62 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [062](../reports/062-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 61 | 2026-07-13 | CloudScaler Technologies BV | Azure Integration & AI Engineer | 2.1/5 | Evaluated | ❌ | [061](../reports/061-cloudscaler-technologies-bv-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 60 | 2026-07-13 | Tangentia | Senior AI Engineer | 2.6/5 | Evaluated | ❌ | [060](../reports/060-tangentia-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 59 | 2026-07-13 | Moniepoint | Senior Data Scientist (Fraud) | 2.8/5 | Evaluated | ❌ | [059](../reports/059-moniepoint-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 58 | 2026-07-13 | General Mills | Lead D&T Data Scientist | 2.2/5 | Evaluated | ❌ | [058](../reports/058-general-mills-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 57 | 2026-07-13 | unknown | unknown | N/A | Evaluated | ❌ | [057](../reports/057-unknown-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 56 | 2026-07-13 | Orange Business | Data Scientist | 3.3/5 | Evaluated | ❌ | [056](../reports/056-orange-business-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 55 | 2026-07-13 | JDA TSG | Azure Machine Learning Customer Engineer | 2.1/5 | Evaluated | ❌ | [055](../reports/055-jda-tsg-2026-07-13.md) | OpenAI-compatible (deepseek-ai/DeepSeek-V4-Flash) evaluation |
+| 54 | 2026-07-13 | Bosch Group | Teams Telephony – Operations Automation & AI Engineer | 3.0/5 | Discarded | ❌ | [054](../reports/054-bosch-group-2026-07-13.md) | Posting expired (HTTP 404) |
+| 53 | 2026-07-13 | Bosch Group | Applied Computer Vision Engineer - Data Driven Development | 2.6/5 | Discarded | ❌ | [053](../reports/053-bosch-group-2026-07-13.md) | Posting expired (HTTP 404) |
+| 51 | 2026-07-13 | Bosch Group | Data Scientist | 3.4/5 | Discarded | ❌ | [052](../reports/052-bosch-group-2026-07-13.md) | Posting expired (HTTP 404) |
+| 50 | 2026-07-13 | Bosch Group | AI/ML Expert | 2.8/5 | Discarded | ❌ | [050](../reports/050-bosch-group-2026-07-13.md) | Posting expired (HTTP 404) |
+| 49 | 2026-07-13 | Bosch Group | DevOps (MLOps), Python Developer | 3.7/5 | Discarded | ❌ | [049](../reports/049-bosch-group-2026-07-13.md) | Posting expired (HTTP 404) |
+| 48 | 2026-07-13 | Bosch Group | Data Engineer_Sr_Python Specialist | 3.0/5 | Discarded | ❌ | [048](../reports/048-bosch-group-2026-07-13.md) | Posting expired (HTTP 404) |
 | 47 | 2026-07-08 | unknown | unknown | N/A | Evaluated | ❌ | [042](../reports/042-unknown-2026-07-08.md) | OpenAI-compatible (openai/gpt-oss-120b) evaluation |
 | 46 | 2026-07-08 | unknown | unknown | N/A | Evaluated | ❌ | [041](../reports/041-unknown-2026-07-08.md) | OpenAI-compatible (openai/gpt-oss-120b) evaluation |
 | 45 | 2026-07-08 | unknown | unknown | N/A | Evaluated | ❌ | [040](../reports/040-unknown-2026-07-08.md) | OpenAI-compatible (openai/gpt-oss-120b) evaluation |
