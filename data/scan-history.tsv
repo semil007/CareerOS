@@ -1,176 +1,112 @@
-url	first_seen	portal	title	company	status	location
-https://jobs.ashbyhq.com/sarvam/282019f4-f86b-4fe0-a643-bbac0cd8a751	2026-07-03	ashby-api	Machine Learning Engineer, Vision	Sarvam AI	added	Bengaluru
-https://jobs.ashbyhq.com/sarvam/2d72a541-c805-4bd9-81cd-ac2db98611fa	2026-07-03	ashby-api	ML Engineer (Data), Foundational Models	Sarvam AI	added	Bengaluru
-https://jobs.ashbyhq.com/sarvam/30259734-50c3-4f1c-81cd-8bff07e585e7	2026-07-03	ashby-api	Applied AI Engineer, Sarvam Agents	Sarvam AI	added	Bengaluru
-https://jobs.ashbyhq.com/sarvam/325c7d1b-963d-42a8-b2b8-a4c5c6705c54	2026-07-03	ashby-api	Engineering — Full Stack AI Engineer	Sarvam AI	added	Bengaluru
-https://jobs.ashbyhq.com/sarvam/95fe7d08-b3e1-4961-9809-00a29e6c5f06	2026-07-03	ashby-api	Machine Learning Engineer, Dubbing	Sarvam AI	added	Bengaluru
-https://jobs.ashbyhq.com/sarvam/e9fb1269-fc4b-4879-aa35-0b75a8c83611	2026-07-03	ashby-api	ML Engineer (Training Infra), Foundational Models	Sarvam AI	added	Bengaluru
-https://job-boards.greenhouse.io/anthropic/jobs/5198108008	2026-07-03	greenhouse-api	Research Engineer, Machine Learning (RL Velocity)	Anthropic	added	Remote-Friendly (Travel-Required) | San Francisco, CA | New York City, NY
-https://job-boards.greenhouse.io/anthropic/jobs/5117581008	2026-07-03	greenhouse-api	Solutions Architect, Applied AI	Anthropic	added	Bangalore, India
-https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Solutions-Architect--Generative-AI_JR2018786	2026-07-03	workday-api	Senior Solutions Architect, Generative AI	Nvidia India	added	India, Bengaluru
-https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MA-Remote/Senior-Software-Engineer---Developer-Tools-for-Deep-Learning_JR2013176	2026-07-03	workday-api	Senior Software Engineer - Developer Tools for Deep Learning	Nvidia India	skipped_expired	US, MA, Remote
-https://apply.workable.com/huggingface/jobs/view/81B46579FE	2026-07-03	workable-api	Open-Source Machine Learning Engineer - EMEA Remote	Hugging Face	skipped_no_apply_control	Paris, France (Remote)
-https://apply.workable.com/huggingface/jobs/view/19A136F8E2	2026-07-03	workable-api	Open-Source Machine Learning Engineer - US Remote	Hugging Face	skipped_no_apply_control	New York, United States (Remote)
-https://jobs.ashbyhq.com/ema/45b65da4-1d78-4111-9052-ffbb8a61beb1	2026-07-03	ashby-api	Senior Technical Support Specialist (Enterprise Agentic AI)	Ema	added	India - Bengaluru
-https://jobs.ashbyhq.com/ema/8268af44-d5d8-4a29-9638-3ea30f35f3a9	2026-07-03	ashby-api	Principal Machine Learning Engineer	Ema	added	India - Bengaluru
-https://jobs.ashbyhq.com/ema/88d004d9-50a9-41ee-a618-03855001a9be	2026-07-03	ashby-api	Software Engineer, Machine Learning	Ema	added	Bengaluru office
-https://jobs.ashbyhq.com/sarvam/2dcb062d-e42b-408d-be15-59ddde900984	2026-07-03	ashby-api	ML Researcher, Foundational Models	Sarvam AI	added	Bengaluru
-https://jobs.ashbyhq.com/sarvam/6ad226cd-9400-41b6-9c64-db35b7d24516	2026-07-03	ashby-api	Performance Engineer, On-Device Inference	Sarvam AI	added	Bengaluru
-https://jobs.ashbyhq.com/sarvam/7c42207a-bb56-413c-839f-9ad692df840e	2026-07-03	ashby-api	Data Scientist - Evaluations, Chanakya	Sarvam AI	added	Bengaluru
-https://jobs.ashbyhq.com/sarvam/a0572d24-d8c6-47c2-b136-0ae115a96a75	2026-07-03	ashby-api	Architect, On-Device Inference	Sarvam AI	added	Bengaluru
-https://jobs.ashbyhq.com/sarvam/dc047f4f-97be-4bb3-a9f1-cebbfc4de3e6	2026-07-03	ashby-api	Embedded Data Scientist, Chanakya	Sarvam AI	added	Delhi
-https://job-boards.greenhouse.io/anthropic/jobs/4017331008	2026-07-03	greenhouse-api	Research Engineer, Knowledge Team	Anthropic	added	Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY
-https://job-boards.greenhouse.io/anthropic/jobs/4616971008	2026-07-03	greenhouse-api	Research Engineer/Research Scientist, Pre-training	Anthropic	added	Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY
-https://job-boards.greenhouse.io/anthropic/jobs/5061517008	2026-07-03	greenhouse-api	Research Engineer, Universes	Anthropic	added	Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY
-https://job-boards.greenhouse.io/anthropic/jobs/5257650008	2026-07-03	greenhouse-api	Staff+ Software Engineer, Inference Runtime	Anthropic	added	Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY
-https://job-boards.greenhouse.io/arizeai/jobs/5980312004	2026-07-03	greenhouse-api	DevSecOps Engineer (TypeScript & Agentic AI)	Arize AI	added	Remote/Hybrid (SoCal)
-https://job-boards.greenhouse.io/arizeai/jobs/5993755004	2026-07-03	greenhouse-api	Forward Deployed AI Engineer, East	Arize AI	added	Remote (New York)
-https://job-boards.greenhouse.io/arizeai/jobs/5781408004	2026-07-03	greenhouse-api	Forward Deployed AI Engineer, EMEA	Arize AI	added	Remote (EMEA)
-https://job-boards.greenhouse.io/arizeai/jobs/6030953004	2026-07-03	greenhouse-api	Forward Deployed AI Engineer, West	Arize AI	added	Remote (San Francisco)
-https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Mumbai/Senior-Solutions-Architect--GPU-Cloud-GenAI---Infrastructure_JR2019537	2026-07-03	workday-api	Senior Solutions Architect, GPU Cloud GenAI – Infrastructure	Nvidia India	skipped_expired	India, Mumbai
-https://remoteOK.com/remote-jobs/remote-senior-ai-engineer-architect-lemon-io-1134396	2026-07-04	remoteok-api	Senior AI Engineer Architect	Lemon.io	added	
-https://himalayas.app/companies/may-mobility/jobs/lead-ml-engineer-mapping	2026-07-06	himalayas-api	Lead ML Engineer - Mapping	May Mobility	added	Canada, France, Germany, India, Netherlands, United Kingdom, United States
-https://job-boards.greenhouse.io/arizeai/jobs/5396396004	2026-07-06	greenhouse-api	Senior AI Product Engineer, Backend	Arize AI	added	Remote (United States)
-https://job-boards.greenhouse.io/arizeai/jobs/5396420004	2026-07-06	greenhouse-api	Senior AI Product Engineer, Fullstack	Arize AI	added	Remote (United States)
-https://www.druva.com/why-druva/explore/careers/jobs/8564142002/?gh_jid=8564142002	2026-07-06	greenhouse-api	Staff Software Engineer (AI)	Druva	added	Pune, Maharashtra, India
-https://weworkremotely.com/remote-jobs/qventus-senior-lead-product-manager-agentic-ai-platform	2026-07-06	weworkremotely-api	Senior/Lead Product Manager, Agentic AI Platform	Qventus	added	Anywhere in the World
-https://weworkremotely.com/remote-jobs/rimini-street-forward-deployed-engineer-agentic-ai	2026-07-06	weworkremotely-api	Forward Deployed Engineer (Agentic AI)	Rimini Street	added	Anywhere in the World
-https://weworkremotely.com/remote-jobs/reveleer-full-stack-ai-engineer	2026-07-06	weworkremotely-api	Full Stack AI Engineer	Reveleer	added	Anywhere in the World
-https://weworkremotely.com/remote-jobs/tether-ai-research-engineer	2026-07-06	weworkremotely-api	AI Research Engineer	Tether	added	Anywhere in the World
-https://jobs.ashbyhq.com/sarvam/7ee2ff5d-32a2-4b0a-9ae9-117ba8b626d1	2026-07-06	ashby-api	Staff Data Engineer	Sarvam AI	added	Bengaluru
-https://jobs.ashbyhq.com/sarvam/e7f783e8-6378-4158-97d5-48a397a91698	2026-07-06	ashby-api	ML Ops Engineer, Chanakya	Sarvam AI	added	Delhi
-https://jobs.lever.co/meesho/489fe662-5d28-4305-953e-91ee21e8538c	2026-07-06	lever-api	Data Scientist III	Meesho	added	Bangalore, Karnataka
-https://jobs.lever.co/meesho/3d5bf582-493f-4298-b7de-e42a7d58a358	2026-07-06	lever-api	Principal Data Scientist	Meesho	added	Bangalore, Karnataka
-https://jobs.lever.co/meesho/322aaf36-0d79-4190-876f-8b2e91b707bf	2026-07-06	lever-api	Senior Principal Data Scientist	Meesho	added	Bangalore, Karnataka
-https://weworkremotely.com/remote-jobs/a-team-senior-independent-ai-engineer-architect	2026-07-07	weworkremotely-api	Senior Independent AI Engineer / Architect	A.Team	added	Anywhere in the World
-https://jobs.ashbyhq.com/articul8/12b6cc4e-5fe2-4a47-a898-24a4617bb8de	2026-07-07	ashby-api	Principal Applied AI Researcher - Domain- Specific Models (Brazil)	Articul8 AI	added	Brazil/Remote
-https://jobs.ashbyhq.com/articul8/50b4a531-f683-4105-9cca-cad851cdcdcd	2026-07-07	ashby-api	Applied AI Researcher (Brazil)	Articul8 AI	added	Brazil/Remote
-https://jobs.ashbyhq.com/articul8/73bff7e6-827a-4a70-b7a9-712d421a8dd8	2026-07-07	ashby-api	Applied AI Researcher (India)	Articul8 AI	added	India/Bengaluru
-https://jobs.ashbyhq.com/articul8/a390b489-5c17-4f62-91a6-97cbd030a652	2026-07-07	ashby-api	Senior Applied AI Researcher (India)	Articul8 AI	added	India/Bengaluru
-https://jobs.ashbyhq.com/articul8/aa885799-445c-49d1-8607-0f3346e8cf15	2026-07-07	ashby-api	Senior Applied AI Researcher (Brazil)	Articul8 AI	added	Brazil/Remote
-https://jobs.ashbyhq.com/articul8/fab35c76-2048-4540-a7ab-118b9b56e434	2026-07-07	ashby-api	Principal Applied AI Researcher - Domain- Specific Models (India)	Articul8 AI	added	India/Bengaluru
-https://jobs.ashbyhq.com/wisdom-ai/93441adc-4cd9-4253-a335-c20a5aa4ada6	2026-07-07	ashby-api	Software Engineer, NLP/Machine Learning	Wisdom AI	added	Bengaluru
-https://jobs.ashbyhq.com/wisdom-ai/a590329c-488f-4382-944e-bb70d04bb674	2026-07-07	ashby-api	Agentic Context Engineer - Bengaluru, India	Wisdom AI	added	Bengaluru
-https://jobs.ashbyhq.com/kantiv/d28a422f-970b-4ad8-869f-a8d02deda68f	2026-07-07	ashby-api	Agentic Systems Engineer	Joist AI (Kantiv)	added	Remote - India
-https://himalayas.app/companies/saaf-finance/jobs/forward-deployed-ai-engineer-8721758659	2026-07-07	himalayas-api	Forward-Deployed AI Engineer	Saaf Finance	added	India
-https://weworkremotely.com/remote-jobs/toptal-ai-engineers	2026-07-08	weworkremotely-api	AI Engineers	Toptal	added	Anywhere in the World
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000136373899	2026-07-08	smartrecruiters-api	Lead Data Engineer	Bosch India (AI/ML)	added	Bengaluru, KA, India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000136062760	2026-07-08	smartrecruiters-api	GenAI Solution Tool integration	Bosch India (AI/ML)	added	bangalore, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000135948765	2026-07-08	smartrecruiters-api	Senior Data Engineer (Python, PySpark, Kafka)	Bosch India (AI/ML)	added	Bangalore, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000135638849	2026-07-08	smartrecruiters-api	AI Expert – Generative AI Solutions Developer	Bosch India (AI/ML)	added	coimbatore, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000135418038	2026-07-08	smartrecruiters-api	AI/ML Engineer_MS	Bosch India (AI/ML)	added	telengana, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000135184758	2026-07-08	smartrecruiters-api	AI/ML Engineer_L51	Bosch India (AI/ML)	added	telengana, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000134318265	2026-07-08	smartrecruiters-api	SOC L3 Analyst	Bosch India (AI/ML)	added	hosur road bangalore, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000133512405	2026-07-08	smartrecruiters-api	Sr.Data Scientist_MPIN	Bosch India (AI/ML)	added	Bengaluru, KA, India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000132827209	2026-07-08	smartrecruiters-api	AI/ML Developer	Bosch India (AI/ML)	added	bangalore, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000132389048	2026-07-08	smartrecruiters-api	Sr Data Engineer	Bosch India (AI/ML)	added	bengaluru, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000132364815	2026-07-08	smartrecruiters-api	Data Engineer_Sr_Python Specialist	Bosch India (AI/ML)	added	bangalore, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000132242789	2026-07-08	smartrecruiters-api	DevOps (MLOps), Python Developer	Bosch India (AI/ML)	added	coimbatore, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000130755606	2026-07-08	smartrecruiters-api	AI/ML Expert	Bosch India (AI/ML)	added	pune, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000128862349	2026-07-08	smartrecruiters-api	Principal Data Scientist	Bosch India (AI/ML)	added	bangalore, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000127400279	2026-07-08	smartrecruiters-api	Data Scientist	Bosch India (AI/ML)	added	bangalore, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000126925694	2026-07-08	smartrecruiters-api	Applied Computer Vision Engineer - Data Driven Development	Bosch India (AI/ML)	added	bengaluru, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000126056726	2026-07-08	smartrecruiters-api	Teams Telephony – Operations Automation & AI Engineer	Bosch India (AI/ML)	added	bangalore, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000125304510	2026-07-08	smartrecruiters-api	Automation & Analytics | AI/GenAI/LLM	Bosch India (AI/ML)	added	bangalore, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000125303804	2026-07-08	smartrecruiters-api	VnV Automation & Analytics(AI & LLM)	Bosch India (AI/ML)	added	bangalore, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000123457846	2026-07-08	smartrecruiters-api	Data Engineer Consultant	Bosch India (AI/ML)	added	Timișoara, TM, Romania, Remote
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000122656549	2026-07-08	smartrecruiters-api	Data Engineer	Bosch India (AI/ML)	added	Timișoara, TM, Romania, Remote
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000122591949	2026-07-08	smartrecruiters-api	Generative AI Systems Engineer – Vision-Language Models	Bosch India (AI/ML)	added	bangalore, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000121683042	2026-07-08	smartrecruiters-api	Research Engineer - Neuro-Symbolic AI & Multimodal Assistant Systems	Bosch India (AI/ML)	added	bengaluru, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000116322777	2026-07-08	smartrecruiters-api	Senior Machine learning Engineer	Bosch India (AI/ML)	added	bangalore, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000116148087	2026-07-08	smartrecruiters-api	AI ML Data Engineer for ADAS Sr Full Stack Developer	Bosch India (AI/ML)	added	bangalore, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000116115507	2026-07-08	smartrecruiters-api	AI ML Data Engineer for ADAS Sr Backend Developer	Bosch India (AI/ML)	added	bangalore, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000112597755	2026-07-08	smartrecruiters-api	Sr Data Engineer System Visualization	Bosch India (AI/ML)	added	bangalore, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000112597418	2026-07-08	smartrecruiters-api	AI Data Engineering and Sr Cloud Specialist	Bosch India (AI/ML)	added	bengaluru, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000111542075	2026-07-08	smartrecruiters-api	Research Engineer - NLP	Bosch India (AI/ML)	added	bengaluru, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000108917801	2026-07-08	smartrecruiters-api	AI/ML - Architect	Bosch India (AI/ML)	added	bengaluru, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000094540915	2026-07-08	smartrecruiters-api	Data Engineering and Cloud	Bosch India (AI/ML)	added	bengaluru , , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/743999962813213	2026-07-08	smartrecruiters-api	Azure Big Data Engineer	Bosch India (AI/ML)	added	Bengaluru, KA, India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000134318379	2026-07-08	smartrecruiters-api	SOC L3 Analyst	Bosch India (AI/ML)	added	hosur road bangalore, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000128179860	2026-07-08	smartrecruiters-api	AI/ML Expert	Bosch India (AI/ML)	added	Coimbatore, , India
-https://www.indeed.com/viewjob?jk=46155dee61144daa	2026-07-08	apify-api	Azure Machine Learning Customer Engineer	JDA TSG	added	Remote
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000134317969	2026-07-08	smartrecruiters-api	SOC L3 Analyst	Bosch India (AI/ML)	skipped_expired	hosur road bangalore, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000127583612	2026-07-08	smartrecruiters-api	AI/ML Expert	Bosch India (AI/ML)	skipped_expired	coimbatore, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000127577930	2026-07-08	smartrecruiters-api	AI/ML Expert	Bosch India (AI/ML)	skipped_expired	coimbatore, , India
-https://in.indeed.com/viewjob?jk=0055942fa6a2582f	2026-07-08	apify-api	Data Scientist	MasORange	added	Gurugram, Haryana
-https://in.indeed.com/viewjob?jk=e1204d6bdd207aea	2026-07-08	apify-api	Senior Data Engineer	JOEL FERNANDEZ	added	Remote
-https://in.indeed.com/viewjob?jk=6c5be35e1783a613	2026-07-08	apify-api	Lead D&T Data Scientist	General Mills	added	Mumbai, Maharashtra
-https://in.indeed.com/viewjob?jk=65f8bb0405da16e3	2026-07-08	apify-api	Senior Data Scientist (Fraud)	Moniepoint	added	Remote
-https://in.indeed.com/viewjob?jk=fe82dc1d905e040e	2026-07-08	apify-api	Senior AI Engineer	Tangentia	added	Remote
-https://in.indeed.com/viewjob?jk=25090481efd56706	2026-07-08	apify-api	Azure Integration & AI Engineer	CloudScaler Technologies BV	added	Remote
-https://in.indeed.com/viewjob?jk=2c86e3b4744f0250	2026-07-08	apify-api	Senior AI/ML Engineer – Service Assurance	MasORange	added	Gurugram, Haryana
-https://in.indeed.com/viewjob?jk=c95aa76c832a6051	2026-07-08	apify-api	AI/ML Engineer / Python	Delphic	added	Remote
-https://in.indeed.com/viewjob?jk=38ec1d15920b01eb	2026-07-08	apify-api	AI/ML Developer	Cyptrix	added	Remote
-https://in.indeed.com/viewjob?jk=c9bad1752cde5ba0	2026-07-08	apify-api	Lead Gen AI/Agentic AI Engineer	Saransh	added	Remote
-https://in.indeed.com/viewjob?jk=d7b8b327e9d44f11	2026-07-08	apify-api	Senior Full Stack AI Engineer (AWS Bedrock, AgentCore, TypeScript, Remote)	CloudiQS	added	Remote
-https://in.indeed.com/viewjob?jk=896c4ade3bf1c4d0	2026-07-08	apify-api	AI Agent Architect	Luxoft	added	Remote
-https://in.indeed.com/viewjob?jk=0efaae5b87f6348a	2026-07-08	apify-api	AI Engineer	Ansprepupsc	added	Remote
-https://in.indeed.com/viewjob?jk=da65b16e4f35efc1	2026-07-08	apify-api	AI Engineer (Generative AI)_100% Remote	VGreen Technology Solutions (VGreenTEK)	added	Kochi, Kerala
-https://in.indeed.com/viewjob?jk=f6f7a52ab723da14	2026-07-08	apify-api	AI Engineer	Dentsu	added	Kharadi, Pune, Maharashtra
-https://in.indeed.com/viewjob?jk=1d9968d84bb19624	2026-07-08	apify-api	Full Stack Gen AI Engineer	Orion Innovation	added	Coimbatore, Tamil Nadu
-https://in.indeed.com/viewjob?jk=8b5572d29e679419	2026-07-08	apify-api	Associate - AI Engineer (CTE)	Bain & Company Inc	added	Delhi, Delhi
-https://in.indeed.com/viewjob?jk=935f0860c7305c93	2026-07-08	apify-api	Principal Data Scientist Engineer	GlaxoSmithKline	added	Bengaluru, Karnataka
-https://in.indeed.com/viewjob?jk=a2ec5a05297c4d8b	2026-07-08	apify-api	AI Prompt Engineer / AI Automation Specialist	Echt Ventures Pvt Ltd	added	Ahmedabad, Gujarat
-https://in.indeed.com/viewjob?jk=7bf7f9733bb9cec4	2026-07-08	apify-api	Data Engineer	e-Stone Information Technology	added	Andheri, Mumbai, Maharashtra
-https://in.indeed.com/viewjob?jk=d14e7196b1de3584	2026-07-08	apify-api	Senior AI Data Engineer	EXL Service	added	Noida, Uttar Pradesh
-https://in.indeed.com/viewjob?jk=20aa5e08ba53c37e	2026-07-08	apify-api	AI Data Engineer	EXL Service	added	Noida, Uttar Pradesh
-https://in.indeed.com/viewjob?jk=ace955e2974dc9e0	2026-07-08	apify-api	Cloud AI Data Engineer	EXL Service	added	India
-https://in.indeed.com/viewjob?jk=c44b3f8f684c04ce	2026-07-08	apify-api	Senior Manager, Machine Learning Science	Expedia	added	Bengaluru, Karnataka
-https://in.indeed.com/viewjob?jk=6cc90d6bd3cc5201	2026-07-08	apify-api	Associate AI/ML Engineer	UnitedHealth Group	added	Hyderabad, Telangana
-https://in.indeed.com/viewjob?jk=a457810ad73dafc9	2026-07-08	apify-api	AI ML Engineer	UnitedHealth Group	added	Bengaluru, Karnataka
-https://www.thoughtworks.com/careers/jobs/7813529?gh_jid=7813529	2026-07-09	greenhouse-api	Senior Machine Learning Engineer	ThoughtWorks India	added	Bangalore, India
-https://weworkremotely.com/remote-jobs/mindrift-senior-software-engineer-ai-agent-evaluation	2026-07-09	weworkremotely-api	Senior Software Engineer - AI Agent Evaluation	Mindrift	added	Anywhere in the World
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000127577239	2026-07-09	smartrecruiters-api	AI/ML Expert	Bosch India (AI/ML)	added	coimbatore, , India
-https://in.indeed.com/viewjob?jk=23f2d9b848eaa061	2026-07-09	apify-api	AI/ML Engineer – Python & Agentic AI Systems	Trantor Software Pvt. Ltd	added	Remote
-https://in.indeed.com/viewjob?jk=560cafe67bea2dab	2026-07-09	apify-api	Microsoft Forward Deployed AI Engineer Subject Matter Experts	ANSRSource India	added	Remote
-https://in.indeed.com/viewjob?jk=f3e23d7f85a34331	2026-07-09	apify-api	AI / NLP Engineer	ASYVA INFOTECH	added	Remote
-https://in.indeed.com/viewjob?jk=596183f27fdd0163	2026-07-09	apify-api	AI/ML Engineer	Hitachi Rail	added	Chennai, Tamil Nadu
-https://in.indeed.com/viewjob?jk=42b97f63468c4d5e	2026-07-09	apify-api	Sr Data Scientist	Aqilea (formerly Soltia)	added	Bengaluru, Karnataka
-https://in.indeed.com/viewjob?jk=e17bdb0d1e553327	2026-07-09	apify-api	Senior AI / RAG Engineer — Applied LLM & Retrieval	TechGrove by Banyan Software	added	Bengaluru, Karnataka
-https://in.indeed.com/viewjob?jk=b82acb825ed920ab	2026-07-09	apify-api	Lead Engineer AI/ML	Unisys	added	Bengaluru, Karnataka
-https://in.indeed.com/viewjob?jk=3a30ebc471bf28f4	2026-07-09	apify-api	Senior AI Engineer	Ipeople Infosysteams LLC	added	Bengaluru, Karnataka
-https://in.indeed.com/viewjob?jk=3bd5b736c82dac6f	2026-07-09	apify-api	AI Platform Engineer / Senior Consultant Specialist	HSBC Global Services Limited	added	Hyderabad, Telangana
-https://in.indeed.com/viewjob?jk=088381a2e480c53e	2026-07-09	apify-api	Senior Machine Learning Engineer	Syncron	added	Bengaluru, Karnataka
-https://in.indeed.com/viewjob?jk=cd3ec535c0764257	2026-07-09	apify-api	AI/ML Developer (Data Scientist)	Autoliv Group	added	Bengaluru, Karnataka
-https://in.indeed.com/viewjob?jk=db5175a22ed55f9f	2026-07-09	apify-api	Lead ML Engineer	Merkle	added	India
-https://in.indeed.com/viewjob?jk=eaa640a086f7fc50	2026-07-09	apify-api	Sr Tech Lead-GenAI - VectorDBand MySQL	HCLTech	added	Pune, Maharashtra
-https://in.indeed.com/viewjob?jk=c0d6920ff9561dd0	2026-07-09	apify-api	Lead AI Engineer	Merkle	added	India
-https://in.indeed.com/viewjob?jk=1702ac78e12fd055	2026-07-09	apify-api	Software Engineer III - LLM / Gen AI Developer + AWS	JPMorganChase	added	Bengaluru, Karnataka
-https://in.indeed.com/viewjob?jk=1ded0cd3dbf18f4b	2026-07-09	apify-api	AI Engineer / Agent Developer	Metyis AG	added	Gurugram, Haryana
-https://in.indeed.com/viewjob?jk=a36a4ff69c4ec7c0	2026-07-09	apify-api	AI / ML Engineer	Accenture	added	Bengaluru, Karnataka
-https://in.indeed.com/viewjob?jk=d404a7cec4698758	2026-07-09	apify-api	AI Engineer	Merkle	added	India
-https://in.indeed.com/viewjob?jk=5c5a0510c9f396af	2026-07-09	apify-api	GenAI Engineer	EXL Service	added	India
-https://in.indeed.com/viewjob?jk=40c2f07654087fb3	2026-07-09	apify-api	Senior AI Engineer	EXL Service	added	India
-https://in.indeed.com/viewjob?jk=d6fba25f8cc55234	2026-07-09	apify-api	0005_Lead Data & ML Engineer	Recruise	added	Bengaluru, Karnataka
-https://job-boards.greenhouse.io/anthropic/jobs/5198255008	2026-07-13	greenhouse-api	Research Engineer, Model Evaluations	Anthropic	added	Remote-Friendly (Travel-Required) | San Francisco, CA | New York City, NY
-https://weworkremotely.com/remote-jobs/wonderdog-full-stack-product-engineer-agentic-first	2026-07-13	weworkremotely-api	Full-Stack Product Engineer - Agentic First	Wonderdog	added	Anywhere in the World
-https://in.indeed.com/viewjob?jk=4f2bb585d8db3874	2026-07-13	apify-api	Forward Deploy AI Engineer (SLM)	Avathon	added	Bengaluru, Karnataka
-https://in.indeed.com/viewjob?jk=0eabc9aac8f371fe	2026-07-13	apify-api	Agentic AI Architect	Kyndryl	added	Bengaluru, Karnataka
-https://in.indeed.com/viewjob?jk=e7676aa8361ee051	2026-07-13	apify-api	ML Engineer	CRUTZ LEELA ENTERPRISES	added	Pune, Maharashtra
-https://in.indeed.com/viewjob?jk=9d5981fea6c82afb	2026-07-13	apify-api	IN_Senior Associate_AI Engineer_Digital Engineering Transformation_Advisory_Chennai	PwC	added	Chennai, Tamil Nadu
-https://in.indeed.com/viewjob?jk=e609bb74cff0e76f	2026-07-13	apify-api	AI/ML Engineer	Websenor	added	Noida, Uttar Pradesh
-https://in.indeed.com/viewjob?jk=0a2e0f8e4ea4705d	2026-07-13	apify-api	Generative AI Engineer	Recuitsolve	added	Bangalore City, Bengaluru, Karnataka
-https://in.indeed.com/viewjob?jk=b0d214e5ec4c91cd	2026-07-13	apify-api	AI/ML Developer (ITS/Smart City/Smart Highway)	al-fahad	added	Noida, Uttar Pradesh
-https://in.indeed.com/viewjob?jk=79b228b7f32f2572	2026-07-13	apify-api	Prompt Engineer	CAP Digisoft Solutions	added	Coimbatore, Tamil Nadu
-https://in.indeed.com/viewjob?jk=ff6c7444dd036367	2026-07-13	apify-api	AI Architect / AI Engineer	DIAN Technology Solutions Pvt Ltd	added	Chennai, Tamil Nadu
-https://in.indeed.com/viewjob?jk=ebcdf6347bdbefbe	2026-07-13	apify-api	Full Stack Engineer - AI Platform	Teradata	added	Bengaluru, Karnataka
-https://in.indeed.com/viewjob?jk=3d2ee1ae6f16fa84	2026-07-13	apify-api	Data Scientist	Hudson Manpower	added	Chennai, Tamil Nadu
-https://in.indeed.com/viewjob?jk=ffb07e0ba29cbefa	2026-07-13	apify-api	AI/ML Engineer	Rytsense Technologies	added	Coimbatore, Tamil Nadu
-https://in.indeed.com/viewjob?jk=fbf039c9397a2983	2026-07-13	apify-api	AI Engineer	Voxiis	added	Remote
-https://in.indeed.com/viewjob?jk=6eb608d8d4bb5595	2026-07-13	apify-api	Lead Snowflake Data Engineer	EPAM Systems, Inc.	added	Coimbatore, Tamil Nadu
-https://in.indeed.com/viewjob?jk=4b0ef5d7ca4dfb97	2026-07-13	apify-api	AI/ML Engineer	Skegworks	added	Remote
-https://in.indeed.com/viewjob?jk=251e369122cb9ee3	2026-07-13	apify-api	AI/ML Fine-Tuning and Training Engineer	Verterim	added	Remote
-https://in.indeed.com/viewjob?jk=c6c23b5c06c9ac69	2026-07-13	apify-api	AI Engineer / Machine Learning Engineer	Infonimbus Pvt Ltd	added	Remote
-https://in.indeed.com/viewjob?jk=7793147d87cbe7fa	2026-07-13	apify-api	Freelance – AI/ML Specialist (Image Dehazing & Advanced Deep Learning)	Guires Solutions Private Limited	added	Remote
-https://in.indeed.com/viewjob?jk=84d788ebad4901bf	2026-07-13	apify-api	AI/ML Engineer	Rupa Career Solutions	added	Remote
-https://in.indeed.com/viewjob?jk=af81502939e7cce9	2026-07-13	apify-api	Senior AL/ML Engineer	WebSenor InfoTech	added	Noida, Uttar Pradesh
-https://in.indeed.com/viewjob?jk=9feefee4b6fb8c87	2026-07-13	apify-api	Senior Data Scientist, Classification & Discovery	CommandLink	added	Remote
-https://in.indeed.com/viewjob?jk=513dee18ea99666b	2026-07-13	apify-api	AI/ML – Agentic AI	Technology Next	added	Remote
-https://in.indeed.com/viewjob?jk=075cc26451b42598	2026-07-13	apify-api	Sr. ML Engineer	Fusemachines	added	Remote
-https://in.indeed.com/viewjob?jk=ba5ed9a302ad1d49	2026-07-13	apify-api	Data Scientist	Fusemachines	added	Remote
-https://in.indeed.com/viewjob?jk=26d992880682d6ba	2026-07-13	apify-api	Senior Machine Learning Systems Engineering Manager - AI & ML Platform	Atlassian	added	Bengaluru, Karnataka
-https://in.indeed.com/viewjob?jk=208456965cbc3802	2026-07-13	apify-api	AI/ML Engineer	ArtPark - I-Hub for Robotics and Autonomous Systems Innovation Foundation	added	Remote
-https://in.indeed.com/viewjob?jk=14e54b0475cf00ca	2026-07-13	apify-api	Senior AI Engineer I	AxisMaxlife	added	Remote
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000137142959	2026-07-13	smartrecruiters-api	Data Scientist	Bosch India (AI/ML)	skipped_expired	bengaluru, , India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000137052729	2026-07-13	smartrecruiters-api	IN_RBIN_Assistant Manager/Senior Engineer_Data Scientist	Bosch India (AI/ML)	skipped_expired	Nashik, Maharashtra, India
-https://jobs.smartrecruiters.com/BoschGroup/postings/744000127577009	2026-07-13	smartrecruiters-api	AI/ML Expert	Bosch India (AI/ML)	skipped_expired	coimbatore, , India
+https://jobs.ashbyhq.com/articul8/73bff7e6-827a-4a70-b7a9-712d421a8dd8	2026-07-28	ashby-api	Applied AI Researcher (India)	Articul8 AI	added	India/Bengaluru
+https://jobs.ashbyhq.com/articul8/50b4a531-f683-4105-9cca-cad851cdcdcd	2026-07-28	ashby-api	Applied AI Researcher (Brazil)	Articul8 AI	added	Brazil/Remote
+https://jobs.ashbyhq.com/articul8/aa885799-445c-49d1-8607-0f3346e8cf15	2026-07-28	ashby-api	Senior Applied AI Researcher (Brazil)	Articul8 AI	added	Brazil/Remote
+https://jobs.ashbyhq.com/articul8/a390b489-5c17-4f62-91a6-97cbd030a652	2026-07-28	ashby-api	Senior Applied AI Researcher (India)	Articul8 AI	added	India/Bengaluru
+https://jobs.ashbyhq.com/articul8/fab35c76-2048-4540-a7ab-118b9b56e434	2026-07-28	ashby-api	Principal Applied AI Researcher - Domain- Specific Models (India)	Articul8 AI	added	India/Bengaluru
+https://jobs.ashbyhq.com/articul8/12b6cc4e-5fe2-4a47-a898-24a4617bb8de	2026-07-28	ashby-api	Principal Applied AI Researcher - Domain- Specific Models (Brazil)	Articul8 AI	added	Brazil/Remote
+https://jobs.ashbyhq.com/kantiv/d28a422f-970b-4ad8-869f-a8d02deda68f	2026-07-28	ashby-api	Agentic Systems Engineer	Joist AI (Kantiv)	added	Remote - India
+https://jobs.ashbyhq.com/ema/88d004d9-50a9-41ee-a618-03855001a9be	2026-07-28	ashby-api	Software Engineer, Machine Learning	Ema	added	Bengaluru office
+https://jobs.ashbyhq.com/ema/8268af44-d5d8-4a29-9638-3ea30f35f3a9	2026-07-28	ashby-api	Principal Machine Learning Engineer	Ema	added	India - Bengaluru
+https://jobs.ashbyhq.com/ema/45b65da4-1d78-4111-9052-ffbb8a61beb1	2026-07-28	ashby-api	Senior Technical Support Specialist (Enterprise Agentic AI)	Ema	added	India - Bengaluru
+https://jobs.ashbyhq.com/wisdom-ai/a590329c-488f-4382-944e-bb70d04bb674	2026-07-28	ashby-api	Agentic Context Engineer - Bengaluru, India	Wisdom AI	added	Bengaluru
+https://jobs.ashbyhq.com/wisdom-ai/93441adc-4cd9-4253-a335-c20a5aa4ada6	2026-07-28	ashby-api	Software Engineer, NLP/Machine Learning	Wisdom AI	added	Bengaluru
+https://job-boards.greenhouse.io/anthropic/jobs/4017544008	2026-07-28	greenhouse-api	Research Engineer, Agents	Anthropic	added	Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY
+https://job-boards.greenhouse.io/anthropic/jobs/4017331008	2026-07-28	greenhouse-api	Research Engineer, Knowledge Team	Anthropic	added	Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY
+https://job-boards.greenhouse.io/anthropic/jobs/5198108008	2026-07-28	greenhouse-api	Research Engineer, Machine Learning (RL Velocity)	Anthropic	added	Remote-Friendly (Travel-Required) | San Francisco, CA | New York City, NY
+https://job-boards.greenhouse.io/anthropic/jobs/5198255008	2026-07-28	greenhouse-api	Research Engineer, Model Evaluations	Anthropic	added	Remote-Friendly (Travel-Required) | San Francisco, CA | New York City, NY
+https://job-boards.greenhouse.io/anthropic/jobs/4616971008	2026-07-28	greenhouse-api	Research Engineer/Research Scientist, Pre-training	Anthropic	added	Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY
+https://job-boards.greenhouse.io/anthropic/jobs/5061517008	2026-07-28	greenhouse-api	Research Engineer, Universes	Anthropic	added	Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY
+https://job-boards.greenhouse.io/anthropic/jobs/5117581008	2026-07-28	greenhouse-api	Solutions Architect, Applied AI	Anthropic	added	Bangalore, India
+https://job-boards.greenhouse.io/anthropic/jobs/5257650008	2026-07-28	greenhouse-api	Staff+ Software Engineer, Inference Runtime	Anthropic	added	Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY
+https://jobs.ashbyhq.com/sarvam/7c42207a-bb56-413c-839f-9ad692df840e	2026-07-28	ashby-api	Data Scientist - Evaluations, Chanakya	Sarvam AI	added	Bengaluru
+https://jobs.ashbyhq.com/sarvam/dc047f4f-97be-4bb3-a9f1-cebbfc4de3e6	2026-07-28	ashby-api	Embedded Data Scientist, Chanakya	Sarvam AI	added	Delhi
+https://jobs.ashbyhq.com/sarvam/282019f4-f86b-4fe0-a643-bbac0cd8a751	2026-07-28	ashby-api	Machine Learning Engineer, Vision	Sarvam AI	added	Bengaluru
+https://jobs.ashbyhq.com/sarvam/e7f783e8-6378-4158-97d5-48a397a91698	2026-07-28	ashby-api	ML Ops Engineer, Chanakya	Sarvam AI	added	Delhi
+https://jobs.ashbyhq.com/sarvam/7ee2ff5d-32a2-4b0a-9ae9-117ba8b626d1	2026-07-28	ashby-api	Staff Data Engineer	Sarvam AI	added	Bengaluru
+https://jobs.ashbyhq.com/sarvam/2dcb062d-e42b-408d-be15-59ddde900984	2026-07-28	ashby-api	ML Researcher, Foundational Models	Sarvam AI	added	Bengaluru
+https://jobs.ashbyhq.com/sarvam/e9fb1269-fc4b-4879-aa35-0b75a8c83611	2026-07-28	ashby-api	ML Engineer (Training Infra), Foundational Models	Sarvam AI	added	Bengaluru
+https://jobs.ashbyhq.com/sarvam/2d72a541-c805-4bd9-81cd-ac2db98611fa	2026-07-28	ashby-api	ML Engineer (Data), Foundational Models	Sarvam AI	added	Bengaluru
+https://jobs.ashbyhq.com/sarvam/30259734-50c3-4f1c-81cd-8bff07e585e7	2026-07-28	ashby-api	Applied AI Engineer, Sarvam Agents	Sarvam AI	added	Bengaluru
+https://jobs.ashbyhq.com/sarvam/95fe7d08-b3e1-4961-9809-00a29e6c5f06	2026-07-28	ashby-api	Machine Learning Engineer, Dubbing	Sarvam AI	added	Bengaluru
+https://jobs.ashbyhq.com/sarvam/6ad226cd-9400-41b6-9c64-db35b7d24516	2026-07-28	ashby-api	Performance Engineer, On-Device Inference	Sarvam AI	added	Bengaluru
+https://job-boards.greenhouse.io/arizeai/jobs/5980312004	2026-07-28	greenhouse-api	DevSecOps Engineer (TypeScript & Agentic AI)	Arize AI	added	Remote/Hybrid (SoCal)
+https://job-boards.greenhouse.io/arizeai/jobs/5993755004	2026-07-28	greenhouse-api	Forward Deployed AI Engineer, East	Arize AI	added	Remote (New York)
+https://job-boards.greenhouse.io/arizeai/jobs/5781408004	2026-07-28	greenhouse-api	Forward Deployed AI Engineer, EMEA	Arize AI	added	Remote (EMEA)
+https://job-boards.greenhouse.io/arizeai/jobs/6030953004	2026-07-28	greenhouse-api	Forward Deployed AI Engineer, West	Arize AI	added	Remote (San Francisco)
+https://job-boards.greenhouse.io/arizeai/jobs/5396396004	2026-07-28	greenhouse-api	Senior AI Product Engineer, Backend	Arize AI	added	Remote (United States)
+https://job-boards.greenhouse.io/arizeai/jobs/5396420004	2026-07-28	greenhouse-api	Senior AI Product Engineer, Fullstack	Arize AI	added	Remote (United States)
+https://www.druva.com/why-druva/explore/careers/jobs/8564142002/?gh_jid=8564142002	2026-07-28	greenhouse-api	Staff Software Engineer (AI)	Druva	added	Pune, Maharashtra, India
+https://jobs.lever.co/meesho/489fe662-5d28-4305-953e-91ee21e8538c	2026-07-28	lever-api	Data Scientist III	Meesho	added	Bangalore, Karnataka
+https://jobs.lever.co/meesho/3d5bf582-493f-4298-b7de-e42a7d58a358	2026-07-28	lever-api	Principal Data Scientist	Meesho	added	Bangalore, Karnataka
+https://weworkremotely.com/remote-jobs/toptal-ai-engineer-aws-bedrock-agentcore-production-agentic-systems-latam-europe	2026-07-28	weworkremotely-api	AI Engineer — AWS Bedrock AgentCore & Production Agentic Systems | LATAM & Europe	Toptal	added	Anywhere in the World
+https://weworkremotely.com/remote-jobs/toptal-senior-full-stack-ai-engineer	2026-07-28	weworkremotely-api	Senior Full Stack AI Engineer	Toptal	added	Anywhere in the World
+https://weworkremotely.com/remote-jobs/sezzle-ai-engineer-ii-remote-1	2026-07-28	weworkremotely-api	AI Engineer II (Remote)	Sezzle	added	Anywhere in the World
+https://weworkremotely.com/remote-jobs/stripe-staff-product-manager-ml-foundations-and-genai	2026-07-28	weworkremotely-api	Staff Product Manager, ML Foundations and GenAI	Stripe	added	Anywhere in the World
+https://weworkremotely.com/remote-jobs/coinbase-machine-learning-engineer-cx-intelligence	2026-07-28	weworkremotely-api	Machine Learning Engineer, CX Intelligence	Coinbase	added	Anywhere in the World
+https://apply.workable.com/huggingface/jobs/view/81B46579FE	2026-07-28	workable-api	Open-Source Machine Learning Engineer - EMEA Remote	Hugging Face (remote)	added	Paris, France (Remote)
+https://apply.workable.com/huggingface/jobs/view/19A136F8E2	2026-07-28	workable-api	Open-Source Machine Learning Engineer - US Remote	Hugging Face (remote)	added	New York, United States (Remote)
+https://in.indeed.com/viewjob?jk=5cbe0ea53b0859c5	2026-07-28	apify-api	Data Engineering Professional II	Takeda Pharmaceutical	added	Bengaluru, Karnataka
+https://in.indeed.com/viewjob?jk=16f256444af9e3b9	2026-07-28	apify-api	DE&A - AIML - Graph DB Data Engineer	Zensar Technologies	added	Pune, Maharashtra
+https://in.indeed.com/viewjob?jk=77e3451ed74f594f	2026-07-28	apify-api	Machine Learning Engineer, VP	National Westminster Bank PLC	added	Bengaluru, Karnataka
+https://in.indeed.com/viewjob?jk=94d03147c8ca9eb9	2026-07-28	apify-api	Associate AI/ML Engineer	Optum	added	Gurugram, Haryana
+https://in.indeed.com/viewjob?jk=bdf43cf6d9e63464	2026-07-28	apify-api	Sr. Data Engineer - Data Engineering 4B	Genpact India Pvt. Ltd.	added	Bengaluru, Karnataka
+https://in.indeed.com/viewjob?jk=e0e4faca9c56c209	2026-07-28	apify-api	Senior Data Scientist	London Stock Exchange Group	added	Bengaluru, Karnataka
+https://in.indeed.com/viewjob?jk=db82d3363de83be3	2026-07-28	apify-api	Data Engineer (Machine Learning Experience)	Sagacious Infosystems Pvt ltd	added	Bengaluru, Karnataka
+https://in.indeed.com/viewjob?jk=373152b49989f19f	2026-07-28	apify-api	Delivery Consultant, AI/ML, AWS Professional Services, Healthcare & Life Sciences	AWS India - Karnataka	added	Bengaluru, Karnataka
+https://in.indeed.com/viewjob?jk=ae912e14d07e3098	2026-07-28	apify-api	Lead Data Scientist- Comp Intel	Target	added	Bengaluru, Karnataka
+https://in.indeed.com/viewjob?jk=a484a1f8c6c00ba6	2026-07-28	apify-api	AI Engineer	EXL Service	added	India
+https://in.indeed.com/viewjob?jk=7a6740f4bb42a849	2026-07-28	apify-api	AI/ML Engineer	Optum	added	Bengaluru, Karnataka
+https://in.indeed.com/viewjob?jk=bf02ccc83c14719f	2026-07-28	apify-api	Senior AI Engineer/AI Lead	Parexel	added	Hyderabad, Telangana
+https://in.indeed.com/viewjob?jk=523df77d02da10e9	2026-07-28	apify-api	AI/ML Engineer	UnitedHealth Group	added	Hyderabad, Telangana
+https://in.indeed.com/viewjob?jk=d8d0a4379bf100f7	2026-07-28	apify-api	AI Engineer-Senior	EY	added	Pune, Maharashtra
+https://in.indeed.com/viewjob?jk=f340c4f4a5cd9082	2026-07-28	apify-api	Software Engineer III - Python Developer + LLM / Gen AI	JPMorganChase	added	Bengaluru, Karnataka
+https://in.indeed.com/viewjob?jk=d9f5593baa94081c	2026-07-28	apify-api	VP AI ML Engineering	UnitedHealth Group	added	Hyderabad, Telangana
+https://in.indeed.com/viewjob?jk=785ba916a71cd7b5	2026-07-28	apify-api	Senior AI Engineer	Teradata	added	Bengaluru, Karnataka
+https://in.indeed.com/viewjob?jk=949ff68293f48d40	2026-07-28	apify-api	Generative and Agentic AI Engineer	Trinity Soft Solutions	added	Bengaluru, Karnataka
+https://in.indeed.com/viewjob?jk=041c8eccc7e107a1	2026-07-28	apify-api	Senior Machine Learning Engineer	Siemens	added	Noida, Uttar Pradesh
+https://in.indeed.com/viewjob?jk=0d37413c48ffc386	2026-07-28	apify-api	Data Scientist / Senior Data Scientist	Revolite Infotech Pvt. Ltd	added	Remote
+https://in.indeed.com/viewjob?jk=d94566008a9f0154	2026-07-28	apify-api	Senior Data Scientist (Agentic Solutions)	Netomi	added	Remote
+https://in.indeed.com/viewjob?jk=a57a8ce4668095b9	2026-07-28	apify-api	Data Science, Machine Learning, Generative AI & AI Trainer	UniConverge Technologies Pvt. Ltd.	added	Remote
+https://in.indeed.com/viewjob?jk=fec2189f1f6308c0	2026-07-28	apify-api	Lead AI Engineer 4D	Genpact India Pvt. Ltd.	added	Kolkata, West Bengal
+https://in.indeed.com/viewjob?jk=8442ed751310404c	2026-07-28	apify-api	AI Developer – Generative AI & LLM Engineer	TestUnity	added	Bangalore City, Bengaluru, Karnataka
+https://in.indeed.com/viewjob?jk=bd6557d113472aef	2026-07-28	apify-api	AI/ML Engineer – Agentic AI	WebSenor InfoTech	added	Noida, Uttar Pradesh
+https://in.indeed.com/viewjob?jk=e32faf331c282163	2026-07-28	apify-api	Software Engineer / AI Engineer (MERN Stack & LLM Fine-Tuning)	Infactra AI	added	Remote
+https://in.indeed.com/viewjob?jk=d33f9ce8414f11dd	2026-07-28	apify-api	AI Engineer (LLM)	SAI Group Ltd	added	Kolkata, West Bengal
+https://in.indeed.com/viewjob?jk=211912b8d18b8491	2026-07-28	apify-api	Sr. Data Scientist	Ashapura Softech Pvt. Ltd.	added	Remote
+https://in.indeed.com/viewjob?jk=4195c2ecefe906aa	2026-07-28	apify-api	AI/ML Engineer – Technical Skill Set (Agentic AI Focus)	WebSenor	added	Noida, Uttar Pradesh
+https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Austria-Remote/Senior-Machine-Learning-Engineer---Automotive_JR2021136	2026-07-28	workday-api	Senior Machine Learning Engineer - Automotive	Nvidia India	added	Austria, Remote
+https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Applied-Research-Engineer--Accelerator-Algorithms_JR2021373	2026-07-28	workday-api	Senior Applied Research Engineer, Accelerator Algorithms	Nvidia India	added	India, Bengaluru
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000140196749	2026-07-28	smartrecruiters-api	Data Engineer_AI	Bosch India (AI/ML)	added	Bangalore, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000139912639	2026-07-28	smartrecruiters-api	Research Engineer – Generative AI and Computer Vision	Bosch India (AI/ML)	added	bengaluru, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000139912519	2026-07-28	smartrecruiters-api	Research Engineer – Neuro-Symbolic AI (Knowledge Graphs) & Multimodal Assistant Systems	Bosch India (AI/ML)	added	bengaluru, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000139519368	2026-07-28	smartrecruiters-api	Senior Machine learning Engineer	Bosch India (AI/ML)	added	bangalore, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000139244269	2026-07-28	smartrecruiters-api	Role: Intelligent Automation Engineer (RPA GenAI Agentic AI)	Bosch India (AI/ML)	added	bangalore, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000139243510	2026-07-28	smartrecruiters-api	Data Engineer Consultant	Bosch India (AI/ML)	added	Timișoara, TM, Romania, Remote
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000139203318	2026-07-28	smartrecruiters-api	AI Engineer	Bosch India (AI/ML)	added	bengaluru, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000139009980	2026-07-28	smartrecruiters-api	AI/ML - Architect	Bosch India (AI/ML)	added	bengaluru, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000139000848	2026-07-28	smartrecruiters-api	AI/ML Expert	Bosch India (AI/ML)	added	coimbatore, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000138994192	2026-07-28	smartrecruiters-api	SOC L3 Analyst	Bosch India (AI/ML)	added	hosur road bangalore, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000138994730	2026-07-28	smartrecruiters-api	Data and AI/ML Design engineer at NE-VM	Bosch India (AI/ML)	added	bangalore, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000138993715	2026-07-28	smartrecruiters-api	DevOps (MLOps), Python Developer	Bosch India (AI/ML)	added	coimbatore, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000138994425	2026-07-28	smartrecruiters-api	Data Engineer_Sr_Python Specialist	Bosch India (AI/ML)	added	bangalore, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000138994928	2026-07-28	smartrecruiters-api	GenAI Solution Tool integration	Bosch India (AI/ML)	added	bangalore, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000138989430	2026-07-28	smartrecruiters-api	Applied Computer Vision Engineer - Data Driven Development	Bosch India (AI/ML)	added	bengaluru, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000138992236	2026-07-28	smartrecruiters-api	AI Data Engineering and Sr Cloud Specialist	Bosch India (AI/ML)	added	bengaluru, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000138991340	2026-07-28	smartrecruiters-api	AI ML Data Engineer for ADAS Sr Backend Developer	Bosch India (AI/ML)	added	bangalore, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000138992168	2026-07-28	smartrecruiters-api	Sr Data Engineer System Visualization	Bosch India (AI/ML)	added	bangalore, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000138991868	2026-07-28	smartrecruiters-api	AI ML Data Engineer for ADAS Sr Full Stack Developer	Bosch India (AI/ML)	added	bangalore, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000138990141	2026-07-28	smartrecruiters-api	Data Engineering and Cloud	Bosch India (AI/ML)	added	bengaluru , , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000138449329	2026-07-28	smartrecruiters-api	Sr.Data Engineering	Bosch India (AI/ML)	added	bengaluru, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000138091919	2026-07-28	smartrecruiters-api	Data Scientist	Bosch India (AI/ML)	added	bengaluru, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000138074792	2026-07-28	smartrecruiters-api	GenAI/Agentic AI specialists	Bosch India (AI/ML)	added	bengaluru, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000137836099	2026-07-28	smartrecruiters-api	DevOps/MLOps Specialist	Bosch India (AI/ML)	added	bengaluru, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000137052729	2026-07-28	smartrecruiters-api	IN_RBIN_Assistant Manager/Senior Engineer_Data Scientist	Bosch India (AI/ML)	added	Nashik, Maharashtra, India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000136373899	2026-07-28	smartrecruiters-api	Lead Data Engineer	Bosch India (AI/ML)	added	Bengaluru, KA, India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000135638849	2026-07-28	smartrecruiters-api	AI Expert – Generative AI Solutions Developer	Bosch India (AI/ML)	added	coimbatore, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000135418038	2026-07-28	smartrecruiters-api	AI/ML Engineer_MS	Bosch India (AI/ML)	added	telengana, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000133512405	2026-07-28	smartrecruiters-api	Sr.Data Scientist_MPIN	Bosch India (AI/ML)	added	Bengaluru, KA, India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000132389048	2026-07-28	smartrecruiters-api	Sr Data Engineer	Bosch India (AI/ML)	added	bengaluru, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000126056726	2026-07-28	smartrecruiters-api	Teams Telephony – Operations Automation & AI Engineer	Bosch India (AI/ML)	added	bangalore, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000125303804	2026-07-28	smartrecruiters-api	VnV Automation & Analytics(AI & LLM)	Bosch India (AI/ML)	added	bangalore, , India
+https://jobs.smartrecruiters.com/BoschGroup/postings/744000122656549	2026-07-28	smartrecruiters-api	Data Engineer	Bosch India (AI/ML)	added	Timișoara, TM, Romania, Remote
+https://jobs.smartrecruiters.com/BoschGroup/postings/743999962813213	2026-07-28	smartrecruiters-api	Azure Big Data Engineer	Bosch India (AI/ML)	added	Bengaluru, KA, India

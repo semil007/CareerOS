@@ -248,7 +248,39 @@ for (const [i, job] of toProcess.entries()) {
 
   } catch (err) {
     console.error(`  ❌ Error: ${err.message}`);
-    console.error('  → Skipping this job, continuing with next...');
+    const errMsg = err.message.slice(0, 100).replace(/\s+/g, ' ');
+    try {
+      const num = nextReportNumber();
+      const companySlug = (job.company || 'unknown').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'unknown';
+      const today = new Date().toISOString().split('T')[0];
+      const filename = `${num}-${companySlug}-${today}.md`;
+      const reportPath = join(ROOT, 'reports', filename);
+      const reportContent = `# Evaluation: ${job.company} — ${job.title}\n\n**Date:** ${today}\n**Company:** ${job.company}\n**Role:** ${job.title}\n**Score:** 0.0/5\n**Status:** Failed\n**URL:** ${job.url}\n\n## Evaluation Failure\n\`\`\`\n${err.message}\n\`\`\`\n`;
+      mkdirSync(join(ROOT, 'reports'), { recursive: true });
+      writeFileSync(reportPath, reportContent, 'utf-8');
+
+      const trackerDir = join(ROOT, 'batch', 'tracker-additions');
+      mkdirSync(trackerDir, { recursive: true });
+      const trackerPath = join(trackerDir, `${num}-${companySlug}.tsv`);
+      const trackerFields = [
+        String(parseInt(num, 10)),
+        today,
+        job.company || 'Unknown',
+        job.title || 'Unknown',
+        'SKIP',
+        '0.0/5',
+        '❌',
+        `[${num}](reports/${filename})`,
+        `Evaluation failed: ${errMsg}`,
+      ];
+      writeFileSync(trackerPath, `${trackerFields.join('\t')}\n`, 'utf-8');
+      console.log(`  📊 Recorded Failed status report: reports/${filename}`);
+    } catch (saveErr) {
+      console.warn(`  ⚠️ Could not save failure entry: ${saveErr.message}`);
+    }
+
+    markDone(job.url);
+    console.log('  [3/3] ❌ Marked as processed (Failed) in pipeline.md');
   } finally {
     // Clean up temp file
     try { if (existsSync(tmpFile)) require('fs').unlinkSync(tmpFile); } catch {}

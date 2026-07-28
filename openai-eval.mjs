@@ -161,7 +161,7 @@ let endpointHost;
     process.exit(1);
   }
   endpointHost = parsed.hostname;
-  const isLoopback = endpointHost === 'localhost' || endpointHost === '127.0.0.1' || endpointHost === '::1';
+  const isLoopback = endpointHost === 'localhost' || endpointHost === '127.0.0.1' || endpointHost === '::1' || process.env.ALLOW_INSECURE_HTTP === 'true';
 
   if (!isLoopback && parsed.protocol !== 'https:') {
     console.error(`
