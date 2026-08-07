@@ -56,22 +56,20 @@ across computers via the `personal` branch of your private GitHub repo.
 Run these exact shell commands in order:
 
 ```bash
-cd /Users/akconsultants/Downloads/career-ops
+cd "$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
+
+# Ensure account and git user config are active
+gh auth switch --user semil007 2>/dev/null || true
+git config user.name "semil007"
+git config user.email "semilpm@gmail.com"
 
 # Make sure we're on the personal branch
 git checkout personal
 
-# Stage all personal data files
-git add .gitignore
-git add cv.md
-git add config/profile.yml
-git add modes/_profile.md modes/_custom.md
-git add portals.yml
-git add data/applications.md data/pipeline.md data/scan-history.tsv data/pdf-index.tsv
-git add reports/
-git add batch/tracker-additions/
-git add interview-prep/
-git add jds/
+# Stage all personal data files cleanly
+for item in .gitignore cv.md article-digest.md config/profile.yml modes/_profile.md modes/_custom.md portals.yml data/applications.md data/pipeline.md data/scan-history.tsv data/pdf-index.tsv data/follow-ups.md reports/ batch/tracker-additions/ interview-prep/ jds/ writing-samples/; do
+  [ -e "$item" ] && git add "$item"
+done
 
 # Commit with today's date
 git commit -m "sync $(date +%Y-%m-%d)" --allow-empty
