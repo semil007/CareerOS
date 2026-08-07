@@ -862,6 +862,8 @@ tracked_companies:
       url: url
       company: [company, companyName]
       location: [location, formattedLocation]
+      # Cache JD locally from Apify payload to avoid Indeed bot wall during pipeline-eval
+      description: [description, snippet, jobDescription]
     enabled: true
 
   - name: Indeed — Remote ML Engineer India (Apify)
@@ -877,6 +879,8 @@ tracked_companies:
       url: url
       company: [company, companyName]
       location: [location, formattedLocation]
+      # Cache JD locally from Apify payload to avoid Indeed bot wall during pipeline-eval
+      description: [description, snippet, jobDescription]
     enabled: true
 
 search_queries:
