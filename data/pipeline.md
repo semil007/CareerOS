@@ -4,192 +4,85 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 ## Pending
 
-- [x] https://jobs.ashbyhq.com/articul8/73bff7e6-827a-4a70-b7a9-712d421a8dd8 | Articul8 AI | Applied AI Researcher (India) | India/Bengaluru
-- [x] https://jobs.ashbyhq.com/articul8/50b4a531-f683-4105-9cca-cad851cdcdcd | Articul8 AI | Applied AI Researcher (Brazil) | Brazil/Remote
-- [x] https://jobs.ashbyhq.com/articul8/aa885799-445c-49d1-8607-0f3346e8cf15 | Articul8 AI | Senior Applied AI Researcher (Brazil) | Brazil/Remote
-- [x] https://jobs.ashbyhq.com/articul8/a390b489-5c17-4f62-91a6-97cbd030a652 | Articul8 AI | Senior Applied AI Researcher (India) | India/Bengaluru
-- [x] https://jobs.ashbyhq.com/articul8/fab35c76-2048-4540-a7ab-118b9b56e434 | Articul8 AI | Principal Applied AI Researcher - Domain- Specific Models (India) | India/Bengaluru
-- [x] https://jobs.ashbyhq.com/articul8/12b6cc4e-5fe2-4a47-a898-24a4617bb8de | Articul8 AI | Principal Applied AI Researcher - Domain- Specific Models (Brazil) | Brazil/Remote
-- [x] https://jobs.ashbyhq.com/kantiv/d28a422f-970b-4ad8-869f-a8d02deda68f | Joist AI (Kantiv) | Agentic Systems Engineer | Remote - India
-- [x] https://jobs.ashbyhq.com/ema/88d004d9-50a9-41ee-a618-03855001a9be | Ema | Software Engineer, Machine Learning | Bengaluru office
-- [x] https://jobs.ashbyhq.com/ema/8268af44-d5d8-4a29-9638-3ea30f35f3a9 | Ema | Principal Machine Learning Engineer | India - Bengaluru
-- [x] https://jobs.ashbyhq.com/ema/45b65da4-1d78-4111-9052-ffbb8a61beb1 | Ema | Senior Technical Support Specialist (Enterprise Agentic AI) | India - Bengaluru
-- [x] https://jobs.ashbyhq.com/wisdom-ai/a590329c-488f-4382-944e-bb70d04bb674 | Wisdom AI | Agentic Context Engineer - Bengaluru, India | Bengaluru
-- [x] https://jobs.ashbyhq.com/wisdom-ai/93441adc-4cd9-4253-a335-c20a5aa4ada6 | Wisdom AI | Software Engineer, NLP/Machine Learning | Bengaluru
-- [x] https://job-boards.greenhouse.io/anthropic/jobs/4017544008 | Anthropic | Research Engineer, Agents | Remote-Friendly (Travel-Required) / San Francisco, CA / Seattle, WA / New York City, NY
-- [x] https://job-boards.greenhouse.io/anthropic/jobs/4017331008 | Anthropic | Research Engineer, Knowledge Team | Remote-Friendly (Travel-Required) / San Francisco, CA / Seattle, WA / New York City, NY
-- [x] https://job-boards.greenhouse.io/anthropic/jobs/5198108008 | Anthropic | Research Engineer, Machine Learning (RL Velocity) | Remote-Friendly (Travel-Required) / San Francisco, CA / New York City, NY
-- [x] https://job-boards.greenhouse.io/anthropic/jobs/5198255008 | Anthropic | Research Engineer, Model Evaluations | Remote-Friendly (Travel-Required) / San Francisco, CA / New York City, NY
-- [x] https://job-boards.greenhouse.io/anthropic/jobs/4616971008 | Anthropic | Research Engineer/Research Scientist, Pre-training | Remote-Friendly (Travel-Required) / San Francisco, CA / Seattle, WA / New York City, NY
-- [x] https://job-boards.greenhouse.io/anthropic/jobs/5061517008 | Anthropic | Research Engineer, Universes | Remote-Friendly (Travel-Required) / San Francisco, CA / Seattle, WA / New York City, NY
-- [x] https://job-boards.greenhouse.io/anthropic/jobs/5117581008 | Anthropic | Solutions Architect, Applied AI | Bangalore, India
-- [x] https://job-boards.greenhouse.io/anthropic/jobs/5257650008 | Anthropic | Staff+ Software Engineer, Inference Runtime | Remote-Friendly (Travel-Required) / San Francisco, CA / Seattle, WA / New York City, NY
-- [x] https://jobs.ashbyhq.com/sarvam/7c42207a-bb56-413c-839f-9ad692df840e | Sarvam AI | Data Scientist - Evaluations, Chanakya | Bengaluru
-- [x] https://jobs.ashbyhq.com/sarvam/dc047f4f-97be-4bb3-a9f1-cebbfc4de3e6 | Sarvam AI | Embedded Data Scientist, Chanakya | Delhi
-- [x] https://jobs.ashbyhq.com/sarvam/282019f4-f86b-4fe0-a643-bbac0cd8a751 | Sarvam AI | Machine Learning Engineer, Vision | Bengaluru
-- [x] https://jobs.ashbyhq.com/sarvam/e7f783e8-6378-4158-97d5-48a397a91698 | Sarvam AI | ML Ops Engineer, Chanakya | Delhi
-- [x] https://jobs.ashbyhq.com/sarvam/7ee2ff5d-32a2-4b0a-9ae9-117ba8b626d1 | Sarvam AI | Staff Data Engineer | Bengaluru
-- [x] https://jobs.ashbyhq.com/sarvam/2dcb062d-e42b-408d-be15-59ddde900984 | Sarvam AI | ML Researcher, Foundational Models | Bengaluru
-- [x] https://jobs.ashbyhq.com/sarvam/e9fb1269-fc4b-4879-aa35-0b75a8c83611 | Sarvam AI | ML Engineer (Training Infra), Foundational Models | Bengaluru
-- [x] https://jobs.ashbyhq.com/sarvam/2d72a541-c805-4bd9-81cd-ac2db98611fa | Sarvam AI | ML Engineer (Data), Foundational Models | Bengaluru
-- [x] https://jobs.ashbyhq.com/sarvam/30259734-50c3-4f1c-81cd-8bff07e585e7 | Sarvam AI | Applied AI Engineer, Sarvam Agents | Bengaluru
-- [x] https://jobs.ashbyhq.com/sarvam/95fe7d08-b3e1-4961-9809-00a29e6c5f06 | Sarvam AI | Machine Learning Engineer, Dubbing | Bengaluru
-- [x] https://jobs.ashbyhq.com/sarvam/6ad226cd-9400-41b6-9c64-db35b7d24516 | Sarvam AI | Performance Engineer, On-Device Inference | Bengaluru
-- [x] https://job-boards.greenhouse.io/arizeai/jobs/5980312004 | Arize AI | DevSecOps Engineer (TypeScript & Agentic AI) | Remote/Hybrid (SoCal)
-- [x] https://job-boards.greenhouse.io/arizeai/jobs/5993755004 | Arize AI | Forward Deployed AI Engineer, East | Remote (New York)
-- [x] https://job-boards.greenhouse.io/arizeai/jobs/5781408004 | Arize AI | Forward Deployed AI Engineer, EMEA | Remote (EMEA)
-- [x] https://job-boards.greenhouse.io/arizeai/jobs/6030953004 | Arize AI | Forward Deployed AI Engineer, West | Remote (San Francisco)
-- [x] https://job-boards.greenhouse.io/arizeai/jobs/5396396004 | Arize AI | Senior AI Product Engineer, Backend | Remote (United States)
-- [x] https://job-boards.greenhouse.io/arizeai/jobs/5396420004 | Arize AI | Senior AI Product Engineer, Fullstack | Remote (United States)
-- [x] https://www.druva.com/why-druva/explore/careers/jobs/8564142002/?gh_jid=8564142002 | Druva | Staff Software Engineer (AI) | Pune, Maharashtra, India
-- [x] https://jobs.lever.co/meesho/489fe662-5d28-4305-953e-91ee21e8538c | Meesho | Data Scientist III | Bangalore, Karnataka
-- [x] https://jobs.lever.co/meesho/3d5bf582-493f-4298-b7de-e42a7d58a358 | Meesho | Principal Data Scientist | Bangalore, Karnataka
-- [x] https://weworkremotely.com/remote-jobs/toptal-ai-engineer-aws-bedrock-agentcore-production-agentic-systems-latam-europe | Toptal | AI Engineer — AWS Bedrock AgentCore & Production Agentic Systems / LATAM & Europe | Anywhere in the World
-- [x] https://weworkremotely.com/remote-jobs/toptal-senior-full-stack-ai-engineer | Toptal | Senior Full Stack AI Engineer | Anywhere in the World
-- [x] https://weworkremotely.com/remote-jobs/sezzle-ai-engineer-ii-remote-1 | Sezzle | AI Engineer II (Remote) | Anywhere in the World
-- [x] https://weworkremotely.com/remote-jobs/stripe-staff-product-manager-ml-foundations-and-genai | Stripe | Staff Product Manager, ML Foundations and GenAI | Anywhere in the World
-- [x] https://weworkremotely.com/remote-jobs/coinbase-machine-learning-engineer-cx-intelligence | Coinbase | Machine Learning Engineer, CX Intelligence | Anywhere in the World
-- [x] https://apply.workable.com/huggingface/jobs/view/81B46579FE | Hugging Face (remote) | Open-Source Machine Learning Engineer - EMEA Remote | Paris, France (Remote)
-- [x] https://apply.workable.com/huggingface/jobs/view/19A136F8E2 | Hugging Face (remote) | Open-Source Machine Learning Engineer - US Remote | New York, United States (Remote)
-- [x] https://in.indeed.com/viewjob?jk=5cbe0ea53b0859c5 | Takeda Pharmaceutical | Data Engineering Professional II | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=16f256444af9e3b9 | Zensar Technologies | DE&A - AIML - Graph DB Data Engineer | Pune, Maharashtra
-- [x] https://in.indeed.com/viewjob?jk=77e3451ed74f594f | National Westminster Bank PLC | Machine Learning Engineer, VP | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=94d03147c8ca9eb9 | Optum | Associate AI/ML Engineer | Gurugram, Haryana
-- [x] https://in.indeed.com/viewjob?jk=bdf43cf6d9e63464 | Genpact India Pvt. Ltd. | Sr. Data Engineer - Data Engineering 4B | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=e0e4faca9c56c209 | London Stock Exchange Group | Senior Data Scientist | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=db82d3363de83be3 | Sagacious Infosystems Pvt ltd | Data Engineer (Machine Learning Experience) | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=373152b49989f19f | AWS India - Karnataka | Delivery Consultant, AI/ML, AWS Professional Services, Healthcare & Life Sciences | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=ae912e14d07e3098 | Target | Lead Data Scientist- Comp Intel | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=a484a1f8c6c00ba6 | EXL Service | AI Engineer | India
-- [x] https://in.indeed.com/viewjob?jk=7a6740f4bb42a849 | Optum | AI/ML Engineer | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=bf02ccc83c14719f | Parexel | Senior AI Engineer/AI Lead | Hyderabad, Telangana
-- [x] https://in.indeed.com/viewjob?jk=523df77d02da10e9 | UnitedHealth Group | AI/ML Engineer | Hyderabad, Telangana
-- [x] https://in.indeed.com/viewjob?jk=d8d0a4379bf100f7 | EY | AI Engineer-Senior | Pune, Maharashtra
-- [x] https://in.indeed.com/viewjob?jk=f340c4f4a5cd9082 | JPMorganChase | Software Engineer III - Python Developer + LLM / Gen AI | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=d9f5593baa94081c | UnitedHealth Group | VP AI ML Engineering | Hyderabad, Telangana
-- [x] https://in.indeed.com/viewjob?jk=785ba916a71cd7b5 | Teradata | Senior AI Engineer | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=949ff68293f48d40 | Trinity Soft Solutions | Generative and Agentic AI Engineer | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=041c8eccc7e107a1 | Siemens | Senior Machine Learning Engineer | Noida, Uttar Pradesh
-- [x] https://in.indeed.com/viewjob?jk=0d37413c48ffc386 | Revolite Infotech Pvt. Ltd | Data Scientist / Senior Data Scientist | Remote
-- [x] https://in.indeed.com/viewjob?jk=d94566008a9f0154 | Netomi | Senior Data Scientist (Agentic Solutions) | Remote
-- [x] https://in.indeed.com/viewjob?jk=a57a8ce4668095b9 | UniConverge Technologies Pvt. Ltd. | Data Science, Machine Learning, Generative AI & AI Trainer | Remote
-- [x] https://in.indeed.com/viewjob?jk=fec2189f1f6308c0 | Genpact India Pvt. Ltd. | Lead AI Engineer 4D | Kolkata, West Bengal
-- [x] https://in.indeed.com/viewjob?jk=8442ed751310404c | TestUnity | AI Developer – Generative AI & LLM Engineer | Bangalore City, Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=bd6557d113472aef | WebSenor InfoTech | AI/ML Engineer – Agentic AI | Noida, Uttar Pradesh
-- [x] https://in.indeed.com/viewjob?jk=e32faf331c282163 | Infactra AI | Software Engineer / AI Engineer (MERN Stack & LLM Fine-Tuning) | Remote
-- [x] https://in.indeed.com/viewjob?jk=d33f9ce8414f11dd | SAI Group Ltd | AI Engineer (LLM) | Kolkata, West Bengal
-- [x] https://in.indeed.com/viewjob?jk=211912b8d18b8491 | Ashapura Softech Pvt. Ltd. | Sr. Data Scientist | Remote
-- [x] https://in.indeed.com/viewjob?jk=4195c2ecefe906aa | WebSenor | AI/ML Engineer – Technical Skill Set (Agentic AI Focus) | Noida, Uttar Pradesh
-- [x] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Austria-Remote/Senior-Machine-Learning-Engineer---Automotive_JR2021136 | Nvidia India | Senior Machine Learning Engineer - Automotive | Austria, Remote
-- [x] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Applied-Research-Engineer--Accelerator-Algorithms_JR2021373 | Nvidia India | Senior Applied Research Engineer, Accelerator Algorithms | India, Bengaluru
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000140196749 | Bosch India (AI/ML) | Data Engineer_AI | Bangalore, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000139912639 | Bosch India (AI/ML) | Research Engineer – Generative AI and Computer Vision | bengaluru, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000139912519 | Bosch India (AI/ML) | Research Engineer – Neuro-Symbolic AI (Knowledge Graphs) & Multimodal Assistant Systems | bengaluru, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000139519368 | Bosch India (AI/ML) | Senior Machine learning Engineer | bangalore, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000139244269 | Bosch India (AI/ML) | Role: Intelligent Automation Engineer (RPA GenAI Agentic AI) | bangalore, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000139243510 | Bosch India (AI/ML) | Data Engineer Consultant | Timișoara, TM, Romania, Remote
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000139203318 | Bosch India (AI/ML) | AI Engineer | bengaluru, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000139009980 | Bosch India (AI/ML) | AI/ML - Architect | bengaluru, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000139000848 | Bosch India (AI/ML) | AI/ML Expert | coimbatore, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000138994192 | Bosch India (AI/ML) | SOC L3 Analyst | hosur road bangalore, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000138994730 | Bosch India (AI/ML) | Data and AI/ML Design engineer at NE-VM | bangalore, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000138993715 | Bosch India (AI/ML) | DevOps (MLOps), Python Developer | coimbatore, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000138994425 | Bosch India (AI/ML) | Data Engineer_Sr_Python Specialist | bangalore, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000138994928 | Bosch India (AI/ML) | GenAI Solution Tool integration | bangalore, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000138989430 | Bosch India (AI/ML) | Applied Computer Vision Engineer - Data Driven Development | bengaluru, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000138992236 | Bosch India (AI/ML) | AI Data Engineering and Sr Cloud Specialist | bengaluru, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000138991340 | Bosch India (AI/ML) | AI ML Data Engineer for ADAS Sr Backend Developer | bangalore, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000138992168 | Bosch India (AI/ML) | Sr Data Engineer System Visualization | bangalore, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000138991868 | Bosch India (AI/ML) | AI ML Data Engineer for ADAS Sr Full Stack Developer | bangalore, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000138990141 | Bosch India (AI/ML) | Data Engineering and Cloud | bengaluru , , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000138449329 | Bosch India (AI/ML) | Sr.Data Engineering | bengaluru, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000138091919 | Bosch India (AI/ML) | Data Scientist | bengaluru, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000138074792 | Bosch India (AI/ML) | GenAI/Agentic AI specialists | bengaluru, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000137836099 | Bosch India (AI/ML) | DevOps/MLOps Specialist | bengaluru, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000137052729 | Bosch India (AI/ML) | IN_RBIN_Assistant Manager/Senior Engineer_Data Scientist | Nashik, Maharashtra, India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000136373899 | Bosch India (AI/ML) | Lead Data Engineer | Bengaluru, KA, India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000135638849 | Bosch India (AI/ML) | AI Expert – Generative AI Solutions Developer | coimbatore, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000135418038 | Bosch India (AI/ML) | AI/ML Engineer_MS | telengana, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000133512405 | Bosch India (AI/ML) | Sr.Data Scientist_MPIN | Bengaluru, KA, India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000132389048 | Bosch India (AI/ML) | Sr Data Engineer | bengaluru, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000126056726 | Bosch India (AI/ML) | Teams Telephony – Operations Automation & AI Engineer | bangalore, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000125303804 | Bosch India (AI/ML) | VnV Automation & Analytics(AI & LLM) | bangalore, , India
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000122656549 | Bosch India (AI/ML) | Data Engineer | Timișoara, TM, Romania, Remote
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/743999962813213 | Bosch India (AI/ML) | Azure Big Data Engineer | Bengaluru, KA, India
 
-- [x] https://job-boards.greenhouse.io/arizeai/jobs/6119757004 | Arize AI | Open Source AI Engineer (Typescript) | Remote (United States)
-- [x] https://www.amazon.jobs/en/jobs/10376105/applied-scientist-ii-aero-agentic-ai-team | Amazon India (AWS / Science) | Applied Scientist II, AERO Agentic AI Team | Bengaluru, KA, IND
-- [x] https://in.indeed.com/viewjob?jk=9550899db66b0bef | Tech Abbot Technology | Senior AI/ML Python Developer - Exp - Min 5yrs | Bodakdev, Ahmedabad, Gujarat
-- [x] https://in.indeed.com/viewjob?jk=d77eda2ca3f6206a | Sevina Technologies | AI Engineer | Ahmedabad, Gujarat
-- [x] https://in.indeed.com/viewjob?jk=2dd294b9695787e1 | SONY India | AI Developer/GEN AI Engineer/AI/ML Engineer | Bangalore City, Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=22729112a18a3eae | Helmerich & Payne, Inc. | India: Data Scientist | Noida, Uttar Pradesh
-- [x] https://in.indeed.com/viewjob?jk=9a04c2e28e4d6f6b | Doozy Robotics PVT. Ltd. | AI Engineer | Anna Salai, Chennai, Tamil Nadu
-- [x] https://in.indeed.com/viewjob?jk=66b994cde1eaba2e | Mahi-Sys | Senior AI Engineer (GenAI / MLOps / Agentic AI) | Bangalore City, Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=d420fed3f26c26c5 | Optum | Associate AI or ML Engineer | Noida, Uttar Pradesh
-- [x] https://in.indeed.com/viewjob?jk=c5700c14e859d866 | BlackRock Investments | Analyst, AI Engineer | Mumbai, Maharashtra
-- [x] https://in.indeed.com/viewjob?jk=0377e05d6f689d8d | Advanced Micro Devices, Inc | Lead Machine Learning Engineer | Hyderabad, Telangana
-- [x] https://in.indeed.com/viewjob?jk=a3c38de2b6055f91 | Optum | Senior AI/ML Engineer - LLM, RAG and Agentic AI | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=473dc8b0770243c3 | JPMorganChase | Applied AI ML Lead | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=219a04a4a36c12fb | Rightsline Inc | Agentic AI Operations Engineer | Noida, Uttar Pradesh
-- [x] https://in.indeed.com/viewjob?jk=864f70304d9b5d2a | Optum | Senior AI/ML Engineer - MLOps & Production AI Platform | Hyderabad, Telangana
-- [x] https://in.indeed.com/viewjob?jk=fa12f939405bb718 | Equinix | Staff Agentic AI Engineer | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=4e6b0dba23149957 | Mercedes-Benz Group AG | Senior Engineer - AI/ML | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=d74185d86388a187 | Persistent | Lead Agentic AI Engineer | Pune, Maharashtra
-- [x] https://in.indeed.com/viewjob?jk=f6027843b145e40e | Persistent | UiPath Developer (Agentic AI Automation) | Pune, Maharashtra
-- [x] https://in.indeed.com/viewjob?jk=c7eb883610573915 | Elfonze Technologies | AI/ML development | Remote
-- [x] https://in.indeed.com/viewjob?jk=76e5d10d20d44b7b | AtkinsRéalis | Lead Data Scientist | Gurugram, Haryana
-- [x] https://in.indeed.com/viewjob?jk=0ca61e5a0c2b938a | Capticks | GenAI Engineer | Remote
-- [x] https://in.indeed.com/viewjob?jk=2c3915be5fc57cc6 | CGI | AI Engineer | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=b45d1f39c14dcf46 | Luxoft | Azure AI Data Engineer | Remote
-- [x] https://in.indeed.com/viewjob?jk=84d788ebad4901bf | Rupa Career Solutions | AI/ML Engineer | Remote
-- [x] https://in.indeed.com/viewjob?jk=c6c23b5c06c9ac69 | Infonimbus Pvt Ltd | AI Engineer / Machine Learning Engineer | Remote
-
-- [x] https://in.indeed.com/viewjob?jk=f90049b7c12a5654 | LIFESIGHT TECHNOLOGIES PRIVATE LIMITED | Applied AI Engineer - Agentic Systems | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=cb8e65532660fa9b | SkyLarn AI Technologies Pvt Ltd | Senior AI Engineer | Gopanpally, Hyderabad, Telangana
-- [x] https://in.indeed.com/viewjob?jk=3494bbb331bec345 | Programming.com | AI/ML Solution Engineer | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=4b7dabb9e4ad3f3e | HCLTech | Tech Lead-GenAI - VectorDBand PostgreSQL | Chennai, Tamil Nadu
-- [x] https://in.indeed.com/viewjob?jk=486871e6b9ac2489 | Accenture | AI / ML Engineer | Pune, Maharashtra
-- [x] https://in.indeed.com/viewjob?jk=badd6ffbb210c4dc | Skyworks Solutions | Sr. AI/ML Engineer | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=73ac19d742d6a338 | NationsBenefits, LLC | Senior AI/ML Engineer | Hyderabad, Telangana
-- [x] https://in.indeed.com/viewjob?jk=aba7f0ee3cbf12bf | NationsBenefits, LLC | AI/ML Engineer | Hyderabad, Telangana
-- [x] https://in.indeed.com/viewjob?jk=f5340ec959dfbbfb | Ford Motor Company | Agentic AI - Lead Engineer | Chennai, Tamil Nadu
-- [x] https://in.indeed.com/viewjob?jk=bae9ee5aeac5bf2f | Ray Business Technologies | Senior AI/ML Engineer | Hyderabad, Telangana
-- [x] https://in.indeed.com/viewjob?jk=1f22baee8b5bc56f | NationsBenefits, LLC | Jr AI/ML Engineer | Hyderabad, Telangana
-- [x] https://in.indeed.com/viewjob?jk=eb4074be21bb60b3 | Alphaabets | AI Engineer – Generative AI & Agentic AI | Bangalore City, Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=0349b886ece5bdda | Fortive | Principal AI-ML Engineer | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=78d1a4bdb39c5d54 | Barclays | Applied - AI Engineer | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=d27ea965ef3e31d3 | Nexvatara | Part-Time AI & Machine Learning Instructor | Remote
-- [x] https://in.indeed.com/viewjob?jk=4522637bde74f0ca | Atlassian | Principal Machine Learning Engineer | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=ee51c41bf0173d3f | Siemens | Senior Machine Learning Engineer | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=d5f1aa10b6816a45 | OSP Labs Inc | AI/ML Developer - Contract Role | Remote
-- [x] https://in.indeed.com/viewjob?jk=4fa0d4209d4f8ae4 | Bosch Group | Data Scientist | Bengaluru, Karnataka
-- [x] https://in.indeed.com/viewjob?jk=68cc3dd2d390250e | UniAthena | Faculty- Artificial Intelligence/ Machine Learning | Remote
-- [x] https://in.indeed.com/viewjob?jk=15e076d5d38b05bf | Eminence Technology | AI/ML - LiveKit Engineer | Remote
-- [x] https://in.indeed.com/viewjob?jk=37bc9f22a2f3892d | KGP Talkie | Data Scientist | Remote
-- [x] https://in.indeed.com/viewjob?jk=188cd1287ffbd9fa | Code Driven Labs | Applied Machine Learning / Computer Vision Engineer | Remote
-- [x] https://in.indeed.com/viewjob?jk=560cafe67bea2dab | ANSRSource India | Microsoft Forward Deployed AI Engineer Subject Matter Experts | Remote
-- [x] https://in.indeed.com/viewjob?jk=38ec1d15920b01eb | Cyptrix | AI/ML Developer | Remote
-- [x] https://in.indeed.com/viewjob?jk=59869f1f059793cb | PlexTrac | AI Research Engineer - Applied AI | Bengaluru, Karnataka
-
-- [x] https://jobs.smartrecruiters.com/BoschGroup/postings/744000127400279 | Bosch India (AI/ML) | Data Scientist | bangalore, , India
-- [x] https://in.indeed.com/viewjob?jk=5979c2b433518e2b | Applogiq | AI Engineer | Remote
-- [x] https://in.indeed.com/viewjob?jk=76a058b430610062 | ikshavku solutions | Machine Learning Engineer / Data Scientist | Remote
-- [x] https://in.indeed.com/viewjob?jk=8e3a1ed43ebe0634 | FuGenTex Solutions Pvt Ltd | LLM Engineer | Remote
-- [x] https://in.indeed.com/viewjob?jk=d86e8b538ccf3d22 | Accenture | Data Engineer | Chennai, Tamil Nadu
-
-- [x] https://weworkremotely.com/remote-jobs/faire-senior-staff-data-engineer-platform-data-and-analytics | Faire | Senior Staff Data Engineer - Platform Data and Analytics | Anywhere in the World
-- [x] https://weworkremotely.com/remote-jobs/doximity-data-engineering-manager | Doximity | Data Engineering Manager | Anywhere in the World
-- [x] https://weworkremotely.com/remote-jobs/clickhouse-ai-product-engineer-clickstack-1 | ClickHouse | AI Product Engineer - ClickStack | Anywhere in the World
-- [x] https://weworkremotely.com/remote-jobs/reveleer-full-stack-ai-engineer | Reveleer | Full Stack AI Engineer | Anywhere in the World
-- [x] https://weworkremotely.com/remote-jobs/tether-ai-research-engineer | Tether | AI Research Engineer | Anywhere in the World
-- [x] https://jobs.lever.co/meesho/a1cc7ad9-a233-4ba6-b53b-e56116f6ac27 | Meesho | Engineering Manager – AI Engineering | Bangalore, Karnataka
-- [x] https://remoteOK.com/remote-jobs/remote-genai-engineer-ai-builder-ai-agent-associate-specialist-magic-compass-limited-1135735 | Magic Compass Limited | GenAI Engineer AI Builder AI Agent Associate Specialist
-
-- [x] https://weworkremotely.com/remote-jobs/lemon-io-senior-ai-engineer-4 | Lemon.io | Senior AI Engineer | Anywhere in the World
-- [x] https://weworkremotely.com/remote-jobs/capslock-generative-ai-pipeline-engineer-tech-lead-2 | CapsLock | Generative AI Pipeline Engineer (Tech Lead) | Remote
-- [x] https://weworkremotely.com/remote-jobs/stability-ai-research-scientist-professional-creative-workflows | Stability AI | Research Scientist, Professional Creative Workflows | Anywhere in the World
-- [x] https://news.ycombinator.com/item?id=49156683 | Palace Cybersecurity | Palace Cybersecurity / Founding Deep Learning Engineer / New York or US Remote | New York or US Remote
-
-- [x] https://weworkremotely.com/remote-jobs/a-team-senior-independent-ai-engineer-architect | A.Team | Senior Independent AI Engineer / Architect | Anywhere in the World
-
-## Processed
+- [ ] https://jobs.ashbyhq.com/sarvam/7c42207a-bb56-413c-839f-9ad692df840e | Sarvam AI | Data Scientist - Evaluations, Chanakya | Bengaluru
+- [ ] https://jobs.ashbyhq.com/sarvam/dc047f4f-97be-4bb3-a9f1-cebbfc4de3e6 | Sarvam AI | Embedded Data Scientist, Chanakya | Delhi
+- [ ] https://jobs.ashbyhq.com/sarvam/e7f783e8-6378-4158-97d5-48a397a91698 | Sarvam AI | ML Ops Engineer, Chanakya | Delhi
+- [ ] https://jobs.ashbyhq.com/sarvam/7ee2ff5d-32a2-4b0a-9ae9-117ba8b626d1 | Sarvam AI | Staff Data Engineer | Bengaluru
+- [ ] https://jobs.ashbyhq.com/sarvam/2dcb062d-e42b-408d-be15-59ddde900984 | Sarvam AI | ML Researcher, Foundational Models | Bengaluru
+- [ ] https://jobs.ashbyhq.com/sarvam/2d72a541-c805-4bd9-81cd-ac2db98611fa | Sarvam AI | ML Engineer (Data), Foundational Models | Bengaluru
+- [ ] https://jobs.ashbyhq.com/sarvam/6ad226cd-9400-41b6-9c64-db35b7d24516 | Sarvam AI | Performance Engineer, On-Device Inference | Bengaluru
+- [ ] https://jobs.ashbyhq.com/sarvam/7d2faba2-21a1-4a8a-aff5-f708a6959195 | Sarvam AI | Performance Engineer, Inference | Bengaluru · Chennai · India
+- [ ] https://jobs.ashbyhq.com/ema/88d004d9-50a9-41ee-a618-03855001a9be | Ema | Software Engineer, Machine Learning | Bengaluru office
+- [ ] https://jobs.ashbyhq.com/ema/8268af44-d5d8-4a29-9638-3ea30f35f3a9 | Ema | Principal Machine Learning Engineer | India - Bengaluru
+- [ ] https://jobs.ashbyhq.com/articul8/73bff7e6-827a-4a70-b7a9-712d421a8dd8 | Articul8 AI | Applied AI Researcher (India) | India/Bengaluru
+- [ ] https://jobs.ashbyhq.com/articul8/50b4a531-f683-4105-9cca-cad851cdcdcd | Articul8 AI | Applied AI Researcher (Brazil) | Brazil/Remote
+- [ ] https://jobs.ashbyhq.com/articul8/aa885799-445c-49d1-8607-0f3346e8cf15 | Articul8 AI | Senior Applied AI Researcher (Brazil) | Brazil/Remote
+- [ ] https://jobs.ashbyhq.com/articul8/a390b489-5c17-4f62-91a6-97cbd030a652 | Articul8 AI | Senior Applied AI Researcher (India) | India/Bengaluru
+- [ ] https://jobs.ashbyhq.com/articul8/fab35c76-2048-4540-a7ab-118b9b56e434 | Articul8 AI | Principal Applied AI Researcher - Domain- Specific Models (India) | India/Bengaluru
+- [ ] https://jobs.ashbyhq.com/articul8/12b6cc4e-5fe2-4a47-a898-24a4617bb8de | Articul8 AI | Principal Applied AI Researcher - Domain- Specific Models (Brazil) | Brazil/Remote
+- [ ] https://jobs.ashbyhq.com/kantiv/d28a422f-970b-4ad8-869f-a8d02deda68f | Joist AI (Kantiv) | Agentic Systems Engineer | Remote - India
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5390966008 | Anthropic | AI Engineer, GTM Claudification | Remote-Friendly (Travel-Required) / San Francisco, CA / Seattle, WA
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5390746008 | Anthropic | Applied AI Architect | Bangalore, India
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5390750008 | Anthropic | Applied AI Architect, Partnerships | Bangalore, India
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/4017331008 | Anthropic | Research Engineer, Knowledge Team | Remote-Friendly (Travel-Required) / San Francisco, CA / Seattle, WA / New York City, NY
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5198108008 | Anthropic | Research Engineer, Machine Learning (RL Velocity) | Remote-Friendly (Travel-Required) / San Francisco, CA / New York City, NY
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5198255008 | Anthropic | Research Engineer, Model Evaluations | Remote-Friendly (Travel-Required) / San Francisco, CA / New York City, NY
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/4616971008 | Anthropic | Research Engineer/Research Scientist, Pre-training | Remote-Friendly (Travel-Required) / San Francisco, CA / Seattle, WA / New York City, NY
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5061517008 | Anthropic | Research Engineer, Universes | Remote-Friendly (Travel-Required) / San Francisco, CA / Seattle, WA / New York City, NY
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5230394008 | Anthropic | Staff+ Site Reliability Engineer, Safeguards ML Infra | Remote-Friendly (Travel-Required) / San Francisco, CA / Seattle, WA / New York City, NY
+- [ ] https://job-boards.greenhouse.io/anthropic/jobs/5257650008 | Anthropic | Staff+ Software Engineer, Inference Velocity | Remote-Friendly (Travel-Required) / San Francisco, CA / Seattle, WA / New York City, NY
+- [ ] https://job-boards.greenhouse.io/arizeai/jobs/5980312004 | Arize AI | DevSecOps Engineer (TypeScript & Agentic AI) | Remote/Hybrid (SoCal)
+- [ ] https://job-boards.greenhouse.io/arizeai/jobs/5993755004 | Arize AI | Forward Deployed AI Engineer, East | Remote (New York)
+- [ ] https://job-boards.greenhouse.io/arizeai/jobs/6030953004 | Arize AI | Forward Deployed AI Engineer, West | Remote (San Francisco)
+- [ ] https://job-boards.greenhouse.io/arizeai/jobs/6119757004 | Arize AI | Open Source AI Engineer (Typescript) | Remote (United States)
+- [ ] https://job-boards.greenhouse.io/arizeai/jobs/5396396004 | Arize AI | Senior AI Product Engineer, Backend | Remote (United States)
+- [ ] https://job-boards.greenhouse.io/arizeai/jobs/5396420004 | Arize AI | Senior AI Product Engineer, Fullstack | Remote (United States)
+- [ ] https://jobs.ashbyhq.com/wisdom-ai/93441adc-4cd9-4253-a335-c20a5aa4ada6 | Wisdom AI | Software Engineer, NLP/Machine Learning | Bengaluru
+- [ ] https://jobs.lever.co/meesho/489fe662-5d28-4305-953e-91ee21e8538c | Meesho | Data Scientist III | Bangalore, Karnataka
+- [ ] https://jobs.lever.co/meesho/a1cc7ad9-a233-4ba6-b53b-e56116f6ac27 | Meesho | Engineering Manager – AI Engineering | Bangalore, Karnataka
+- [ ] https://jobs.lever.co/meesho/3d5bf582-493f-4298-b7de-e42a7d58a358 | Meesho | Principal Data Scientist | Bangalore, Karnataka
+- [ ] https://weworkremotely.com/remote-jobs/evaboot-agentic-python-engineer | Evaboot | Agentic Python Engineer | Anywhere in the World
+- [ ] https://weworkremotely.com/remote-jobs/databricks-ai-engineer-fde-forward-deployed-engineer-1 | Databricks | AI Engineer - FDE (Forward Deployed Engineer) | Anywhere in the World
+- [ ] https://weworkremotely.com/remote-jobs/collaboration-ai-senior-software-ai-engineer | Collaboration.Ai | Senior Software AI Engineer | Anywhere in the World
+- [ ] https://weworkremotely.com/remote-jobs/lemon-io-senior-ai-engineer-4 | Lemon.io | Senior AI Engineer | Anywhere in the World
+- [ ] https://remoteOK.com/remote-jobs/remote-ai-engineer-data-apis-benzinga-1137224 | Benzinga | AI Engineer Data APIs
+- [ ] https://apply.workable.com/huggingface/jobs/view/81B46579FE | Hugging Face (remote) | Open-Source Machine Learning Engineer - EMEA Remote | Paris, France (Remote)
+- [ ] https://apply.workable.com/huggingface/jobs/view/19A136F8E2 | Hugging Face (remote) | Open-Source Machine Learning Engineer - US Remote | New York, United States (Remote)
+- [ ] https://news.ycombinator.com/item?id=49522897 | Hacker News Hiring | Moyai Agent Reliability Engineering
+- [ ] local:jds/elfonze-technologies-aws-gen-ai-engineer-senior-associate-3762881160.md | Elfonze Technologies | AWS Gen AI Engineer – Senior Associate | Remote
+- [ ] local:jds/websenor-data-engineer-8666bdc560.md | WebSenor | Data Engineer | Remote
+- [ ] local:jds/scriptweb-solution-data-engineer-night-shift-800da2d66b.md | Scriptweb Solution | Data Engineer (Night Shift) | Remote
+- [ ] local:jds/mindtrilogy-it-solutions-pvt-ltd-data-engineer-924d651ac5.md | MindTrilogy IT Solutions Pvt. Ltd | Data Engineer | Remote
+- [ ] local:jds/zecdata-technology-data-engineer-apache-airflow-exp-4-yrs-5b27d33758.md | ZecData Technology | Data Engineer (Apache Airflow)(Exp : 4+yrs) | Remote
+- [ ] local:jds/o9-solutions-senior-technical-consultant-data-engineer-rdaf-1d6d31c7fa.md | o9 Solutions | Senior Technical Consultant (Data Engineer) - RDAF | Bengaluru, Karnataka
+- [ ] local:jds/sculptsoft-jr-data-engineer-596a478266.md | Sculptsoft | Jr. data engineer | Ahmedabad, Gujarat
+- [ ] local:jds/netscore-technologies-inc-senior-ai-engineer-44686904c4.md | NetScore Technologies, Inc | Senior AI Engineer | Hyderabad, Telangana
+- [ ] local:jds/netscore-technologies-inc-data-scientist-d782108a65.md | NetScore Technologies, Inc | Data Scientist | Hyderabad, Telangana
+- [ ] local:jds/lean-impeccable-technologies-associate-data-scientist-fa0ea012fd.md | Lean Impeccable Technologies | Associate Data Scientist | Perungudi, Chennai, Tamil Nadu
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000146680619 | Bosch India (AI/ML) | Researcher: AI/ML enhanced Computational Engineering for Scientific AI and Optimization | Bengaluru, , India
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000146431788 | Bosch India (AI/ML) | AI/ML Engineer_MS | telengana, , India
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000146427949 | Bosch India (AI/ML) | IN_RBIN_Senior HR Business Partner_RBIN/HRL3 | Bengaluru, KA, India
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000145898759 | Bosch India (AI/ML) | Pflichtpraktikum Data Engineering – CAD-Visualisierung | Renningen, BW, Germany, Remote
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000143515338 | Bosch India (AI/ML) | Data Scientist | bengaluru, , India
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000143515178 | Bosch India (AI/ML) | GenAI/Agentic AI specialists | bengaluru, , India
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000143446334 | Bosch India (AI/ML) | Senior Expert for Generative and Multimodal AI to lead Advanced AI research and Innovation | bengaluru, , India
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000142781949 | Bosch India (AI/ML) | IN_RBIN_Assistant Manager/Senior Engineer_Data Scientist | Nashik, Maharashtra, India
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000142647510 | Bosch India (AI/ML) | Automation Anywhere Support Engineer (RPA) (L1, L2 & L3) | bangalore, , India
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000139912639 | Bosch India (AI/ML) | Research Engineer – Generative AI and Computer Vision | bengaluru, , India
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000139912519 | Bosch India (AI/ML) | Research Engineer – Neuro-Symbolic AI (Knowledge Graphs) & Multimodal Assistant Systems | bengaluru, , India
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000139243510 | Bosch India (AI/ML) | Data Engineer Consultant | Timișoara, TM, Romania, Remote
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000139009980 | Bosch India (AI/ML) | AI/ML - Architect | bengaluru, , India
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000139000848 | Bosch India (AI/ML) | AI/ML Expert | coimbatore, , India
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000138994192 | Bosch India (AI/ML) | SOC L3 Analyst | hosur road bangalore, , India
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000138994730 | Bosch India (AI/ML) | Data and AI/ML Design engineer at NE-VM | bangalore, , India
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000138992236 | Bosch India (AI/ML) | AI Data Engineering and Sr Cloud Specialist | bengaluru, , India
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000138992168 | Bosch India (AI/ML) | Sr Data Engineer System Visualization | bangalore, , India
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000138990141 | Bosch India (AI/ML) | Data Engineering and Cloud | bengaluru , , India
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000135638849 | Bosch India (AI/ML) | AI Expert – Generative AI Solutions Developer | coimbatore, , India
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000133512405 | Bosch India (AI/ML) | Sr.Data Scientist_MPIN | Bengaluru, KA, India
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000126056726 | Bosch India (AI/ML) | Teams Telephony – Operations Automation & AI Engineer | bangalore, , India
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/744000125303804 | Bosch India (AI/ML) | VnV Automation & Analytics(AI & LLM) | bangalore, , India
+- [ ] https://jobs.smartrecruiters.com/BoschGroup/postings/743999962813213 | Bosch India (AI/ML) | Azure Big Data Engineer | Bengaluru, KA, India
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Remote/Senior-Deep-Learning-Sofware-Infrastructure-Engineer_JR2022034 | Nvidia India | Senior Deep Learning Sofware Infrastructure Engineer | US, CA, Remote
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-System-Software-Engineer--Deep-Learning-Accelerator-_JR2014631 | Nvidia India | Senior System Software Engineer, Deep Learning Accelerator | India, Bengaluru
